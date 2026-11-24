@@ -64,7 +64,7 @@ jobs:
         run: python build.py --list
 
       - name: Build
-        run: python build.py --questions "${{ github.event.inputs.questions || '2' }}"
+        run: python build.py --questions "${{ github.event.inputs.questions || '2' }}" --shorts
 
       - name: Check duration and metadata
         run: |

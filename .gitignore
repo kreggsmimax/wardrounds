@@ -1,0 +1,21 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# secrets
+.env
+tokens.env
+
+# build artefacts (regenerated every run)
+output/videos/work/
+output/videos/*.mp4
+output/work/
+
+# keep: ledger, metadata, history, thumbnails, srt
+!output/latest_video.json
+!output/history/
+!output/videos/*.jpg
+!output/videos/*.srt
+!output/videos/*.json

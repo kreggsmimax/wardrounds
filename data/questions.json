@@ -1,0 +1,178 @@
+{
+  "_comment": "Seed ledger. Every entry must pass engine/facts.py:validate before render. review.status 'approved' requires a named reviewer; leave entries 'pending' until a human signs off.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "cardio-as-exertional-syncope-001",
+      "system": "cardiology",
+      "topic": "Aortic stenosis",
+      "difficulty": 2,
+      "hook": "He fainted on the stairs. That single detail decides the question.",
+      "short_vignette": "A 74-year-old man collapses while climbing the stairs and recovers within a minute. He has a harsh systolic murmur at the right upper sternal border radiating to both carotids, and a delayed, low-amplitude carotid upstroke.",
+      "vignette": "A 74-year-old man comes to the clinic because of a 6-month history of shortness of breath with exertion. Last week he lost consciousness while climbing the stairs to his apartment and recovered within a minute. He has no chest pain. Blood pressure 128/76 mmHg, pulse 72/min. Cardiac examination shows a harsh, crescendo-decrescendo systolic murmur loudest at the right second intercostal space, radiating to both carotid arteries. The second heart sound is soft. The carotid upstroke is delayed and low in amplitude. The lungs are clear and there is no peripheral edema.",
+      "stem": "Which of the following best explains this patient's loss of consciousness?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fixed stroke volume limiting the rise in cardiac output during exertion",
+          "correct": true,
+          "why": "A stenotic valve cannot open wider when demand rises. At rest the stiff ventricle still generates adequate output; on exertion stroke volume is capped, cardiac output fails to rise, and cerebral perfusion falls.",
+          "would_make_right": "Nothing - this is the correct mechanism for exertional syncope with a fixed outflow obstruction."
+        },
+        {
+          "letter": "B",
+          "text": "Transient complete atrioventricular block",
+          "correct": false,
+          "why": "Calcific aortic stenosis can extend into the conduction system, but a block is not load-dependent and does not wait for the stairs.",
+          "would_make_right": "Syncope occurring at rest, or an ECG showing wide-complex bradycardia with absent P waves."
+        },
+        {
+          "letter": "C",
+          "text": "Ventricular arrhythmia arising from myocardial scar",
+          "correct": false,
+          "why": "Arrhythmic syncope classically has no warning and no reproducible exertional trigger. This patient's syncope is exertion-linked, which points to a haemodynamic cause.",
+          "would_make_right": "Syncope without prodrome, family history of sudden cardiac death, scar on echocardiography, or a prolonged QT interval."
+        },
+        {
+          "letter": "D",
+          "text": "Vasovagal reflex triggered by increased intrathoracic pressure",
+          "correct": false,
+          "why": "Vasovagal syncope has a prodrome of warmth, nausea and tunnel vision, is provoked by heat, pain or prolonged standing, and does not produce a fixed low-amplitude carotid upstroke.",
+          "would_make_right": "A clear prodrome, syncope while standing, rapid full recovery, and a normal cardiac examination."
+        },
+        {
+          "letter": "E",
+          "text": "Orthostatic hypotension from reduced intravascular volume",
+          "correct": false,
+          "why": "There is no volume loss, no diuretic use, and no positional trigger. Orthostatic syncope occurs within seconds of standing, not after climbing stairs.",
+          "would_make_right": "A documented postural blood pressure drop, diuretic use or dehydration, and syncope on standing."
+        }
+      ],
+      "rule": "Exertional syncope is a haemodynamic problem until proven otherwise: the heart cannot meet demand. Aortic stenosis, hypertrophic cardiomyopathy and pulmonary hypertension are the three causes.",
+      "sources": [
+        "First Aid for the USMLE Step 1, Cardiology - Valvular disease",
+        "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease"
+      ],
+      "review": {
+        "status": "approved",
+        "by": "seed",
+        "date": "2026-11-24",
+        "note": "Seed entry, converted from scripts/01-aortic-stenosis.md. Re-review before first publish."
+      }
+    },
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "system": "biostats",
+      "topic": "Positive predictive value",
+      "difficulty": 2,
+      "hook": "A 95% sensitive test. An 8.8% chance you actually have the disease.",
+      "short_vignette": "A screening test has 95% sensitivity and 90% specificity. The disease affects 1% of the population. A patient tests positive.",
+      "vignette": "A new screening test for a disease has a sensitivity of 95% and a specificity of 90%. The disease has a prevalence of 1% in the population being screened.",
+      "stem": "If a person from this population tests positive, what is the probability that they actually have the disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "8.8%",
+          "correct": true,
+          "why": "In 10,000 people, 100 have the disease and 95 of those test positive; of the 9,900 without disease, 990 test positive falsely. Of 1,085 positives only 95 are true, giving 95/1,085 = 8.8%.",
+          "would_make_right": "Nothing - this is the correct predictive value at 1% prevalence."
+        },
+        {
+          "letter": "B",
+          "text": "95%",
+          "correct": false,
+          "why": "This is the sensitivity, which answers the opposite question: among people who have the disease, what fraction test positive.",
+          "would_make_right": "A question asking for the proportion of diseased patients who test positive, not the proportion of positives who are diseased."
+        },
+        {
+          "letter": "C",
+          "text": "90%",
+          "correct": false,
+          "why": "This is the specificity: among people who are well, what fraction test negative. It ignores prevalence and runs in the wrong direction.",
+          "would_make_right": "A question asking what fraction of healthy people test negative."
+        },
+        {
+          "letter": "D",
+          "text": "50%",
+          "correct": false,
+          "why": "A 50% positive predictive value would require prevalence high enough to balance the false positive rate. At 1% prevalence the false positives swamp the true positives.",
+          "would_make_right": "A prevalence roughly equal to the false positive rate, which at these test characteristics is about 10%."
+        },
+        {
+          "letter": "E",
+          "text": "0.9%",
+          "correct": false,
+          "why": "This is the false positive rate applied to the whole population, not a predictive value. It answers no question that was asked.",
+          "would_make_right": "A question asking for the probability that a healthy person tests positive, which is 10% here, not 0.9%."
+        }
+      ],
+      "rule": "Sensitivity and specificity belong to the test. Predictive values belong to the patient in front of you, and they move with prevalence. Never answer a predictive-value question before writing down the prevalence.",
+      "sources": [
+        "First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values"
+      ],
+      "review": {
+        "status": "approved",
+        "by": "seed",
+        "date": "2026-11-24",
+        "note": "Seed entry, converted from scripts/09-ppv.md. Arithmetic verified."
+      }
+    },
+    {
+      "id": "heme-ttp-no-platelets-001",
+      "system": "heme",
+      "topic": "Thrombotic thrombocytopenic purpura",
+      "difficulty": 3,
+      "hook": "Platelets 18,000. Every instinct says transfuse. That instinct is wrong.",
+      "vignette": "A 29-year-old woman comes in with five days of fatigue and easy bruising, and her husband says she has been confused since this morning. Temperature 37.8 C. There are petechiae over both shins. She is not pregnant and takes no medications. Hemoglobin 7.4 g/dL, platelets 18,000/uL, reticulocytes 9%, lactate dehydrogenase 900 U/L, indirect bilirubin 2.4 mg/dL, creatinine 1.1 mg/dL. PT/INR and aPTT are both normal. Peripheral smear shows schistocytes. Urinalysis shows 1+ protein and no red cells.",
+      "stem": "Which of the following is the most appropriate immediate treatment?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Urgent plasma exchange",
+          "correct": true,
+          "why": "Plasma exchange removes the autoantibody against ADAMTS13 and replaces the enzyme at the same time. Untreated TTP carries high mortality and the response window is measured in hours.",
+          "would_make_right": "Nothing - plasma exchange is first-line for suspected TTP with neurologic involvement."
+        },
+        {
+          "letter": "B",
+          "text": "Platelet transfusion",
+          "correct": false,
+          "why": "Every transfused platelet is fuel for further microthrombi. Platelet transfusion is contraindicated in TTP unless there is life-threatening bleeding or imminent surgery.",
+          "would_make_right": "Active life-threatening haemorrhage, intracranial bleeding, or a patient going to the operating room immediately."
+        },
+        {
+          "letter": "C",
+          "text": "Eculizumab",
+          "correct": false,
+          "why": "Eculizumab blocks complement C5 and treats atypical haemolytic uraemic syndrome, which is renal-predominant with a rising creatinine and normal ADAMTS13 activity. This patient's creatinine is 1.1.",
+          "would_make_right": "Renal-predominant disease with rapidly rising creatinine, dialysis requirement, and normal ADAMTS13 activity."
+        },
+        {
+          "letter": "D",
+          "text": "Intravenous vitamin K",
+          "correct": false,
+          "why": "Vitamin K treats coagulopathy, which prolongs the PT. This patient's PT and aPTT are both normal, so there is no coagulation factor deficiency to correct.",
+          "would_make_right": "A prolonged PT or INR, as in warfarin use, liver disease or fat malabsorption."
+        },
+        {
+          "letter": "E",
+          "text": "Supportive care with observation",
+          "correct": false,
+          "why": "TTP is a medical emergency. Observation without plasma exchange was associated with mortality above 90% historically and remains unacceptable today.",
+          "would_make_right": "A stable patient with no red cell destruction, which is not this picture."
+        }
+      ],
+      "rule": "Microangiopathic haemolysis plus thrombocytopenia plus normal coagulation studies equals a thrombotic microangiopathy. Platelets are contraindicated and plasma exchange is the treatment: today, not tomorrow.",
+      "sources": [
+        "First Aid for the USMLE Step 1, Hematology - Thrombotic microangiopathies",
+        "ISTH Guidelines for the Management of Thrombotic Thrombocytopenic Purpura"
+      ],
+      "review": {
+        "status": "pending",
+        "by": "",
+        "date": "",
+        "note": "Awaiting human review. Must not render while pending."
+      }
+    }
+  ]
+}

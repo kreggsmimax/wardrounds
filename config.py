@@ -1,4 +1,4 @@
-"""VIGNETTE - faceless USMLE Step 1 question channel. Brand + render constants."""
+"""WARD ROUNDS - faceless USMLE Step 1 question channel. Brand + render constants."""
 
 from __future__ import annotations
 
@@ -14,9 +14,9 @@ OUTPUT_DIR = BASE_DIR / "output"
 DATA_DIR = BASE_DIR / "data"
 
 # ------------------------------------------------------------------ brand
-BRAND = "ANSWER BANK"
-HANDLE = "@answerbank"
-BRAND_SPOKEN = "Answer Bank"  # plain words, so TTS reads it correctly
+BRAND = "WARD ROUNDS"
+HANDLE = "@wardrounds"
+BRAND_SPOKEN = "Ward Rounds"  # plain words, so TTS reads it correctly
 TAGLINE = "Every wrong answer, explained."
 DISCLAIMER = (
     "Educational content only. Not medical advice. "

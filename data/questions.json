@@ -125,6 +125,8 @@
       "topic": "Thrombotic thrombocytopenic purpura",
       "difficulty": 3,
       "hook": "Platelets 18,000. Every instinct says transfuse. That instinct is wrong.",
+      "short_vignette": "A 29-year-old woman has five days of bruising and confusion. Platelets 18,000, haemoglobin 7.4, schistocytes on the smear, PT and aPTT both normal, creatinine 1.1.",
+      "key_finding": "PT and aPTT: both normal",
       "vignette": "A 29-year-old woman comes in with five days of fatigue and easy bruising, and her husband says she has been confused since this morning. Temperature 37.8 C. There are petechiae over both shins. She is not pregnant and takes no medications. Hemoglobin 7.4 g/dL, platelets 18,000/uL, reticulocytes 9%, lactate dehydrogenase 900 U/L, indirect bilirubin 2.4 mg/dL, creatinine 1.1 mg/dL. PT/INR and aPTT are both normal. Peripheral smear shows schistocytes. Urinalysis shows 1+ protein and no red cells.",
       "stem": "Which of the following is the most appropriate immediate treatment?",
       "options": [

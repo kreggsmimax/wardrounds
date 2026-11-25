@@ -24,6 +24,21 @@
       "id": "heme-ttp-no-platelets-001",
       "date": "2026-11-25",
       "topic": "Thrombotic thrombocytopenic purpura"
+    },
+    {
+      "id": "heme-ttp-no-platelets-001",
+      "date": "2026-11-26",
+      "topic": "Thrombotic thrombocytopenic purpura"
+    },
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "date": "2026-11-26",
+      "topic": "Positive predictive value"
+    },
+    {
+      "id": "cardio-as-exertional-syncope-001",
+      "date": "2026-11-26",
+      "topic": "Aortic stenosis"
     }
   ]
 }

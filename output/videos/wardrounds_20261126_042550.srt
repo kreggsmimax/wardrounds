@@ -1,0 +1,763 @@
+1
+00:00:00,100 --> 00:00:01,434
+This is Ward Rounds.
+
+2
+00:00:01,668 --> 00:00:03,713
+Step 1, question by question.
+
+3
+00:00:03,945 --> 00:00:05,845
+Today's set has 3 questions.
+
+4
+00:00:06,076 --> 00:00:08,201
+Pause whenever you need to, and commit to
+
+5
+00:00:08,221 --> 00:00:10,161
+an answer before the explanation.
+
+6
+00:00:11,467 --> 00:00:15,290
+Platelets 18,000. Every instinct says transfuse.
+
+7
+00:00:15,522 --> 00:00:16,830
+That instinct is wrong.
+
+8
+00:00:17,061 --> 00:00:18,659
+This one is hematology.
+
+9
+00:00:18,890 --> 00:00:20,119
+Question 1 of 3.
+
+10
+00:00:20,826 --> 00:00:23,674
+A 29-year-old woman comes in with five days
+
+11
+00:00:23,694 --> 00:00:26,306
+of fatigue and easy bruising, and her husband
+
+12
+00:00:26,326 --> 00:00:28,791
+says she has been confused since this morning.
+
+13
+00:00:29,026 --> 00:00:32,677
+Temperature 37.8 C. There are petechiae over
+
+14
+00:00:32,697 --> 00:00:35,545
+both shins. She is not pregnant and takes
+
+15
+00:00:35,565 --> 00:00:36,715
+no medications.
+
+16
+00:00:37,926 --> 00:00:42,549
+Hemoglobin 7.4 g/dL, platelets 18,000/uL,
+
+17
+00:00:44,768 --> 00:00:49,010
+reticulocytes 9%, lactate dehydrogenase 900 U/L,
+
+18
+00:00:50,018 --> 00:00:53,248
+indirect bilirubin 2.4 mg/dL, creatinine 1.1
+
+19
+00:00:53,268 --> 00:00:53,568
+mg/dL. PT/INR and aPTT are both normal.
+
+20
+00:00:53,268 --> 00:00:53,568
+Peripheral smear shows schistocytes.
+
+21
+00:00:53,268 --> 00:00:53,818
+Urinalysis shows 1+ protein and no red cells.
+
+22
+00:01:08,559 --> 00:01:10,723
+Which of the following is the most appropriate
+
+23
+00:01:10,743 --> 00:01:11,920
+immediate treatment?
+
+24
+00:01:12,624 --> 00:01:15,080
+Pause here. Commit to an answer before the
+
+25
+00:01:15,100 --> 00:01:16,027
+explanation.
+
+26
+00:01:20,591 --> 00:01:21,925
+The answer is A.
+
+27
+00:01:22,223 --> 00:01:23,767
+Urgent plasma exchange.
+
+28
+00:01:24,470 --> 00:01:27,463
+Plasma exchange removes the autoantibody against
+
+29
+00:01:27,483 --> 00:01:30,555
+ADAMTS13 and replaces the enzyme at the same
+
+30
+00:01:30,575 --> 00:01:34,255
+time. Untreated TTP carries high mortality and
+
+31
+00:01:34,275 --> 00:01:36,688
+the response window is measured in hours.
+
+32
+00:01:37,903 --> 00:01:40,462
+Every transfused platelet is fuel for further
+
+33
+00:01:40,482 --> 00:01:43,202
+microthrombi. Platelet transfusion is
+
+34
+00:01:43,222 --> 00:01:45,820
+contraindicated in TTP unless there is
+
+35
+00:01:45,840 --> 00:01:48,372
+life-threatening bleeding or imminent surgery.
+
+36
+00:01:48,603 --> 00:01:50,399
+For B to be the answer, you would
+
+37
+00:01:50,419 --> 00:01:53,069
+need this: Active life-threatening haemorrhage,
+
+38
+00:01:53,195 --> 00:01:55,925
+intracranial bleeding, or a patient going to the
+
+39
+00:01:55,945 --> 00:01:57,556
+operating room immediately.
+
+40
+00:01:58,803 --> 00:02:02,112
+Eculizumab blocks complement C5 and treats
+
+41
+00:02:02,132 --> 00:02:04,954
+atypical haemolytic uraemic syndrome, which is
+
+42
+00:02:04,974 --> 00:02:07,704
+renal-predominant with a rising creatinine and
+
+43
+00:02:07,724 --> 00:02:10,825
+normal ADAMTS13 activity. This patient's
+
+44
+00:02:10,845 --> 00:02:13,562
+creatinine is 1.1. For C to be the
+
+45
+00:02:13,582 --> 00:02:16,391
+answer, you would need this: Renal-predominant
+
+46
+00:02:16,411 --> 00:02:19,773
+disease with rapidly rising creatinine, dialysis
+
+47
+00:02:19,793 --> 00:02:23,022
+requirement, and normal ADAMTS13 activity.
+
+48
+00:02:24,303 --> 00:02:27,454
+Vitamin K treats coagulopathy, which prolongs
+
+49
+00:02:27,474 --> 00:02:31,378
+the PT. This patient's PT and aPTT are
+
+50
+00:02:31,398 --> 00:02:34,497
+both normal, so there is no coagulation factor
+
+51
+00:02:34,517 --> 00:02:36,891
+deficiency to correct. For D to be the
+
+52
+00:02:36,911 --> 00:02:40,075
+answer, you would need this: A prolonged PT
+
+53
+00:02:40,095 --> 00:02:43,312
+or INR, as in warfarin use, liver disease
+
+54
+00:02:43,332 --> 00:02:44,759
+or fat malabsorption.
+
+55
+00:02:46,003 --> 00:02:48,417
+TTP is a medical emergency.
+
+56
+00:02:48,651 --> 00:02:51,065
+Observation without plasma exchange was
+
+57
+00:02:51,085 --> 00:02:54,775
+associated with mortality above 90% historically
+
+58
+00:02:54,795 --> 00:02:56,669
+and remains unacceptable today.
+
+59
+00:02:56,901 --> 00:02:58,565
+For E to be the answer, you would
+
+60
+00:02:58,585 --> 00:03:01,091
+need this: A stable patient with no red
+
+61
+00:03:01,111 --> 00:03:03,709
+cell destruction, which is not this picture.
+
+62
+00:03:05,037 --> 00:03:07,280
+Microangiopathic haemolysis plus
+
+63
+00:03:07,300 --> 00:03:10,530
+thrombocytopenia plus normal coagulation studies
+
+64
+00:03:10,550 --> 00:03:13,134
+equals a thrombotic microangiopathy.
+
+65
+00:03:13,368 --> 00:03:15,585
+Platelets are contraindicated and plasma
+
+66
+00:03:15,605 --> 00:03:18,847
+exchange is the treatment: today, not tomorrow.
+
+67
+00:03:20,070 --> 00:03:22,470
+A 95% sensitive test.
+
+68
+00:03:22,704 --> 00:03:26,117
+An 8.8% chance you actually have the disease.
+
+69
+00:03:26,349 --> 00:03:28,183
+This one is biostatistics.
+
+70
+00:03:28,415 --> 00:03:29,709
+Question 2 of 3.
+
+71
+00:03:30,903 --> 00:03:32,844
+A new screening test for a disease has
+
+72
+00:03:32,864 --> 00:03:36,660
+a sensitivity of 95% and a specificity of
+
+73
+00:03:36,680 --> 00:03:40,136
+90%. The disease has a prevalence of 1%
+
+74
+00:03:40,156 --> 00:03:41,964
+in the population being screened.
+
+75
+00:03:43,203 --> 00:03:44,972
+Here is the finding that decides it.
+
+76
+00:03:45,206 --> 00:03:46,961
+Prevalence: 1%
+
+77
+00:03:47,663 --> 00:03:50,458
+If a person from this population tests positive,
+
+78
+00:03:50,703 --> 00:03:52,762
+what is the probability that they actually have
+
+79
+00:03:52,782 --> 00:03:53,642
+the disease?
+
+80
+00:03:54,329 --> 00:03:56,786
+Pause here. Commit to an answer before the
+
+81
+00:03:56,806 --> 00:03:57,732
+explanation.
+
+82
+00:04:02,296 --> 00:04:03,696
+The answer is A.
+
+83
+00:04:04,007 --> 00:04:05,275
+8.8%.
+
+84
+00:04:05,966 --> 00:04:08,854
+In 10,000 people, 100 have the disease and
+
+85
+00:04:08,874 --> 00:04:12,762
+95 of those test positive; of the 9,900
+
+86
+00:04:12,782 --> 00:04:16,301
+without disease, 990 test positive falsely.
+
+87
+00:04:16,535 --> 00:04:20,857
+Of 1,085 positives only 95 are true, giving
+
+88
+00:04:20,877 --> 00:04:25,487
+95/1,085 = 8.8%.
+
+89
+00:04:26,733 --> 00:04:29,174
+This is the sensitivity, which answers the
+
+90
+00:04:29,194 --> 00:04:31,542
+opposite question: among people who have the
+
+91
+00:04:31,562 --> 00:04:34,028
+disease, what fraction test positive.
+
+92
+00:04:34,262 --> 00:04:36,005
+For B to be the answer, you would
+
+93
+00:04:36,025 --> 00:04:38,781
+need this: A question asking for the proportion
+
+94
+00:04:38,801 --> 00:04:41,439
+of diseased patients who test positive, not the
+
+95
+00:04:41,459 --> 00:04:43,807
+proportion of positives who are diseased.
+
+96
+00:04:45,033 --> 00:04:47,645
+This is the specificity: among people who are
+
+97
+00:04:47,665 --> 00:04:49,880
+well, what fraction test negative.
+
+98
+00:04:50,115 --> 00:04:52,305
+It ignores prevalence and runs in the wrong
+
+99
+00:04:52,325 --> 00:04:54,805
+direction. For C to be the answer, you
+
+100
+00:04:54,825 --> 00:04:57,568
+would need this: A question asking what fraction
+
+101
+00:04:57,588 --> 00:04:59,330
+of healthy people test negative.
+
+102
+00:05:00,600 --> 00:05:03,935
+A 50% positive predictive value would require
+
+103
+00:05:03,955 --> 00:05:06,106
+prevalence high enough to balance the false
+
+104
+00:05:06,126 --> 00:05:09,201
+positive rate. At 1% prevalence the false
+
+105
+00:05:09,221 --> 00:05:11,476
+positives swamp the true positives.
+
+106
+00:05:11,708 --> 00:05:13,490
+For D to be the answer, you would
+
+107
+00:05:13,510 --> 00:05:15,990
+need this: A prevalence roughly equal to the
+
+108
+00:05:16,010 --> 00:05:18,398
+false positive rate, which at these test
+
+109
+00:05:18,418 --> 00:05:20,687
+characteristics is about 10%.
+
+110
+00:05:21,966 --> 00:05:24,196
+This is the false positive rate applied to
+
+111
+00:05:24,216 --> 00:05:26,998
+the whole population, not a predictive value.
+
+112
+00:05:27,232 --> 00:05:29,356
+It answers no question that was asked.
+
+113
+00:05:29,587 --> 00:05:31,304
+For E to be the answer, you would
+
+114
+00:05:31,324 --> 00:05:34,160
+need this: A question asking for the probability
+
+115
+00:05:34,180 --> 00:05:36,738
+that a healthy person tests positive, which is
+
+116
+00:05:36,758 --> 00:05:39,895
+10% here, not 0.9%.
+
+117
+00:05:41,133 --> 00:05:44,086
+Sensitivity and specificity belong to the test.
+
+118
+00:05:44,320 --> 00:05:46,774
+Predictive values belong to the patient in front
+
+119
+00:05:46,794 --> 00:05:48,944
+of you, and they move with prevalence.
+
+120
+00:05:49,175 --> 00:05:51,787
+Never answer a predictive-value question before
+
+121
+00:05:51,807 --> 00:05:53,325
+writing down the prevalence.
+
+122
+00:05:54,566 --> 00:05:55,993
+He fainted on the stairs.
+
+123
+00:05:56,227 --> 00:05:58,561
+That single detail decides the question.
+
+124
+00:05:58,793 --> 00:06:00,416
+This one is cardiology.
+
+125
+00:06:00,648 --> 00:06:02,008
+Question 3 of 3.
+
+126
+00:06:02,694 --> 00:06:05,595
+A 74-year-old man comes to the clinic because
+
+127
+00:06:05,615 --> 00:06:07,938
+of a 6-month history of shortness of breath
+
+128
+00:06:07,958 --> 00:06:10,874
+with exertion. Last week he lost consciousness
+
+129
+00:06:10,894 --> 00:06:13,138
+while climbing the stairs to his apartment and
+
+130
+00:06:13,158 --> 00:06:14,650
+recovered within a minute.
+
+131
+00:06:14,881 --> 00:06:16,229
+He has no chest pain.
+
+132
+00:06:16,460 --> 00:06:21,900
+Blood pressure 128/76 mmHg, pulse 72/min.
+
+133
+00:06:23,128 --> 00:06:25,752
+Cardiac examination shows a harsh,
+
+134
+00:06:25,772 --> 00:06:28,529
+crescendo-decrescendo systolic murmur loudest at
+
+135
+00:06:28,549 --> 00:06:31,555
+the right second intercostal space, radiating to
+
+136
+00:06:31,575 --> 00:06:34,610
+both carotid arteries. The second heart sound is
+
+137
+00:06:34,630 --> 00:06:37,834
+soft. The carotid upstroke is delayed and low
+
+138
+00:06:37,854 --> 00:06:40,360
+in amplitude. The lungs are clear and there
+
+139
+00:06:40,380 --> 00:06:41,965
+is no peripheral edema.
+
+140
+00:06:43,161 --> 00:06:44,929
+Here is the finding that decides it.
+
+141
+00:06:45,164 --> 00:06:48,116
+Carotid upstroke: delayed and low amplitude
+
+142
+00:06:48,828 --> 00:06:50,729
+Which of the following best explains this
+
+143
+00:06:50,749 --> 00:06:52,610
+patient's loss of consciousness?
+
+144
+00:06:53,311 --> 00:06:55,767
+Pause here. Commit to an answer before the
+
+145
+00:06:55,787 --> 00:06:56,714
+explanation.
+
+146
+00:07:01,278 --> 00:07:02,731
+The answer is A.
+
+147
+00:07:02,923 --> 00:07:05,692
+Fixed stroke volume limiting the rise in cardiac
+
+148
+00:07:05,712 --> 00:07:07,112
+output during exertion.
+
+149
+00:07:07,827 --> 00:07:10,518
+A stenotic valve cannot open wider when demand
+
+150
+00:07:10,538 --> 00:07:13,152
+rises. At rest the stiff ventricle still
+
+151
+00:07:13,172 --> 00:07:15,889
+generates adequate output; on exertion stroke
+
+152
+00:07:15,909 --> 00:07:19,651
+volume is capped, cardiac output fails to rise,
+
+153
+00:07:19,711 --> 00:07:21,506
+and cerebral perfusion falls.
+
+154
+00:07:22,727 --> 00:07:25,312
+Calcific aortic stenosis can extend into the
+
+155
+00:07:25,332 --> 00:07:27,720
+conduction system, but a block is not
+
+156
+00:07:27,740 --> 00:07:30,443
+load-dependent and does not wait for the stairs.
+
+157
+00:07:30,677 --> 00:07:32,341
+For B to be the answer, you would
+
+158
+00:07:32,361 --> 00:07:35,368
+need this: Syncope occurring at rest, or an
+
+159
+00:07:35,388 --> 00:07:38,618
+ECG showing wide-complex bradycardia with absent
+
+160
+00:07:38,638 --> 00:07:39,498
+P waves.
+
+161
+00:07:40,694 --> 00:07:43,528
+Arrhythmic syncope classically has no warning
+
+162
+00:07:43,588 --> 00:07:45,883
+and no reproducible exertional trigger.
+
+163
+00:07:46,117 --> 00:07:48,729
+This patient's syncope is exertion-linked, which
+
+164
+00:07:48,749 --> 00:07:50,899
+points to a haemodynamic cause.
+
+165
+00:07:51,131 --> 00:07:52,821
+For C to be the answer, you would
+
+166
+00:07:52,841 --> 00:07:55,940
+need this: Syncope without prodrome, family
+
+167
+00:07:55,960 --> 00:07:58,834
+history of sudden cardiac death, scar on
+
+168
+00:07:58,854 --> 00:08:01,886
+echocardiography, or a prolonged QT interval.
+
+169
+00:08:03,060 --> 00:08:05,934
+Vasovagal syncope has a prodrome of warmth,
+
+170
+00:08:06,074 --> 00:08:08,974
+nausea and tunnel vision, is provoked by heat,
+
+171
+00:08:09,297 --> 00:08:12,225
+pain or prolonged standing, and does not produce
+
+172
+00:08:12,245 --> 00:08:14,605
+a fixed low-amplitude carotid upstroke.
+
+173
+00:08:14,839 --> 00:08:16,543
+For D to be the answer, you would
+
+174
+00:08:16,563 --> 00:08:19,451
+need this: A clear prodrome, syncope while
+
+175
+00:08:19,471 --> 00:08:22,359
+standing, rapid full recovery, and a normal
+
+176
+00:08:22,379 --> 00:08:23,897
+cardiac examination.
+
+177
+00:08:25,160 --> 00:08:28,008
+There is no volume loss, no diuretic use,
+
+178
+00:08:28,068 --> 00:08:29,508
+and no positional trigger.
+
+179
+00:08:29,742 --> 00:08:32,393
+Orthostatic syncope occurs within seconds of
+
+180
+00:08:32,413 --> 00:08:34,852
+standing, not after climbing stairs.
+
+181
+00:08:35,084 --> 00:08:36,801
+For E to be the answer, you would
+
+182
+00:08:36,821 --> 00:08:39,814
+need this: A documented postural blood pressure
+
+183
+00:08:39,834 --> 00:08:43,577
+drop, diuretic use or dehydration, and syncope
+
+184
+00:08:43,597 --> 00:08:44,352
+on standing.
+
+185
+00:08:45,527 --> 00:08:48,599
+Exertional syncope is a haemodynamic problem
+
+186
+00:08:48,619 --> 00:08:51,362
+until proven otherwise: the heart cannot meet
+
+187
+00:08:51,382 --> 00:08:54,312
+demand. Aortic stenosis, hypertrophic
+
+188
+00:08:54,332 --> 00:08:57,312
+cardiomyopathy and pulmonary hypertension are
+
+189
+00:08:57,332 --> 00:08:58,482
+the three causes.
+
+190
+00:08:59,694 --> 00:09:01,173
+New questions every week.
+
+191
+00:09:01,407 --> 00:09:03,767
+Subscribe so you don't miss the next set.

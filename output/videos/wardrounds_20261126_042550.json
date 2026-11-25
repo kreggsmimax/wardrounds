@@ -1,13 +1,13 @@
 {
-  "brand": "ANSWER BANK",
-  "handle": "@answerbank",
-  "timestamp": "20261125_185020",
-  "video_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\answerbank_20261125_185020.mp4",
-  "short_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\answerbank_20261125_185020_short.mp4",
-  "thumbnail_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\answerbank_20261125_185020.jpg",
-  "srt_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\answerbank_20261125_185020.srt",
-  "title": "USMLE Step 1: A 95% sensitive test. An 8.8% chance you actually have… — 3 Questions",
-  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Positive predictive value\n03:00  Q2 · Aortic stenosis\n06:00  Q3 · Thrombotic thrombocytopenic purpura\n\nSOURCES\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1, Cardiology - Valvular disease\n· 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease\n· First Aid for the USMLE Step 1, Hematology - Thrombotic microangiopathies\n· ISTH Guidelines for the Management of Thrombotic Thrombocytopenic Purpura\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nANSWER BANK · @answerbank\nRead the stem. Beat the test.",
+  "brand": "WARD ROUNDS",
+  "handle": "@wardrounds",
+  "timestamp": "20261126_042550",
+  "video_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\wardrounds_20261126_042550.mp4",
+  "short_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\wardrounds_20261126_042550_short.mp4",
+  "thumbnail_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\wardrounds_20261126_042550.jpg",
+  "srt_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\wardrounds_20261126_042550.srt",
+  "title": "USMLE Step 1: Platelets 18,000. Every instinct says transfuse. That… — 3 Questions",
+  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Thrombotic thrombocytopenic purpura\n03:00  Q2 · Positive predictive value\n06:00  Q3 · Aortic stenosis\n\nSOURCES\n· First Aid for the USMLE Step 1, Hematology - Thrombotic microangiopathies\n· ISTH Guidelines for the Management of Thrombotic Thrombocytopenic Purpura\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1, Cardiology - Valvular disease\n· 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nWARD ROUNDS · @wardrounds\nRead the stem. Beat the test.",
   "tags": [
     "usmle",
     "usmle step 1",
@@ -17,46 +17,46 @@
     "question bank",
     "medical student",
     "vignette",
+    "thrombotic thrombocytopenic purpura",
+    "hematology",
     "positive predictive value",
     "biostatistics",
     "aortic stenosis",
-    "cardiology",
-    "thrombotic thrombocytopenic purpura",
-    "hematology"
+    "cardiology"
   ],
-  "hashtags": "#usmle #step1 #medschool #medicaleducation #biostats",
-  "duration_seconds": 544.21,
+  "hashtags": "#usmle #step1 #medschool #medicaleducation #heme",
+  "duration_seconds": 544.4,
   "minutes": 9.07,
-  "render_minutes": 7.59,
+  "render_minutes": 6.38,
   "scenes": [
     {
       "index": 0,
       "kind": "titlecard",
-      "seconds": 11.17,
+      "seconds": 11.37,
       "beat": "USMLE STEP 1"
     },
     {
       "index": 1,
       "kind": "titlecard",
-      "seconds": 10.77,
+      "seconds": 9.36,
       "beat": "QUESTION 1 OF 3"
     },
     {
       "index": 2,
       "kind": "prose",
-      "seconds": 12.3,
-      "beat": "THE VIGNETTE"
+      "seconds": 17.1,
+      "beat": "THE VIGNETTE 1/2"
     },
     {
       "index": 3,
-      "kind": "keyfind",
-      "seconds": 4.46,
-      "beat": "THE FINDING THAT DECIDES IT"
+      "kind": "prose",
+      "seconds": 30.63,
+      "beat": "THE VIGNETTE 2/2"
     },
     {
       "index": 4,
       "kind": "prose",
-      "seconds": 6.67,
+      "seconds": 4.07,
       "beat": "THE QUESTION"
     },
     {
@@ -74,151 +74,151 @@
     {
       "index": 7,
       "kind": "reveal",
-      "seconds": 3.67,
+      "seconds": 3.88,
       "beat": "THE ANSWER"
     },
     {
       "index": 8,
       "kind": "elim",
-      "seconds": 20.77,
+      "seconds": 13.43,
       "beat": "WHY A IS RIGHT"
     },
     {
       "index": 9,
       "kind": "elim",
-      "seconds": 18.3,
+      "seconds": 20.9,
       "beat": "WHY B IS WRONG"
     },
     {
       "index": 10,
       "kind": "elim",
-      "seconds": 15.57,
+      "seconds": 25.5,
       "beat": "WHY C IS WRONG"
     },
     {
       "index": 11,
       "kind": "elim",
-      "seconds": 21.37,
+      "seconds": 21.7,
       "beat": "WHY D IS WRONG"
     },
     {
       "index": 12,
       "kind": "elim",
-      "seconds": 19.1,
+      "seconds": 19.03,
       "beat": "WHY E IS WRONG"
     },
     {
       "index": 13,
       "kind": "prose",
-      "seconds": 13.43,
+      "seconds": 15.03,
       "beat": "THE RULE"
     },
     {
       "index": 14,
       "kind": "titlecard",
-      "seconds": 8.08,
+      "seconds": 10.83,
       "beat": "QUESTION 2 OF 3"
     },
     {
       "index": 15,
       "kind": "prose",
-      "seconds": 20.43,
-      "beat": "THE VIGNETTE 1/2"
+      "seconds": 12.3,
+      "beat": "THE VIGNETTE"
     },
     {
       "index": 16,
-      "kind": "prose",
-      "seconds": 20.03,
-      "beat": "THE VIGNETTE 2/2"
-    },
-    {
-      "index": 17,
       "kind": "keyfind",
-      "seconds": 5.67,
+      "seconds": 4.46,
       "beat": "THE FINDING THAT DECIDES IT"
     },
     {
-      "index": 18,
+      "index": 17,
       "kind": "prose",
-      "seconds": 4.48,
+      "seconds": 6.67,
       "beat": "THE QUESTION"
     },
     {
-      "index": 19,
+      "index": 18,
       "kind": "options",
       "seconds": 4.11,
       "beat": "PICK YOUR ANSWER"
     },
     {
-      "index": 20,
+      "index": 19,
       "kind": "pause",
       "seconds": 3.86,
       "beat": ""
     },
     {
-      "index": 21,
+      "index": 20,
       "kind": "reveal",
-      "seconds": 6.55,
+      "seconds": 3.67,
       "beat": "THE ANSWER"
+    },
+    {
+      "index": 21,
+      "kind": "elim",
+      "seconds": 20.77,
+      "beat": "WHY A IS RIGHT"
     },
     {
       "index": 22,
       "kind": "elim",
-      "seconds": 14.9,
-      "beat": "WHY A IS RIGHT"
+      "seconds": 18.3,
+      "beat": "WHY B IS WRONG"
     },
     {
       "index": 23,
       "kind": "elim",
-      "seconds": 18.03,
-      "beat": "WHY B IS WRONG"
+      "seconds": 15.57,
+      "beat": "WHY C IS WRONG"
     },
     {
       "index": 24,
       "kind": "elim",
-      "seconds": 22.43,
-      "beat": "WHY C IS WRONG"
+      "seconds": 21.37,
+      "beat": "WHY D IS WRONG"
     },
     {
       "index": 25,
       "kind": "elim",
-      "seconds": 22.1,
-      "beat": "WHY D IS WRONG"
-    },
-    {
-      "index": 26,
-      "kind": "elim",
-      "seconds": 20.37,
+      "seconds": 19.17,
       "beat": "WHY E IS WRONG"
     },
     {
-      "index": 27,
+      "index": 26,
       "kind": "prose",
-      "seconds": 14.17,
+      "seconds": 13.43,
       "beat": "THE RULE"
     },
     {
-      "index": 28,
+      "index": 27,
       "kind": "titlecard",
-      "seconds": 9.48,
+      "seconds": 8.13,
       "beat": "QUESTION 3 OF 3"
+    },
+    {
+      "index": 28,
+      "kind": "prose",
+      "seconds": 20.43,
+      "beat": "THE VIGNETTE 1/2"
     },
     {
       "index": 29,
       "kind": "prose",
-      "seconds": 17.17,
-      "beat": "THE VIGNETTE 1/2"
+      "seconds": 20.03,
+      "beat": "THE VIGNETTE 2/2"
     },
     {
       "index": 30,
-      "kind": "prose",
-      "seconds": 30.57,
-      "beat": "THE VIGNETTE 2/2"
+      "kind": "keyfind",
+      "seconds": 5.67,
+      "beat": "THE FINDING THAT DECIDES IT"
     },
     {
       "index": 31,
       "kind": "prose",
-      "seconds": 4.07,
+      "seconds": 4.48,
       "beat": "THE QUESTION"
     },
     {
@@ -236,43 +236,43 @@
     {
       "index": 34,
       "kind": "reveal",
-      "seconds": 3.88,
+      "seconds": 6.55,
       "beat": "THE ANSWER"
     },
     {
       "index": 35,
       "kind": "elim",
-      "seconds": 13.5,
+      "seconds": 14.9,
       "beat": "WHY A IS RIGHT"
     },
     {
       "index": 36,
       "kind": "elim",
-      "seconds": 20.83,
+      "seconds": 17.97,
       "beat": "WHY B IS WRONG"
     },
     {
       "index": 37,
       "kind": "elim",
-      "seconds": 25.5,
+      "seconds": 22.37,
       "beat": "WHY C IS WRONG"
     },
     {
       "index": 38,
       "kind": "elim",
-      "seconds": 21.7,
+      "seconds": 22.1,
       "beat": "WHY D IS WRONG"
     },
     {
       "index": 39,
       "kind": "elim",
-      "seconds": 18.9,
+      "seconds": 20.37,
       "beat": "WHY E IS WRONG"
     },
     {
       "index": 40,
       "kind": "prose",
-      "seconds": 15.1,
+      "seconds": 14.17,
       "beat": "THE RULE"
     },
     {
@@ -285,6 +285,12 @@
   "caption_cues": 191,
   "questions": [
     {
+      "id": "heme-ttp-no-platelets-001",
+      "system": "heme",
+      "topic": "Thrombotic thrombocytopenic purpura",
+      "correct": "A"
+    },
+    {
       "id": "biostats-ppv-base-rate-001",
       "system": "biostats",
       "topic": "Positive predictive value",
@@ -294,12 +300,6 @@
       "id": "cardio-as-exertional-syncope-001",
       "system": "cardiology",
       "topic": "Aortic stenosis",
-      "correct": "A"
-    },
-    {
-      "id": "heme-ttp-no-platelets-001",
-      "system": "heme",
-      "topic": "Thrombotic thrombocytopenic purpura",
       "correct": "A"
     }
   ],

@@ -1,4 +1,4 @@
-"""Build one Vignette video end to end.
+"""Build one Ward Rounds video end to end.
 
     python build.py                    # 2 questions, default set
     python build.py --questions 1      # single-question deep dive

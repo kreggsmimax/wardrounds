@@ -42,9 +42,10 @@ def main() -> int:
     ap.add_argument("--questions", type=int, default=C.QUESTIONS_PER_VIDEO)
     ap.add_argument("--system", default=None)
     ap.add_argument("--name", default=None)
+    ap.add_argument("--no-captions", action="store_true",
+                    help="disable burned-in subtitles (the .srt sidecar still ships)")
     ap.add_argument("--burn-captions", action="store_true",
-                    help="burn subtitles into the video (off by default: the slides "
-                         "already contain the narration text)")
+                    help="force subtitles on (default)")
     ap.add_argument("--shorts", action="store_true",
                     help="also render a 9:16 Short from the first question")
     ap.add_argument("--cooldown", type=int, default=facts.COOLDOWN_DAYS,
@@ -123,8 +124,9 @@ def main() -> int:
 
     print(f"\n[4/5] Render")
     started = time.time()
-    result = render.render(scenes, name, out_dir,
-                           burn_captions=C.BURN_CAPTIONS or args.burn_captions)
+    result = render.render(
+        scenes, name, out_dir,
+        burn_captions=args.burn_captions or (C.BURN_CAPTIONS and not args.no_captions))
     elapsed = time.time() - started
 
     seconds = result["duration"]
@@ -147,9 +149,10 @@ def main() -> int:
             vignette=chosen[0].get("short_vignette"), include_options=False)
         if short_issues:
             raise SystemExit("SHORT VERIFICATION FAILED:\n  " + "\n  ".join(short_issues))
-        short_info = render.render(short_scenes, f"{name}_short", out_dir,
-                                   W=C.SHORT_WIDTH, H=C.SHORT_HEIGHT,
-                                   burn_captions=C.BURN_CAPTIONS or args.burn_captions)
+        short_info = render.render(
+            short_scenes, f"{name}_short", out_dir,
+            W=C.SHORT_WIDTH, H=C.SHORT_HEIGHT,
+            burn_captions=args.burn_captions or (C.BURN_CAPTIONS and not args.no_captions))
         print(f"      short: {short_info['duration']:.0f}s")
 
     facts.record_used(chosen)

@@ -86,10 +86,10 @@ CAP_ACCENT_ASS = "&H24A5F5&"  # ASS colours are BGR
 # Only used when burn-in is enabled. False = plain white, one event per cue.
 CAPTION_HIGHLIGHT = os.getenv("CAPTION_HIGHLIGHT", "0") == "1"
 
-# Burned-in subtitles duplicate the slide text in this format, so they are off by
-# default. The .srt sidecar still ships and drives YouTube's CC button.
-# Override with BURN_CAPTIONS=1 or `build.py --burn-captions`.
-BURN_CAPTIONS = os.getenv("BURN_CAPTIONS", "0") == "1"
+# Burned-in subtitles are ON. The renderer emits one static event per cue, so the
+# text never moves - only the cue changes, like a normal subtitle track.
+# Disable with `build.py --no-captions` or BURN_CAPTIONS=0.
+BURN_CAPTIONS = os.getenv("BURN_CAPTIONS", "1") == "1"
 
 # ------------------------------------------------------------------ tools
 def _first_existing(*paths: str | Path) -> Path:

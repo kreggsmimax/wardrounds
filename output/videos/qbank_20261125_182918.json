@@ -1,11 +1,11 @@
 {
   "brand": "QBANK",
   "handle": "@qbank",
-  "timestamp": "20261125_133043",
-  "video_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133043.mp4",
-  "short_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133043_short.mp4",
-  "thumbnail_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133043.jpg",
-  "srt_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133043.srt",
+  "timestamp": "20261125_182918",
+  "video_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_182918.mp4",
+  "short_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_182918_short.mp4",
+  "thumbnail_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_182918.jpg",
+  "srt_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_182918.srt",
   "title": "USMLE Step 1: A 95% sensitive test. An 8.8% chance you actually have… — 2 Questions",
   "description": "2 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Positive predictive value\n03:00  Q2 · Aortic stenosis\n\nSOURCES\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1, Cardiology - Valvular disease\n· 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nQBANK · @qbank\nRead the stem. Beat the test.",
   "tags": [
@@ -23,14 +23,14 @@
     "cardiology"
   ],
   "hashtags": "#usmle #step1 #medschool #medicaleducation #biostats",
-  "duration_seconds": 355.31,
-  "minutes": 5.92,
-  "render_minutes": 4.69,
+  "duration_seconds": 355.57,
+  "minutes": 5.93,
+  "render_minutes": 3.96,
   "scenes": [
     {
       "index": 0,
       "kind": "titlecard",
-      "seconds": 11.17,
+      "seconds": 11.1,
       "beat": "USMLE STEP 1"
     },
     {
@@ -84,13 +84,13 @@
     {
       "index": 9,
       "kind": "elim",
-      "seconds": 18.3,
+      "seconds": 18.37,
       "beat": "WHY B IS WRONG"
     },
     {
       "index": 10,
       "kind": "elim",
-      "seconds": 15.5,
+      "seconds": 15.57,
       "beat": "WHY C IS WRONG"
     },
     {
@@ -108,7 +108,7 @@
     {
       "index": 13,
       "kind": "prose",
-      "seconds": 13.43,
+      "seconds": 13.5,
       "beat": "THE RULE"
     },
     {
@@ -162,13 +162,13 @@
     {
       "index": 22,
       "kind": "elim",
-      "seconds": 14.9,
+      "seconds": 14.83,
       "beat": "WHY A IS RIGHT"
     },
     {
       "index": 23,
       "kind": "elim",
-      "seconds": 17.97,
+      "seconds": 18.03,
       "beat": "WHY B IS WRONG"
     },
     {
@@ -186,13 +186,13 @@
     {
       "index": 26,
       "kind": "elim",
-      "seconds": 20.37,
+      "seconds": 20.43,
       "beat": "WHY E IS WRONG"
     },
     {
       "index": 27,
       "kind": "prose",
-      "seconds": 14.17,
+      "seconds": 14.23,
       "beat": "THE RULE"
     },
     {

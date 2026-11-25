@@ -118,7 +118,7 @@ def main() -> int:
     print(f"\n[3/5] Verify")
     verify.require_clean(scenes, chosen)
 
-    name = args.name or f"{C.BRAND.lower()}_{stamp}"
+    name = args.name or f"{C.BRAND.lower().replace(' ', '')}_{stamp}"
     out_dir = C.OUTPUT_DIR / "videos"
     out_dir.mkdir(parents=True, exist_ok=True)
 

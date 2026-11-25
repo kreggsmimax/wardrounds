@@ -14,9 +14,9 @@ OUTPUT_DIR = BASE_DIR / "output"
 DATA_DIR = BASE_DIR / "data"
 
 # ------------------------------------------------------------------ brand
-BRAND = "QBANK"
-HANDLE = "@qbank"
-BRAND_SPOKEN = "Q bank"  # what the voice says, so TTS does not spell it out
+BRAND = "ANSWER BANK"
+HANDLE = "@answerbank"
+BRAND_SPOKEN = "Answer Bank"  # plain words, so TTS reads it correctly
 TAGLINE = "Every wrong answer, explained."
 DISCLAIMER = (
     "Educational content only. Not medical advice. "
@@ -34,8 +34,9 @@ VOICE = os.getenv("VOICE", "en-US-AndrewNeural")
 RATE = os.getenv("RATE", "-5%")
 TAIL_PAD = 0.35
 
-# questions per long-form video
-QUESTIONS_PER_VIDEO = int(os.getenv("QUESTIONS_PER_VIDEO", "2"))
+# questions per long-form video: 3 = ~9 minutes, which clears YouTube's 8-minute
+# threshold for mid-roll ads. 2 questions lands at ~6 min and cannot carry mid-rolls.
+QUESTIONS_PER_VIDEO = int(os.getenv("QUESTIONS_PER_VIDEO", "3"))
 MAX_SECONDS = 900  # hard ceiling, matches the Velocity workflow check
 
 # ------------------------------------------------------------------ look

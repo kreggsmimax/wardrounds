@@ -29,7 +29,7 @@ def intro_scene(count: int, first: dict) -> dict:
         "tag": C.BRAND,
         "system": first["system"],
         "kicker": "USMLE STEP 1",
-        "big": "QUESTION BANK",
+        "big": C.BRAND,
         "sub": [C.TAGLINE, f"{count} questions · pause whenever you need to"],
         "narration": (
             f"This is {C.BRAND_SPOKEN}. Step 1, question by question. "

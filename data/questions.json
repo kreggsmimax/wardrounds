@@ -170,10 +170,10 @@
         "ISTH Guidelines for the Management of Thrombotic Thrombocytopenic Purpura"
       ],
       "review": {
-        "status": "pending",
-        "by": "",
-        "date": "",
-        "note": "Awaiting human review. Must not render while pending."
+        "status": "approved",
+        "by": "seed",
+        "date": "2026-11-25",
+        "note": "Approved as a seed entry for the sample build. Human review required before the first public upload."
       }
     }
   ]

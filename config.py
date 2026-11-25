@@ -78,13 +78,15 @@ SYSTEM_LABEL = {
 }
 
 # ------------------------------------------------------------------ captions
-CAP_MAX_WORDS = 11
-CAP_MAX_CHARS = 78
-CAP_LINE_CHARS = 40
-CAP_ACCENT_ASS = "&H24A5F5&"  # ASS colours are BGR
+# One line only. Two lines re-flow when the highlight moves and can collide with
+# slide content; a single line cannot re-flow at all.
+CAP_MAX_WORDS = 8
+CAP_MAX_CHARS = 48
+CAP_LINE_CHARS = 48
+CAP_ACCENT_ASS = "&H24A5F5&"  # amber, ASS is BGR
 
-# Only used when burn-in is enabled. False = plain white, one event per cue.
-CAPTION_HIGHLIGHT = os.getenv("CAPTION_HIGHLIGHT", "0") == "1"
+# Active word tinted amber. Safe on one line: only the colour changes, never the layout.
+CAPTION_HIGHLIGHT = os.getenv("CAPTION_HIGHLIGHT", "1") == "1"
 
 # Burned-in subtitles are ON. The renderer emits one static event per cue, so the
 # text never moves - only the cue changes, like a normal subtitle track.

@@ -211,10 +211,9 @@ def _compose(texts: list[str], active: int, split: int | None) -> str:
 
 def write_ass(cues: list[dict], path: Path, W: int, H: int) -> None:
     vertical = H > W
-    size = 62 if vertical else 50
-    margin_v = 450 if vertical else 180
-    margin_h = 80 if vertical else 150
-    line_chars = 21 if vertical else C.CAP_LINE_CHARS
+    size = 54 if vertical else 42
+    margin_v = 430 if vertical else 150
+    margin_h = 70 if vertical else 120
 
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -226,7 +225,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Segoe UI,{size},&H00FFFFFF,&H000000FF,&H00141418,&H78000000,-1,0,0,0,100,100,0.4,0,1,3,1.6,2,{margin_h},{margin_h},{margin_v},1
+Style: Cap,Segoe UI,{size},&H00FFFFFF,&H000000FF,&H00141418,&H6E000000,-1,0,0,0,100,100,0.3,0,3,9,0,2,{margin_h},{margin_h},{margin_v},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -234,8 +233,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     events = []
     for cue in cues:
         texts = [w["w"] for w in cue["words"]]
-        split = _cue_split(texts, line_chars)
-
         if C.CAPTION_HIGHLIGHT:
             for i in range(len(texts)):
                 start = cue["words"][i]["t"]
@@ -244,11 +241,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                     continue
                 events.append(
                     f"Dialogue: 0,{_ass_time(start)},{_ass_time(end)},Cap,,0,0,0,,"
-                    f"{_compose(texts, i, split)}")
+                    f"{_compose(texts, i, None)}")
         else:
             events.append(
                 f"Dialogue: 0,{_ass_time(cue['start'])},{_ass_time(cue['end'])},"
-                f"Cap,,0,0,0,,{_compose(texts, -1, split)}")
+                f"Cap,,0,0,0,,{_compose(texts, -1, None)}")
 
     path.write_text(header + "\n".join(events) + "\n", encoding="utf-8")
 

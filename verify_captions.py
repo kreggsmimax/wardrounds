@@ -1,4 +1,9 @@
-"""Verify captions stay put: sample three frames inside several cues and diff them."""
+"""Verify captions: single line, and the line never moves.
+
+Colour changes are expected (the active word is tinted), so this measures the
+caption's geometry - how many lines it occupies and where they sit - not raw pixels.
+"""
+
 import re
 import subprocess
 import sys
@@ -7,8 +12,9 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-VIDEO = Path(sys.argv[1]) if len(sys.argv) > 1 else None
-ASS = Path(sys.argv[2]) if len(sys.argv) > 2 else None
+VIDEO = Path(sys.argv[1])
+ASS = Path(sys.argv[2])
+FFMPEG = r"C:\ffmpeg\bin\ffmpeg.exe"
 
 ASS_RE = re.compile(r"Dialogue: 0,(\d+):(\d+):(\d+)\.(\d+),"
                     r"(\d+):(\d+):(\d+)\.(\d+),")
@@ -24,31 +30,53 @@ for line in ASS.read_text(encoding="utf-8").splitlines():
     if m:
         start = secs(*m.groups()[:4])
         end = secs(*m.groups()[4:])
-        if end - start > 1.6:
+        if end - start > 1.4:
             cues.append((start, end))
 
-picks = cues[3:3 + 5] if len(cues) > 8 else cues[:5]
-print(f"long cues available: {len(cues)}   sampling {len(picks)}\n")
+print(f"long cues: {len(cues)}")
+
+
+def geometry(png: Path):
+    """Return (line_count, top, bottom) for the caption band only."""
+    img = np.asarray(Image.open(png).convert("L"), dtype=np.int16)
+    h = img.shape[0]
+    # captions are bottom-anchored at MarginV; this band excludes the wordmark below
+    top_row, bottom_row = h - 222, h - 142
+    strip = img[top_row:bottom_row, :]
+    bright = strip.max(axis=1) > 110
+    rows = np.flatnonzero(bright)
+    if len(rows) == 0:
+        return 0, 0, 0
+    groups, prev = 1, rows[0]
+    for r in rows[1:]:
+        if r - prev > 6:
+            groups += 1
+        prev = r
+    return groups, int(rows[0]) + top_row, int(rows[-1]) + top_row
+
 
 tmp = Path("build/verify")
 tmp.mkdir(parents=True, exist_ok=True)
-worst = 0.0
-for idx, (start, _end) in enumerate(picks):
-    stamps = [start + 0.25, start + 0.85, start + 1.45]
-    frames = []
-    for j, t in enumerate(stamps):
-        out = tmp / f"v{idx}_{j}.png"
-        subprocess.run([r"C:\ffmpeg\bin\ffmpeg.exe", "-y", "-v", "error",
-                        "-ss", f"{t:.2f}", "-i", str(VIDEO), "-frames:v", "1", str(out)],
-                       check=True)
-        frames.append(np.asarray(Image.open(out).convert("L"), dtype=np.int16))
-    h = frames[0].shape[0]
-    strip = [f[int(h * 0.70):, :] for f in frames]
-    d01 = float(np.abs(strip[0] - strip[1]).mean())
-    d12 = float(np.abs(strip[1] - strip[2]).mean())
-    worst = max(worst, d01, d12)
-    state = "STILL" if max(d01, d12) < 2.0 else "MOVED"
-    print(f"  cue {idx}: {stamps[0]:6.2f}s  diff {d01:.2f} / {d12:.2f}   {state}")
+picks = cues[4:9] if len(cues) > 10 else cues[:5]
 
-print(f"\nworst caption-region diff across samples: {worst:.2f}")
-print("PASS - captions are static" if worst < 2.0 else "FAIL - captions still move")
+fail = 0
+for idx, (start, _end) in enumerate(picks):
+    info = []
+    for j, t in enumerate([start + 0.2, start + 0.7, start + 1.1]):
+        out = tmp / f"c{idx}_{j}.png"
+        subprocess.run([FFMPEG, "-y", "-v", "error", "-ss", f"{t:.2f}",
+                        "-i", str(VIDEO), "-frames:v", "1", str(out)], check=True)
+        info.append(geometry(out))
+
+    lines = {i[0] for i in info}
+    tops = {i[1] for i in info}
+    bots = {i[2] for i in info}
+    still = len(tops) == 1 and len(bots) == 1
+    single = lines == {1}
+    ok = still and single
+    fail += 0 if ok else 1
+    print(f"  cue {idx}: lines={sorted(lines)} top={sorted(tops)} "
+          f"bottom={sorted(bots)}  {'OK' if ok else 'FAIL'}")
+
+print("\nPASS - single line, no movement" if fail == 0 else f"\nFAIL - {fail} cue(s)")
+sys.exit(0 if fail == 0 else 1)

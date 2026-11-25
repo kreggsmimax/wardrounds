@@ -10,8 +10,10 @@ tokens.env
 
 # build artefacts (regenerated every run)
 output/videos/work/
+output/videos/archive/
 output/videos/*.mp4
 output/work/
+build/
 
 # keep: ledger, metadata, history, thumbnails, srt
 !output/latest_video.json

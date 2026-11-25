@@ -6,6 +6,7 @@ import asyncio
 import hashlib
 import json
 import subprocess
+import time
 from pathlib import Path
 
 import edge_tts
@@ -173,6 +174,41 @@ def write_srt(cues: list[dict], path: Path, line_chars: int = C.CAP_LINE_CHARS) 
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def _cue_split(texts: list[str], line_chars: int) -> int | None:
+    """Pick the two-line break ONCE per cue, by word index.
+
+    Computing this per-word (on the tagged string) is what made the captions jump:
+    the override tags shift the character offsets, so the break landed somewhere
+    different for every highlighted word.
+    """
+    total = len(" ".join(texts))
+    if total <= line_chars or len(texts) < 2:
+        return None
+    half = total / 2
+    acc, best, best_diff = 0, 1, 1e9
+    for i in range(1, len(texts)):
+        acc += len(texts[i - 1]) + 1
+        diff = abs(acc - half)
+        if diff < best_diff:
+            best_diff, best = diff, i
+    return best
+
+
+def _compose(texts: list[str], active: int, split: int | None) -> str:
+    def seg(lo: int, hi: int) -> str:
+        out = []
+        for j in range(lo, hi):
+            tok = texts[j]
+            if j == active:
+                tok = r"{\c" + C.CAP_ACCENT_ASS + "}" + tok + r"{\c&HFFFFFF&}"
+            out.append(tok)
+        return " ".join(out)
+
+    if split is None:
+        return seg(0, len(texts))
+    return seg(0, split) + r"\N" + seg(split, len(texts))
+
+
 def write_ass(cues: list[dict], path: Path, W: int, H: int) -> None:
     vertical = H > W
     size = 62 if vertical else 50
@@ -197,20 +233,23 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = []
     for cue in cues:
-        ws = cue["words"]
-        for i in range(len(ws)):
-            start = ws[i]["t"]
-            end = ws[i + 1]["t"] if i + 1 < len(ws) else cue["end"]
-            if end <= start:
-                continue
-            parts = []
-            for j, word in enumerate(ws):
-                tok = word["w"]
-                if j == i:
-                    tok = r"{\c" + C.CAP_ACCENT_ASS + "}" + tok + r"{\c&HFFFFFF&}"
-                parts.append(tok)
-            events.append(f"Dialogue: 0,{_ass_time(start)},{_ass_time(end)},Cap,,0,0,0,,"
-                          f"{_wrap(' '.join(parts), line_chars)}")
+        texts = [w["w"] for w in cue["words"]]
+        split = _cue_split(texts, line_chars)
+
+        if C.CAPTION_HIGHLIGHT:
+            for i in range(len(texts)):
+                start = cue["words"][i]["t"]
+                end = (cue["words"][i + 1]["t"] if i + 1 < len(texts) else cue["end"])
+                if end <= start:
+                    continue
+                events.append(
+                    f"Dialogue: 0,{_ass_time(start)},{_ass_time(end)},Cap,,0,0,0,,"
+                    f"{_compose(texts, i, split)}")
+        else:
+            events.append(
+                f"Dialogue: 0,{_ass_time(cue['start'])},{_ass_time(cue['end'])},"
+                f"Cap,,0,0,0,,{_compose(texts, -1, split)}")
+
     path.write_text(header + "\n".join(events) + "\n", encoding="utf-8")
 
 
@@ -239,9 +278,25 @@ def _segment(png: Path, audio: Path, out: Path) -> None:
           "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p",
           "-af", f"apad=pad_dur={C.TAIL_PAD},aresample=44100",
           "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-g", "60",
+          "-threads", "2",
           "-r", str(C.FPS),
           "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2",
           "-shortest", str(out)])
+
+
+def _segment_retry(png: Path, audio: Path, out: Path, attempts: int = 4) -> None:
+    """ffmpeg occasionally dies with a native exception on Windows under memory
+    pressure. The same command succeeds on retry, so retry instead of losing a
+    30-minute CI run."""
+    for attempt in range(1, attempts + 1):
+        try:
+            _segment(png, audio, out)
+            return
+        except subprocess.CalledProcessError:
+            if attempt == attempts:
+                raise
+            print(f"      ffmpeg retry {attempt}/{attempts - 1} for {out.name}")
+            time.sleep(1.5 * attempt)
 
 
 # ------------------------------------------------------------------ render
@@ -282,7 +337,7 @@ def render(scenes: list[dict], name: str, out_dir: Path,
                   str(audio)])
 
         seg = work / f"{i:02d}.mp4"
-        _segment(png, audio, seg)
+        _segment_retry(png, audio, seg)
         segs.append(seg)
 
         secs = duration(seg)

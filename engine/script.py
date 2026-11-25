@@ -32,7 +32,7 @@ def intro_scene(count: int, first: dict) -> dict:
         "big": "QUESTION BANK",
         "sub": [C.TAGLINE, f"{count} questions · pause whenever you need to"],
         "narration": (
-            f"This is {C.BRAND.title()}. Step 1, question by question. "
+            f"This is {C.BRAND_SPOKEN}. Step 1, question by question. "
             f"Today's set has {count} questions. Pause whenever you need to, "
             f"and commit to an answer before the explanation."
         ),

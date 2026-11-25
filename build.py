@@ -42,7 +42,9 @@ def main() -> int:
     ap.add_argument("--questions", type=int, default=C.QUESTIONS_PER_VIDEO)
     ap.add_argument("--system", default=None)
     ap.add_argument("--name", default=None)
-    ap.add_argument("--no-captions", action="store_true")
+    ap.add_argument("--burn-captions", action="store_true",
+                    help="burn subtitles into the video (off by default: the slides "
+                         "already contain the narration text)")
     ap.add_argument("--shorts", action="store_true",
                     help="also render a 9:16 Short from the first question")
     ap.add_argument("--cooldown", type=int, default=facts.COOLDOWN_DAYS,
@@ -115,14 +117,14 @@ def main() -> int:
     print(f"\n[3/5] Verify")
     verify.require_clean(scenes, chosen)
 
-    name = args.name or f"vignette_{stamp}"
+    name = args.name or f"{C.BRAND.lower()}_{stamp}"
     out_dir = C.OUTPUT_DIR / "videos"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"\n[4/5] Render")
     started = time.time()
     result = render.render(scenes, name, out_dir,
-                           burn_captions=not args.no_captions)
+                           burn_captions=C.BURN_CAPTIONS or args.burn_captions)
     elapsed = time.time() - started
 
     seconds = result["duration"]
@@ -147,7 +149,7 @@ def main() -> int:
             raise SystemExit("SHORT VERIFICATION FAILED:\n  " + "\n  ".join(short_issues))
         short_info = render.render(short_scenes, f"{name}_short", out_dir,
                                    W=C.SHORT_WIDTH, H=C.SHORT_HEIGHT,
-                                   burn_captions=not args.no_captions)
+                                   burn_captions=C.BURN_CAPTIONS or args.burn_captions)
         print(f"      short: {short_info['duration']:.0f}s")
 
     facts.record_used(chosen)

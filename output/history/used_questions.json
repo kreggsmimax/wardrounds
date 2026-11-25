@@ -9,6 +9,16 @@
       "id": "biostats-ppv-base-rate-001",
       "date": "2026-11-24",
       "topic": "Positive predictive value"
+    },
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "date": "2026-11-25",
+      "topic": "Positive predictive value"
+    },
+    {
+      "id": "cardio-as-exertional-syncope-001",
+      "date": "2026-11-25",
+      "topic": "Aortic stenosis"
     }
   ]
 }

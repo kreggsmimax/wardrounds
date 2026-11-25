@@ -7,7 +7,7 @@ without you. `python preflight.py` reports all four with live status.
 
 ```powershell
 cd "D:\E agy cli\E youtube bots\USMLE-channel\bot"
-git remote add origin https://github.com/<you>/vignette.git
+git remote add origin https://github.com/<you>/qbank.git
 git branch -M main
 git push -u origin main
 ```
@@ -84,7 +84,7 @@ python preflight.py          # should say READY TO PUBLISH
 python build.py --shorts     # local build, no upload
 ```
 
-Then in GitHub: Actions → *Vignette - Daily Question Set* → **Run workflow**, with
+Then in GitHub: Actions → *QBANK - Daily Question Set* → **Run workflow**, with
 `skip_upload` ticked the first time. Watch the run. When it is green, run it again with
 upload enabled and confirm the video appears as `private`. Then flip `privacy` to
 `public` in `build.py`.

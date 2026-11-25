@@ -14,9 +14,10 @@ OUTPUT_DIR = BASE_DIR / "output"
 DATA_DIR = BASE_DIR / "data"
 
 # ------------------------------------------------------------------ brand
-BRAND = "VIGNETTE"
-HANDLE = "@vignette"
-TAGLINE = "Read the stem. Beat the test."
+BRAND = "QBANK"
+HANDLE = "@qbank"
+BRAND_SPOKEN = "Q bank"  # what the voice says, so TTS does not spell it out
+TAGLINE = "Every wrong answer, explained."
 DISCLAIMER = (
     "Educational content only. Not medical advice. "
     "Always follow your institution's protocols and current guidelines."
@@ -81,6 +82,14 @@ CAP_MAX_WORDS = 11
 CAP_MAX_CHARS = 78
 CAP_LINE_CHARS = 40
 CAP_ACCENT_ASS = "&H24A5F5&"  # ASS colours are BGR
+
+# Only used when burn-in is enabled. False = plain white, one event per cue.
+CAPTION_HIGHLIGHT = os.getenv("CAPTION_HIGHLIGHT", "0") == "1"
+
+# Burned-in subtitles duplicate the slide text in this format, so they are off by
+# default. The .srt sidecar still ships and drives YouTube's CC button.
+# Override with BURN_CAPTIONS=1 or `build.py --burn-captions`.
+BURN_CAPTIONS = os.getenv("BURN_CAPTIONS", "0") == "1"
 
 # ------------------------------------------------------------------ tools
 def _first_existing(*paths: str | Path) -> Path:

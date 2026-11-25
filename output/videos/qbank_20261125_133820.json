@@ -1,0 +1,221 @@
+{
+  "brand": "QBANK",
+  "handle": "@qbank",
+  "timestamp": "20261125_133820",
+  "video_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133820.mp4",
+  "short_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133820_short.mp4",
+  "thumbnail_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133820.jpg",
+  "srt_path": "D:\\E agy cli\\E youtube bots\\USMLE-channel\\bot\\output\\videos\\qbank_20261125_133820.srt",
+  "title": "USMLE Step 1: A 95% sensitive test. An 8.8% chance you actually have… — 2 Questions",
+  "description": "2 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Positive predictive value\n03:00  Q2 · Aortic stenosis\n\nSOURCES\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1, Cardiology - Valvular disease\n· 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nQBANK · @qbank\nRead the stem. Beat the test.",
+  "tags": [
+    "usmle",
+    "usmle step 1",
+    "step 1",
+    "medical education",
+    "med school",
+    "question bank",
+    "medical student",
+    "vignette",
+    "positive predictive value",
+    "biostatistics",
+    "aortic stenosis",
+    "cardiology"
+  ],
+  "hashtags": "#usmle #step1 #medschool #medicaleducation #biostats",
+  "duration_seconds": 355.37,
+  "minutes": 5.92,
+  "render_minutes": 3.91,
+  "scenes": [
+    {
+      "index": 0,
+      "kind": "titlecard",
+      "seconds": 11.17,
+      "beat": "USMLE STEP 1"
+    },
+    {
+      "index": 1,
+      "kind": "titlecard",
+      "seconds": 10.77,
+      "beat": "QUESTION 1 OF 2"
+    },
+    {
+      "index": 2,
+      "kind": "prose",
+      "seconds": 12.37,
+      "beat": "THE VIGNETTE"
+    },
+    {
+      "index": 3,
+      "kind": "keyfind",
+      "seconds": 4.46,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 4,
+      "kind": "prose",
+      "seconds": 6.67,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 5,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 6,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 7,
+      "kind": "reveal",
+      "seconds": 3.67,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 8,
+      "kind": "elim",
+      "seconds": 20.77,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 9,
+      "kind": "elim",
+      "seconds": 18.3,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 10,
+      "kind": "elim",
+      "seconds": 15.57,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 11,
+      "kind": "elim",
+      "seconds": 21.37,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 12,
+      "kind": "elim",
+      "seconds": 19.1,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 13,
+      "kind": "prose",
+      "seconds": 13.43,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 14,
+      "kind": "titlecard",
+      "seconds": 8.04,
+      "beat": "QUESTION 2 OF 2"
+    },
+    {
+      "index": 15,
+      "kind": "prose",
+      "seconds": 20.43,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 16,
+      "kind": "prose",
+      "seconds": 20.03,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 17,
+      "kind": "keyfind",
+      "seconds": 5.67,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 18,
+      "kind": "prose",
+      "seconds": 4.48,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 19,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 20,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 21,
+      "kind": "reveal",
+      "seconds": 6.55,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 22,
+      "kind": "elim",
+      "seconds": 14.83,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 23,
+      "kind": "elim",
+      "seconds": 17.97,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 24,
+      "kind": "elim",
+      "seconds": 22.37,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 25,
+      "kind": "elim",
+      "seconds": 22.1,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 26,
+      "kind": "elim",
+      "seconds": 20.37,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 27,
+      "kind": "prose",
+      "seconds": 14.17,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 28,
+      "kind": "outro",
+      "seconds": 4.79,
+      "beat": "NEW SET"
+    }
+  ],
+  "caption_cues": 99,
+  "questions": [
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "system": "biostats",
+      "topic": "Positive predictive value",
+      "correct": "A"
+    },
+    {
+      "id": "cardio-as-exertional-syncope-001",
+      "system": "cardiology",
+      "topic": "Aortic stenosis",
+      "correct": "A"
+    }
+  ],
+  "privacy": "private"
+}

@@ -1,0 +1,461 @@
+1
+00:00:00,100 --> 00:00:01,329
+This is Q bank.
+
+2
+00:00:01,563 --> 00:00:03,608
+Step 1, question by question.
+
+3
+00:00:03,839 --> 00:00:05,713
+Today's set has 2 questions.
+
+4
+00:00:05,945 --> 00:00:09,004
+Pause whenever you need to,
+and commit to an answer before
+
+5
+00:00:09,024 --> 00:00:10,029
+the explanation.
+
+6
+00:00:11,267 --> 00:00:13,667
+A 95% sensitive test.
+
+7
+00:00:13,901 --> 00:00:17,314
+An 8.8% chance you
+actually have the disease.
+
+8
+00:00:17,546 --> 00:00:19,380
+This one is biostatistics.
+
+9
+00:00:19,611 --> 00:00:20,814
+Question 1 of 2.
+
+10
+00:00:22,033 --> 00:00:25,092
+A new screening test for a
+disease has a sensitivity of
+
+11
+00:00:25,112 --> 00:00:28,868
+95% and a specificity of 90%.
+
+12
+00:00:29,102 --> 00:00:32,463
+The disease has a prevalence
+of 1% in the population being
+
+13
+00:00:32,483 --> 00:00:33,094
+screened.
+
+14
+00:00:34,333 --> 00:00:36,102
+Here is the finding that decides it.
+
+15
+00:00:36,336 --> 00:00:38,091
+Prevalence: 1%
+
+16
+00:00:38,793 --> 00:00:42,142
+If a person from this population
+tests positive, what is the
+
+17
+00:00:42,162 --> 00:00:44,772
+probability that they
+actually have the disease?
+
+18
+00:00:45,459 --> 00:00:48,862
+Pause here. Commit to an
+answer before the explanation.
+
+19
+00:00:53,426 --> 00:00:54,826
+The answer is A.
+
+20
+00:00:55,137 --> 00:00:56,405
+8.8%.
+
+21
+00:00:57,096 --> 00:01:01,063
+In 10,000 people, 100 have
+the disease and 95 of those
+
+22
+00:01:01,083 --> 00:01:07,431
+test positive; of the 9,900 without
+disease, 990 test positive falsely.
+
+23
+00:01:07,665 --> 00:01:16,617
+Of 1,085 positives only 95 are
+true, giving 95/1,085 = 8.8%.
+
+24
+00:01:17,863 --> 00:01:22,277
+This is the sensitivity, which answers
+the opposite question: among people
+
+25
+00:01:22,297 --> 00:01:25,158
+who have the disease, what
+fraction test positive.
+
+26
+00:01:25,392 --> 00:01:28,135
+For B to be the answer,
+you would need this: A
+
+27
+00:01:28,155 --> 00:01:32,108
+question asking for the proportion of
+diseased patients who test positive,
+
+28
+00:01:32,300 --> 00:01:34,937
+not the proportion of
+positives who are diseased.
+
+29
+00:01:36,163 --> 00:01:40,038
+This is the specificity: among
+people who are well, what fraction
+
+30
+00:01:40,058 --> 00:01:44,158
+test negative. It ignores prevalence
+and runs in the wrong direction.
+
+31
+00:01:44,389 --> 00:01:47,054
+For C to be the answer,
+you would need this: A
+
+32
+00:01:47,074 --> 00:01:50,460
+question asking what fraction of
+healthy people test negative.
+
+33
+00:01:51,663 --> 00:01:56,248
+A 50% positive predictive value would
+require prevalence high enough to
+
+34
+00:01:56,268 --> 00:01:58,234
+balance the false positive rate.
+
+35
+00:01:58,468 --> 00:02:02,539
+At 1% prevalence the false
+positives swamp the true positives.
+
+36
+00:02:02,771 --> 00:02:05,514
+For D to be the answer,
+you would need this: A
+
+37
+00:02:05,534 --> 00:02:09,172
+prevalence roughly equal to the
+false positive rate, which at these
+
+38
+00:02:09,192 --> 00:02:11,750
+test characteristics is about 10%.
+
+39
+00:02:13,030 --> 00:02:16,561
+This is the false positive rate
+applied to the whole population,
+
+40
+00:02:16,793 --> 00:02:18,061
+not a predictive value.
+
+41
+00:02:18,295 --> 00:02:20,419
+It answers no question that was asked.
+
+42
+00:02:20,651 --> 00:02:23,368
+For E to be the answer,
+you would need this: A
+
+43
+00:02:23,388 --> 00:02:27,353
+question asking for the probability
+that a healthy person tests positive,
+
+44
+00:02:27,532 --> 00:02:30,959
+which is 10% here, not 0.9%.
+
+45
+00:02:32,130 --> 00:02:35,082
+Sensitivity and specificity
+belong to the test.
+
+46
+00:02:35,317 --> 00:02:38,586
+Predictive values belong to the
+patient in front of you, and
+
+47
+00:02:38,606 --> 00:02:39,940
+they move with prevalence.
+
+48
+00:02:40,172 --> 00:02:44,322
+Never answer a predictive-value question
+before writing down the prevalence.
+
+49
+00:02:45,563 --> 00:02:46,989
+He fainted on the stairs.
+
+50
+00:02:47,224 --> 00:02:49,558
+That single detail decides the question.
+
+51
+00:02:49,789 --> 00:02:51,413
+This one is cardiology.
+
+52
+00:02:51,645 --> 00:02:52,900
+Question 2 of 2.
+
+53
+00:02:53,599 --> 00:02:57,276
+A 74-year-old man comes to the
+clinic because of a 6-month
+
+54
+00:02:57,296 --> 00:02:59,736
+history of shortness of
+breath with exertion.
+
+55
+00:02:59,970 --> 00:03:03,187
+Last week he lost consciousness
+while climbing the stairs to his
+
+56
+00:03:03,207 --> 00:03:05,554
+apartment and recovered within a minute.
+
+57
+00:03:05,786 --> 00:03:07,133
+He has no chest pain.
+
+58
+00:03:07,365 --> 00:03:12,804
+Blood pressure 128/76
+mmHg, pulse 72/min.
+
+59
+00:03:14,032 --> 00:03:18,815
+Cardiac examination shows a harsh,
+crescendo-decrescendo systolic murmur
+
+60
+00:03:18,835 --> 00:03:23,210
+loudest at the right second intercostal
+space, radiating to both carotid
+
+61
+00:03:23,230 --> 00:03:26,172
+arteries. The second
+heart sound is soft.
+
+62
+00:03:26,403 --> 00:03:29,632
+The carotid upstroke is
+delayed and low in amplitude.
+
+63
+00:03:29,864 --> 00:03:32,869
+The lungs are clear and there
+is no peripheral edema.
+
+64
+00:03:34,066 --> 00:03:35,834
+Here is the finding that decides it.
+
+65
+00:03:36,068 --> 00:03:39,021
+Carotid upstroke: delayed
+and low amplitude
+
+66
+00:03:39,733 --> 00:03:43,514
+Which of the following best explains
+this patient's loss of consciousness?
+
+67
+00:03:44,216 --> 00:03:47,618
+Pause here. Commit to an
+answer before the explanation.
+
+68
+00:03:52,183 --> 00:03:53,635
+The answer is A.
+
+69
+00:03:53,827 --> 00:03:58,017
+Fixed stroke volume limiting the rise
+in cardiac output during exertion.
+
+70
+00:03:58,732 --> 00:04:02,145
+A stenotic valve cannot open
+wider when demand rises.
+
+71
+00:04:02,379 --> 00:04:06,451
+At rest the stiff ventricle still
+generates adequate output; on exertion
+
+72
+00:04:06,471 --> 00:04:11,267
+stroke volume is capped, cardiac
+output fails to rise, and cerebral
+
+73
+00:04:11,287 --> 00:04:12,411
+perfusion falls.
+
+74
+00:04:13,632 --> 00:04:17,756
+Calcific aortic stenosis can extend
+into the conduction system, but a
+
+75
+00:04:17,776 --> 00:04:21,347
+block is not load-dependent and
+does not wait for the stairs.
+
+76
+00:04:21,582 --> 00:04:24,693
+For B to be the answer, you
+would need this: Syncope
+
+77
+00:04:24,713 --> 00:04:29,522
+occurring at rest, or an ECG showing
+wide-complex bradycardia with absent
+
+78
+00:04:29,542 --> 00:04:30,403
+P waves.
+
+79
+00:04:31,598 --> 00:04:36,144
+Arrhythmic syncope classically has no
+warning and no reproducible exertional
+
+80
+00:04:36,164 --> 00:04:40,265
+trigger. This patient's syncope is
+exertion-linked, which points to a
+
+81
+00:04:40,285 --> 00:04:43,923
+haemodynamic cause. For C to
+be the answer, you would need
+
+82
+00:04:43,943 --> 00:04:49,568
+this: Syncope without prodrome, family
+history of sudden cardiac death, scar
+
+83
+00:04:49,588 --> 00:04:52,790
+on echocardiography, or
+a prolonged QT interval.
+
+84
+00:04:53,965 --> 00:04:58,510
+Vasovagal syncope has a prodrome of
+warmth, nausea and tunnel vision,
+
+85
+00:04:58,649 --> 00:05:02,774
+is provoked by heat, pain or
+prolonged standing, and does not
+
+86
+00:05:02,794 --> 00:05:05,510
+produce a fixed low-amplitude
+carotid upstroke.
+
+87
+00:05:05,744 --> 00:05:08,421
+For D to be the answer,
+you would need this: A
+
+88
+00:05:08,441 --> 00:05:13,263
+clear prodrome, syncope while standing,
+rapid full recovery, and a normal
+
+89
+00:05:13,283 --> 00:05:14,802
+cardiac examination.
+
+90
+00:05:16,065 --> 00:05:19,795
+There is no volume loss, no
+diuretic use, and no positional
+
+91
+00:05:19,815 --> 00:05:24,706
+trigger. Orthostatic syncope occurs
+within seconds of standing, not after
+
+92
+00:05:24,726 --> 00:05:27,903
+climbing stairs. For E to be
+the answer, you would need
+
+93
+00:05:27,923 --> 00:05:33,560
+this: A documented postural blood pressure
+drop, diuretic use or dehydration,
+
+94
+00:05:33,844 --> 00:05:35,257
+and syncope on standing.
+
+95
+00:05:36,432 --> 00:05:41,583
+Exertional syncope is a haemodynamic
+problem until proven otherwise: the heart
+
+96
+00:05:41,603 --> 00:05:47,256
+cannot meet demand. Aortic stenosis,
+hypertrophic cardiomyopathy and pulmonary
+
+97
+00:05:47,276 --> 00:05:49,387
+hypertension are the three causes.
+
+98
+00:05:50,598 --> 00:05:52,077
+New questions every week.
+
+99
+00:05:52,312 --> 00:05:54,672
+Subscribe so you don't
+miss the next set.

@@ -39,6 +39,29 @@ def intro_scene(count: int, first: dict) -> dict:
     }
 
 
+def _split_balanced(text: str, min_ratio: float = 0.35) -> list[str]:
+    """Split a vignette into two frames at the sentence boundary that best balances
+    them. A 7-line paragraph on one slide reads like a document; two 3-line frames
+    read like a video."""
+    import re
+
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    if len(sentences) < 3:
+        return [text]
+
+    total = sum(len(s) for s in sentences)
+    best_i, best_diff = 1, 1e9
+    for i in range(1, len(sentences)):
+        left = sum(len(s) for s in sentences[:i])
+        if left < total * min_ratio:
+            continue
+        diff = abs(left - (total - left))
+        if diff < best_diff:
+            best_diff, best_i = diff, i
+
+    return [" ".join(sentences[:best_i]), " ".join(sentences[best_i:])]
+
+
 def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
     accent = _accent(entry)
     tag = _tag(entry)
@@ -59,16 +82,30 @@ def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
         ),
     })
 
-    # 2 - the vignette, verbatim from the ledger
-    scenes.append({
-        "kind": "prose",
-        "tag": tag,
-        "system": entry["system"],
-        "kicker": "THE VIGNETTE",
-        "body": entry["vignette"],
-        "size": 31,
-        "narration": entry["vignette"],
-    })
+    # 2 - the vignette, split across two frames
+    chunks = _split_balanced(entry["vignette"])
+    for i, chunk in enumerate(chunks):
+        scenes.append({
+            "kind": "prose",
+            "tag": tag,
+            "system": entry["system"],
+            "kicker": "THE VIGNETTE" if len(chunks) == 1 else
+                      f"THE VIGNETTE {i + 1}/{len(chunks)}",
+            "body": chunk,
+            "size": 40,
+            "narration": chunk,
+        })
+
+    # 3 - the decisive finding, huge. This is the frame people screenshot.
+    if entry.get("key_finding"):
+        scenes.append({
+            "kind": "keyfind",
+            "tag": tag,
+            "system": entry["system"],
+            "kicker": "THE FINDING THAT DECIDES IT",
+            "body": entry["key_finding"],
+            "narration": f"Here is the finding that decides it. {entry['key_finding']}",
+        })
 
     # 3 - the stem
     scenes.append({
@@ -118,6 +155,7 @@ def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
         "system": entry["system"],
         "kicker": f"WHY {correct['letter']} IS RIGHT",
         "verdict": "right",
+        "option": [correct["letter"], correct["text"]],
         "body": correct["why"],
         "narration": correct["why"],
     })
@@ -132,6 +170,7 @@ def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
             "system": entry["system"],
             "kicker": f"WHY {opt['letter']} IS WRONG",
             "verdict": "wrong",
+            "option": [opt["letter"], opt["text"]],
             "body": opt["why"],
             "bait": opt["would_make_right"],
             "narration": (

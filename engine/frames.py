@@ -209,40 +209,81 @@ class Frame:
                 items.append({"text": line, "size": 40, "color": C.TEXT, "gap": 0.26})
             self.stack(items, self.H * 0.50)
 
-        elif kind == "elim":
-            right = s.get("verdict") == "right"
-            self.kicker(s.get("kicker", ""), color=C.GREEN if right else C.RED)
-            avail = self.H - 2 * self.margin - self.fs(160)
-            size = 36
+        elif kind == "keyfind":
+            self.kicker(s.get("kicker", "THE FINDING"))
+            size = 92
             while True:
-                font = F(self.fs(size), False)
+                font = F(self.fs(size), True)
                 lines = self.wrap(s["body"], font, self.body_width())
-                bf = F(self.fs(max(18, size - 7)), False)
-                bait_lines = self.wrap(s["bait"], bf, self.body_width()) if s.get("bait") else []
-                asc, desc = font.getmetrics()
-                lh = (asc + desc) * 1.36
-                b_asc, b_desc = bf.getmetrics()
-                bait_h = (self.fs(46) + self.fs(44) + (b_asc + b_desc) * 1.36 * len(bait_lines)
-                          if bait_lines else 0)
-                if lh * len(lines) + bait_h <= avail or size <= 18:
+                if len(lines) <= 3 or size <= 34:
                     break
-                size -= 2
-
-            body_h = lh * len(lines)
-            top = (self.H - body_h - bait_h) / 2 + self.fs(40)
-            y = top
+                size -= 4
+            asc, desc = font.getmetrics()
+            lh = (asc + desc) * 1.24
+            y = (self.H - lh * len(lines)) / 2 + self.fs(30)
             for line in lines:
                 self.d.text((self.W / 2, y), line, font=font, fill=C.TEXT, anchor="ma")
                 y += lh
 
+        elif kind == "elim":
+            right = s.get("verdict") == "right"
+            tint = C.GREEN if right else C.RED
+            self.kicker(s.get("kicker", ""), color=tint)
+
+            y = self.H * 0.225
+            if s.get("option"):
+                letter, text = s["option"]
+                card_h = self.fs(112)
+                self.d.rounded_rectangle(
+                    [self.margin, y, self.W - self.margin, y + card_h],
+                    radius=self.fs(12), fill=(24, 28, 35), outline=tint, width=2)
+                self.d.text((self.margin + self.fs(30), y + card_h / 2), letter,
+                            font=F(self.fs(34), True), fill=tint, anchor="lm")
+                tf = F(self.fs(29), False)
+                tlines = self.wrap(text, tf, self.W - 2 * self.margin - self.fs(100))[:2]
+                t_asc, t_desc = tf.getmetrics()
+                t_lh = (t_asc + t_desc) * 1.18
+                ty = y + card_h / 2 - (t_lh * len(tlines)) / 2
+                for line in tlines:
+                    self.d.text((self.margin + self.fs(96), ty), line, font=tf,
+                                fill=C.TEXT, anchor="la")
+                    ty += t_lh
+                y += card_h + self.fs(44)
+
+            avail_top = y
+            avail = self.H - self.margin * 1.15 - avail_top
+            size = 34
+            while True:
+                bf = F(self.fs(size), False)
+                blines = self.wrap(s["body"], bf, self.body_width())
+                b_asc, b_desc = bf.getmetrics()
+                blh = (b_asc + b_desc) * 1.34
+                if blh * len(blines) <= avail or size <= 18:
+                    break
+                size -= 2
+
+            bait_lines: list[str] = []
+            bf2 = F(self.fs(26), False)
+            bait_h = 0.0
+            if s.get("bait"):
+                bait_lines = self.wrap(s["bait"], bf2, self.body_width())
+                bait_h = self.fs(34) + self.fs(40) + self.fs(36) * len(bait_lines)
+
+            body_h = blh * len(blines)
+            y = avail_top + max(0.0, (avail - body_h - bait_h) * 0.42)
+
+            for line in blines:
+                self.d.text((self.W / 2, y), line, font=bf, fill=C.TEXT, anchor="ma")
+                y += blh
+
             if bait_lines:
-                y += self.fs(46)
+                y += self.fs(34)
                 self.d.text((self.W / 2, y), "WHAT WOULD HAVE MADE IT RIGHT",
-                            font=F(self.fs(23), True), fill=self.accent, anchor="ma")
-                y += self.fs(44)
+                            font=F(self.fs(22), True), fill=self.accent, anchor="ma")
+                y += self.fs(40)
                 for line in bait_lines:
-                    self.d.text((self.W / 2, y), line, font=bf, fill=C.MUTED, anchor="ma")
-                    y += (b_asc + b_desc) * 1.36
+                    self.d.text((self.W / 2, y), line, font=bf2, fill=C.MUTED, anchor="ma")
+                    y += self.fs(36)
 
         elif kind == "pause":
             self.d.text((self.W / 2, self.H * 0.43), "PAUSE", font=F(self.fs(86), True),

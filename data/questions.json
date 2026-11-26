@@ -472,6 +472,65 @@
         "date": "2026-11-26",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "endocrine",
+      "topic": "Diabetes Mellitus Type 1 vs Type 2",
+      "difficulty": 2,
+      "hook": "He says his new thirst proves type 2 diabetes, but consider ketones instead?",
+      "key_finding": "Ketonemia with metabolic acidosis",
+      "vignette": "A 19-year-old man presents with 1 week of increasing thirst, frequent urination, and unintentional weight loss. He has nausea and abdominal discomfort. Vitals show BP 118/72 mmHg, HR 112/min, RR 24/min, and T 37.0°C. Labs: glucose 465 mg/dL, serum bicarbonate 13 mEq/L, anion gap 22 mEq/L, and beta-hydroxybutyrate elevated. Serum potassium is 5.1 mEq/L. Urinalysis shows glucose and ketones. What is the most likely pathophysiologic defect driving his condition?",
+      "short_vignette": "19-year-old with glucose 465, anion gap metabolic acidosis, and elevated beta-hydroxybutyrate.",
+      "stem": "Which defect best explains his current presentation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autoimmune destruction of pancreatic beta cells",
+          "correct": true,
+          "why": "Type 1 diabetes causes insulin deficiency leading to increased lipolysis, ketone production, and an anion gap metabolic acidosis. The presence of ketonemia in a young patient with rapid symptom onset supports this mechanism.",
+          "would_make_right": "Change the age to a teenager and add history of autoimmune disease (eg, elevated anti-GAD antibodies) while keeping ketonemia and anion gap acidosis."
+        },
+        {
+          "letter": "B",
+          "text": "Insulin receptor resistance causing impaired glucose uptake",
+          "correct": false,
+          "why": "Insulin resistance in type 2 diabetes typically does not cause ketonemia with anion gap metabolic acidosis unless there is severe stress or profound insulin deficiency. The vignette emphasizes active ketone production.",
+          "would_make_right": "Remove ketones and replace beta-hydroxybutyrate with normal values, while describing longer, less acute symptoms more consistent with type 2 diabetes."
+        },
+        {
+          "letter": "C",
+          "text": "Defective insulin secretion with preserved insulin action",
+          "correct": false,
+          "why": "Partial insulin secretory defects without severe insulin deficiency usually do not produce marked ketonemia and anion gap metabolic acidosis. The vignette already demonstrates significant absolute insulin lack physiology.",
+          "would_make_right": "Lower glucose substantially (eg, ~180-250 mg/dL) and change beta-hydroxybutyrate to normal, while describing stable weight without acute acidosis."
+        },
+        {
+          "letter": "D",
+          "text": "Excess cortisol production leading to increased gluconeogenesis",
+          "correct": false,
+          "why": "Cortisol excess causes hyperglycemia via gluconeogenesis but does not primarily lead to ketonemia with anion gap metabolic acidosis in this presentation. The key abnormality is ketone-driven acidosis from insulin deficiency.",
+          "would_make_right": "Add physical findings of Cushing syndrome (eg, proximal muscle weakness, moon facies) and replace ketonemia with elevated cortisol/low ACTH while normalizing anion gap."
+        },
+        {
+          "letter": "E",
+          "text": "Increased glucagon secretion causing hepatic glycogenolysis",
+          "correct": false,
+          "why": "Glucagon excess can raise blood glucose, but it is not the typical mechanism for ketonemia and anion gap metabolic acidosis caused by insulin deficiency. No findings suggest a glucagon-secreting tumor or similar process.",
+          "would_make_right": "Include a pancreatic mass with markedly elevated glucagon levels and remove ketones/anion gap acidosis, leaving isolated hyperglycemia."
+        }
+      ],
+      "rule": "In acute symptomatic hyperglycemia, ketonemia with anion gap acidosis points to absolute insulin deficiency (type 1).",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Endocrine (Diabetes Mellitus) and Biochemistry/Pathology (Anion gap metabolic acidosis)",
+        "ADA Standards of Care (DKA diagnostic features)"
+      ],
+      "id": "endocrine-diabetes-mellitus-type-1-vs-type-2-he-says-his-new-th",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

@@ -1,0 +1,319 @@
+{
+  "brand": "WARD ROUNDS",
+  "handle": "@wardrounds",
+  "timestamp": "20261126_223332",
+  "video_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261126_223332.mp4",
+  "short_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261126_223332_short.mp4",
+  "thumbnail_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261126_223332.jpg",
+  "srt_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261126_223332.srt",
+  "title": "USMLE Step 1: He says, “My kidneys will be fine again once I stop the… — 3 Questions",
+  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Prerenal Azotemia Versus ATN\n04:00  Q2 · Primary Adrenal Insufficiency\n08:00  Q3 · Infective Endocarditis: Blood Culture Timing\n\nSOURCES\n· First Aid for the USMLE Step 1 - Renal Physiology\n· FENa interpretation (prerenal vs ATN) and urine concentration/casts\n· First Aid for the USMLE Step 1 - Endocrine (Adrenal Cortex Disorders)\n· Guideline: Endocrine Society clinical guidance on adrenal insufficiency diagnosis (ACTH/cortisol interpretation)\n· First Aid for the USMLE Step 1 - Infectious Disease/Endocarditis\n· IDSA Infective Endocarditis guideline (blood culture timing)\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nWARD ROUNDS · @wardrounds\nRead the stem. Beat the test.",
+  "tags": [
+    "usmle",
+    "usmle step 1",
+    "step 1",
+    "medical education",
+    "med school",
+    "question bank",
+    "medical student",
+    "vignette",
+    "prerenal azotemia versus atn",
+    "nephrology",
+    "primary adrenal insufficiency",
+    "endocrine",
+    "infective endocarditis: blood culture timing",
+    "infectious disease"
+  ],
+  "hashtags": "#usmle #step1 #medschool #medicaleducation #renal",
+  "duration_seconds": 702.5,
+  "minutes": 11.71,
+  "render_minutes": 13.43,
+  "scenes": [
+    {
+      "index": 0,
+      "kind": "titlecard",
+      "seconds": 11.1,
+      "beat": "USMLE STEP 1"
+    },
+    {
+      "index": 1,
+      "kind": "titlecard",
+      "seconds": 9.27,
+      "beat": "QUESTION 1 OF 3"
+    },
+    {
+      "index": 2,
+      "kind": "prose",
+      "seconds": 22.47,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 3,
+      "kind": "prose",
+      "seconds": 24.97,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 4,
+      "kind": "keyfind",
+      "seconds": 5.09,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 5,
+      "kind": "prose",
+      "seconds": 4.02,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 6,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 7,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 8,
+      "kind": "reveal",
+      "seconds": 5.16,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 9,
+      "kind": "elim",
+      "seconds": 16.03,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 10,
+      "kind": "elim",
+      "seconds": 35.57,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 11,
+      "kind": "elim",
+      "seconds": 28.43,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 12,
+      "kind": "elim",
+      "seconds": 29.77,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 13,
+      "kind": "elim",
+      "seconds": 35.67,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 14,
+      "kind": "prose",
+      "seconds": 8.38,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 15,
+      "kind": "titlecard",
+      "seconds": 11.53,
+      "beat": "QUESTION 2 OF 3"
+    },
+    {
+      "index": 16,
+      "kind": "prose",
+      "seconds": 12.4,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 17,
+      "kind": "prose",
+      "seconds": 25.67,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 18,
+      "kind": "keyfind",
+      "seconds": 5.3,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 19,
+      "kind": "prose",
+      "seconds": 4.46,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 20,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 21,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 22,
+      "kind": "reveal",
+      "seconds": 5.46,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 23,
+      "kind": "elim",
+      "seconds": 19.23,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 24,
+      "kind": "elim",
+      "seconds": 28.13,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 25,
+      "kind": "elim",
+      "seconds": 25.9,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 26,
+      "kind": "elim",
+      "seconds": 26.8,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 27,
+      "kind": "elim",
+      "seconds": 31.73,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 28,
+      "kind": "prose",
+      "seconds": 6.97,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 29,
+      "kind": "titlecard",
+      "seconds": 9.45,
+      "beat": "QUESTION 3 OF 3"
+    },
+    {
+      "index": 30,
+      "kind": "prose",
+      "seconds": 26.23,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 31,
+      "kind": "prose",
+      "seconds": 15.77,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 32,
+      "kind": "keyfind",
+      "seconds": 5.6,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 33,
+      "kind": "prose",
+      "seconds": 11.07,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 34,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 35,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 36,
+      "kind": "reveal",
+      "seconds": 5.97,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 37,
+      "kind": "elim",
+      "seconds": 19.67,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 38,
+      "kind": "elim",
+      "seconds": 31.47,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 39,
+      "kind": "elim",
+      "seconds": 29.47,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 40,
+      "kind": "elim",
+      "seconds": 30.27,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 41,
+      "kind": "elim",
+      "seconds": 33.97,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 42,
+      "kind": "prose",
+      "seconds": 11.73,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 43,
+      "kind": "outro",
+      "seconds": 8.43,
+      "beat": "NEXT"
+    }
+  ],
+  "caption_cues": 233,
+  "questions": [
+    {
+      "id": "renal-prerenal-azotemia-versus-atn-he-says-my-kidneys",
+      "system": "renal",
+      "topic": "Prerenal Azotemia Versus ATN",
+      "correct": "A"
+    },
+    {
+      "id": "endocrine-primary-adrenal-insufficiency-she-has-hyperkalem",
+      "system": "endocrine",
+      "topic": "Primary Adrenal Insufficiency",
+      "correct": "A"
+    },
+    {
+      "id": "id-infective-endocarditis-blood-culture-tim-it-says-to-wait-fo",
+      "system": "id",
+      "topic": "Infective Endocarditis: Blood Culture Timing",
+      "correct": "A"
+    }
+  ],
+  "privacy": "private"
+}

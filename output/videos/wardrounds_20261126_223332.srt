@@ -1,0 +1,931 @@
+1
+00:00:00,100 --> 00:00:01,434
+This is Ward Rounds.
+
+2
+00:00:01,668 --> 00:00:03,713
+Step 1, question by question.
+
+3
+00:00:03,945 --> 00:00:05,845
+Today's set has 3 questions.
+
+4
+00:00:06,076 --> 00:00:08,201
+Pause whenever you need to, and commit to
+
+5
+00:00:08,221 --> 00:00:10,161
+an answer before the explanation.
+
+6
+00:00:11,200 --> 00:00:13,680
+He says, “My kidneys will be fine again
+
+7
+00:00:13,700 --> 00:00:15,825
+once I stop the medication,” but what do
+
+8
+00:00:15,845 --> 00:00:18,300
+labs show? This one is nephrology.
+
+9
+00:00:18,532 --> 00:00:19,760
+Question 1 of 3.
+
+10
+00:00:20,466 --> 00:00:23,170
+A 68-year-old man with chronic heart failure
+
+11
+00:00:23,190 --> 00:00:24,393
+presents with 2 days of poor oral intake
+
+12
+00:00:24,413 --> 00:00:24,713
+and dizziness after starting a new diuretic.
+
+13
+00:00:24,413 --> 00:00:24,713
+He has dry mucous membranes.
+
+14
+00:00:24,413 --> 00:00:24,713
+Vitals: BP 88/54 mmHg, HR 102/min, RR 18/min,
+
+15
+00:00:24,413 --> 00:00:24,963
+T 36.8°C.
+
+16
+00:00:42,933 --> 00:00:46,439
+Labs show creatinine 2.1 mg/dL (baseline 1.0)
+
+17
+00:00:46,459 --> 00:00:46,759
+and BUN 42 mg/dL.
+
+18
+00:00:46,459 --> 00:00:46,759
+Urinalysis shows no casts.
+
+19
+00:00:46,459 --> 00:00:46,759
+Urine studies: urine sodium 18 mEq/L, urine
+
+20
+00:00:46,459 --> 00:00:46,759
+osmolality 620 mOsm/kg. After IV fluids, his
+
+21
+00:00:46,459 --> 00:00:47,009
+urine output improves over several hours.
+
+22
+00:01:07,899 --> 00:01:09,668
+Here is the finding that decides it.
+
+23
+00:01:09,902 --> 00:01:12,289
+Low FENa with high urine osmolality
+
+24
+00:01:12,986 --> 00:01:15,387
+Which interpretation best explains his acute
+
+25
+00:01:15,407 --> 00:01:16,294
+kidney injury?
+
+26
+00:01:17,004 --> 00:01:19,461
+Pause here. Commit to an answer before the
+
+27
+00:01:19,481 --> 00:01:20,407
+explanation.
+
+28
+00:01:24,971 --> 00:01:26,332
+The answer is A.
+
+29
+00:01:26,471 --> 00:01:28,715
+Prerenal azotemia from decreased renal
+
+30
+00:01:28,735 --> 00:01:29,437
+perfusion.
+
+31
+00:01:30,127 --> 00:01:33,371
+Option A. Prerenal azotemia from decreased renal
+
+32
+00:01:33,391 --> 00:01:36,584
+perfusion. Prerenal AKI is characterized by
+
+33
+00:01:36,604 --> 00:01:39,781
+intact tubular function, leading to avid sodium
+
+34
+00:01:39,801 --> 00:01:42,715
+and water reabsorption. Low urine sodium and
+
+35
+00:01:42,735 --> 00:01:44,912
+high urine osmolality support this.
+
+36
+00:01:46,161 --> 00:01:48,917
+Option B. Acute tubular necrosis from
+
+37
+00:01:48,937 --> 00:01:52,091
+nephrotoxin injury. ATN typically causes
+
+38
+00:01:52,111 --> 00:01:54,972
+impaired tubular sodium reabsorption, yielding
+
+39
+00:01:54,992 --> 00:01:58,116
+higher urine sodium and often granular casts.
+
+40
+00:01:58,348 --> 00:02:00,920
+This patient’s urine sodium is low and
+
+41
+00:02:00,940 --> 00:02:03,103
+urinalysis shows no casts.
+
+42
+00:02:03,334 --> 00:02:05,064
+For B to be the answer, you would
+
+43
+00:02:05,084 --> 00:02:09,670
+need this: Replace urine sodium 18 mEq/L with
+
+44
+00:02:09,690 --> 00:02:14,538
+60 mEq/L and add “muddy brown granular casts”
+
+45
+00:02:14,558 --> 00:02:17,906
+to urinalysis; keep hypotension history but
+
+46
+00:02:17,926 --> 00:02:20,682
+remove dehydration as the dominant finding.
+
+47
+00:02:21,727 --> 00:02:24,642
+Option C. Postrenal obstruction from kidney
+
+48
+00:02:24,662 --> 00:02:27,868
+stones. Postrenal AKI often presents with
+
+49
+00:02:27,888 --> 00:02:30,828
+urinary retention symptoms or flank pain and can
+
+50
+00:02:30,848 --> 00:02:33,828
+show hydronephrosis. The vignette emphasizes
+
+51
+00:02:33,848 --> 00:02:37,092
+dehydration/hypotension and shows rapid
+
+52
+00:02:37,112 --> 00:02:39,552
+improvement with fluids. For C to be the
+
+53
+00:02:39,572 --> 00:02:42,368
+answer, you would need this: Add decreased urine
+
+54
+00:02:42,388 --> 00:02:45,169
+output with suprapubic fullness and flank pain;
+
+55
+00:02:45,467 --> 00:02:47,881
+include renal ultrasound showing bilateral
+
+56
+00:02:47,901 --> 00:02:49,090
+hydronephrosis.
+
+57
+00:02:50,161 --> 00:02:53,351
+Option D. Glomerulonephritis causing intrinsic
+
+58
+00:02:53,371 --> 00:02:56,485
+AKI. Intrinsic glomerular disease would more
+
+59
+00:02:56,505 --> 00:02:59,801
+likely produce hematuria with dysmorphic RBCs or
+
+60
+00:02:59,821 --> 00:03:01,813
+RBC casts and proteinuria.
+
+61
+00:03:02,045 --> 00:03:05,485
+Urinalysis here shows no casts and no hematuria
+
+62
+00:03:05,505 --> 00:03:08,037
+is described. For D to be the answer,
+
+63
+00:03:08,190 --> 00:03:11,104
+you would need this: Add urinalysis with “RBC
+
+64
+00:03:11,124 --> 00:03:14,643
+casts and dysmorphic RBCs” plus proteinuria; do
+
+65
+00:03:14,663 --> 00:03:17,959
+not include the dehydration/hypotension response
+
+66
+00:03:17,979 --> 00:03:18,853
+to fluids.
+
+67
+00:03:19,927 --> 00:03:23,434
+Option E. Renal artery stenosis causing ischemic
+
+68
+00:03:23,454 --> 00:03:26,371
+nephropathy. Renal artery stenosis often
+
+69
+00:03:26,391 --> 00:03:28,871
+presents with refractory hypertension and can
+
+70
+00:03:28,891 --> 00:03:31,397
+show asymmetric kidney size or elevated
+
+71
+00:03:31,417 --> 00:03:34,292
+renovascular indices. This patient is
+
+72
+00:03:34,312 --> 00:03:37,226
+hypotensive with dehydration and improves with
+
+73
+00:03:37,246 --> 00:03:40,041
+volume repletion. For E to be the answer,
+
+74
+00:03:40,167 --> 00:03:43,198
+you would need this: Change BP to 170/96
+
+75
+00:03:44,312 --> 00:03:48,278
+mmHg and add “abdominal bruit” with ultrasound
+
+76
+00:03:48,298 --> 00:03:51,805
+showing small, atrophic kidney; remove the poor
+
+77
+00:03:51,825 --> 00:03:54,540
+oral intake/dehydration narrative.
+
+78
+00:03:55,594 --> 00:03:57,956
+Low urine sodium with concentrated urine
+
+79
+00:03:57,976 --> 00:04:01,429
+suggests prerenal azotemia; ATN shows higher
+
+80
+00:04:01,449 --> 00:04:03,257
+urine sodium and casts.
+
+81
+00:04:03,978 --> 00:04:06,654
+She has hyperkalemia and low sodium—don't
+
+82
+00:04:07,017 --> 00:04:09,853
+confuse Addison disease with adrenal crisis from
+
+83
+00:04:09,873 --> 00:04:12,894
+secondary causes. This one is endocrine.
+
+84
+00:04:13,125 --> 00:04:14,420
+Question 2 of 3.
+
+85
+00:04:15,511 --> 00:04:18,412
+A 42-year-old woman with progressive fatigue and
+
+86
+00:04:18,432 --> 00:04:20,780
+weight loss reports dizziness when standing.
+
+87
+00:04:21,014 --> 00:04:23,427
+She also has nausea and craving salt.
+
+88
+00:04:23,659 --> 00:04:26,086
+Exam shows mild hyperpigmentation of the
+
+89
+00:04:26,106 --> 00:04:26,769
+knuckles.
+
+90
+00:04:27,911 --> 00:04:33,811
+Vitals: BP 86/54 mmHg, HR 102/min.
+
+91
+00:04:34,161 --> 00:04:41,615
+Labs: Na 128 mEq/L, K 6.1 mEq/L, glucose
+
+92
+00:04:41,635 --> 00:04:43,694
+68 mg/dL. Morning serum cortisol is 4.2 µg/dL.
+
+93
+00:04:43,714 --> 00:04:44,264
+Plasma ACTH is 860 pg/mL.
+
+94
+00:04:53,578 --> 00:04:55,346
+Here is the finding that decides it.
+
+95
+00:04:55,581 --> 00:04:58,178
+ACTH elevated with low cortisol
+
+96
+00:04:58,874 --> 00:05:01,328
+Which endocrine diagnosis best explains her
+
+97
+00:05:01,348 --> 00:05:02,642
+laboratory pattern?
+
+98
+00:05:03,334 --> 00:05:05,790
+Pause here. Commit to an answer before the
+
+99
+00:05:05,810 --> 00:05:06,737
+explanation.
+
+100
+00:05:11,301 --> 00:05:12,675
+The answer is A.
+
+101
+00:05:12,722 --> 00:05:16,043
+Primary adrenal insufficiency (Addison disease).
+
+102
+00:05:16,759 --> 00:05:20,186
+Option A. Primary adrenal insufficiency (Addison
+
+103
+00:05:20,206 --> 00:05:23,071
+disease). Primary adrenal failure lowers
+
+104
+00:05:23,091 --> 00:05:26,150
+cortisol, removing negative feedback and causing
+
+105
+00:05:26,170 --> 00:05:30,689
+markedly elevated ACTH. High ACTH also drives
+
+106
+00:05:30,709 --> 00:05:33,492
+increased melanocyte stimulation, explaining
+
+107
+00:05:33,512 --> 00:05:34,754
+hyperpigmentation.
+
+108
+00:05:35,992 --> 00:05:39,354
+Option B. Secondary adrenal insufficiency due to
+
+109
+00:05:39,374 --> 00:05:42,580
+pituitary failure. Secondary causes reduce
+
+110
+00:05:42,600 --> 00:05:46,092
+cortisol but do not significantly increase ACTH,
+
+111
+00:05:46,298 --> 00:05:48,501
+so hyperpigmentation would be absent and
+
+112
+00:05:48,521 --> 00:05:50,816
+hyperkalemia would be less prominent.
+
+113
+00:05:51,048 --> 00:05:52,751
+For B to be the answer, you would
+
+114
+00:05:52,771 --> 00:05:56,278
+need this: Replace the ACTH result with low
+
+115
+00:05:56,298 --> 00:06:01,725
+or normal ACTH (e.g., ACTH 10 pg/mL) while
+
+116
+00:06:01,745 --> 00:06:03,040
+keeping low cortisol.
+
+117
+00:06:04,126 --> 00:06:06,210
+Option C. Thyroid storm.
+
+118
+00:06:06,444 --> 00:06:09,949
+Thyroid storm causes hyperthermia, tachycardia,
+
+119
+00:06:10,076 --> 00:06:12,819
+and agitation; it does not cause the specific
+
+120
+00:06:12,839 --> 00:06:16,306
+cortisol–ACTH pattern or hyperkalemia from
+
+121
+00:06:16,326 --> 00:06:19,620
+aldosterone deficiency. For C to be the answer,
+
+122
+00:06:19,707 --> 00:06:21,779
+you would need this: Change the vignette to
+
+123
+00:06:21,799 --> 00:06:24,490
+include fever and severe tachyarrhythmia with
+
+124
+00:06:24,510 --> 00:06:27,068
+normal electrolytes and a normal cortisol/ACTH
+
+125
+00:06:28,352 --> 00:06:28,949
+pattern.
+
+126
+00:06:30,026 --> 00:06:34,022
+Option D. Pheochromocytoma. Pheochromocytoma
+
+127
+00:06:34,042 --> 00:06:36,152
+presents with episodic hypertension,
+
+128
+00:06:36,239 --> 00:06:39,258
+palpitations, and diaphoresis; it does not
+
+129
+00:06:39,278 --> 00:06:42,561
+produce low cortisol with elevated ACTH or
+
+130
+00:06:42,581 --> 00:06:45,640
+hyperpigmentation. For D to be the answer, you
+
+131
+00:06:45,660 --> 00:06:48,219
+would need this: Add paroxysmal headaches and
+
+132
+00:06:48,239 --> 00:06:51,022
+sustained hypertension with normal sodium and
+
+133
+00:06:51,042 --> 00:06:53,310
+potassium and remove cortisol/ACTH
+
+134
+00:06:54,607 --> 00:06:55,718
+abnormalities.
+
+135
+00:06:56,826 --> 00:06:59,806
+Option E. Congenital adrenal hyperplasia due to
+
+136
+00:06:59,826 --> 00:07:02,953
+21-hydroxylase deficiency. Classic
+
+137
+00:07:02,973 --> 00:07:06,545
+21-hydroxylase deficiency often causes androgen
+
+138
+00:07:06,565 --> 00:07:09,189
+excess and typically presents earlier in life;
+
+139
+00:07:09,302 --> 00:07:11,572
+the vignette describes adult-onset symptoms
+
+140
+00:07:11,592 --> 00:07:13,927
+without virilization or androgen-related
+
+141
+00:07:13,947 --> 00:07:16,572
+findings. For E to be the answer, you
+
+142
+00:07:16,592 --> 00:07:18,953
+would need this: Add a history of childhood
+
+143
+00:07:18,973 --> 00:07:22,348
+onset with signs of androgen excess (eg, early
+
+144
+00:07:22,368 --> 00:07:25,650
+pubarche/virilization) while keeping cortisol
+
+145
+00:07:25,670 --> 00:07:27,465
+low and ACTH high.
+
+146
+00:07:28,559 --> 00:07:31,013
+Low cortisol with high ACTH and
+
+147
+00:07:31,033 --> 00:07:33,776
+hyperpigmentation indicates primary adrenal
+
+148
+00:07:33,796 --> 00:07:34,814
+insufficiency.
+
+149
+00:07:35,526 --> 00:07:38,296
+It says to wait for antibiotics—so you order
+
+150
+00:07:38,316 --> 00:07:40,452
+cultures after starting them, right?
+
+151
+00:07:40,687 --> 00:07:42,679
+This one is infectious disease.
+
+152
+00:07:42,910 --> 00:07:44,271
+Question 3 of 3.
+
+153
+00:07:44,978 --> 00:07:48,063
+A 62-year-old man with a history of aortic
+
+154
+00:07:48,083 --> 00:07:50,195
+valve replacement presents with 2 days of fever
+
+155
+00:07:50,215 --> 00:07:50,515
+and chills. He is hypotensive and tachycardic.
+
+156
+00:07:50,215 --> 00:07:50,515
+Vitals: T 39.6°C, HR 118/min, BP 92/58 mmHg,
+
+157
+00:07:50,215 --> 00:07:50,765
+RR 22/min. Labs: WBC 15,200/mm3.
+
+158
+00:08:11,211 --> 00:08:13,282
+Two sets of blood cultures are drawn.
+
+159
+00:08:13,517 --> 00:08:16,576
+He receives empiric IV antibiotics immediately
+
+160
+00:08:16,596 --> 00:08:19,444
+afterward. Cultures later grow gram-positive
+
+161
+00:08:19,464 --> 00:08:22,444
+cocci in clusters. Which next action best
+
+162
+00:08:22,464 --> 00:08:25,115
+improves diagnostic yield while also addressing
+
+163
+00:08:25,135 --> 00:08:25,969
+sepsis?
+
+164
+00:08:26,978 --> 00:08:28,746
+Here is the finding that decides it.
+
+165
+00:08:28,981 --> 00:08:31,868
+Positive blood cultures before antibiotics
+
+166
+00:08:32,575 --> 00:08:35,160
+To maximize the likelihood of identifying the
+
+167
+00:08:35,180 --> 00:08:37,779
+causative organism in suspected infective
+
+168
+00:08:37,799 --> 00:08:40,358
+endocarditis, what should be done regarding
+
+169
+00:08:40,378 --> 00:08:42,567
+blood cultures and antibiotics?
+
+170
+00:08:43,642 --> 00:08:46,098
+Pause here. Commit to an answer before the
+
+171
+00:08:46,118 --> 00:08:47,044
+explanation.
+
+172
+00:08:51,609 --> 00:08:52,930
+The answer is A.
+
+173
+00:08:53,017 --> 00:08:55,694
+Obtain multiple blood cultures before giving any
+
+174
+00:08:55,714 --> 00:08:56,864
+antibiotics.
+
+175
+00:08:57,578 --> 00:09:00,650
+Option A. Obtain multiple blood cultures before
+
+176
+00:09:00,670 --> 00:09:03,626
+giving any antibiotics. Culturing before
+
+177
+00:09:03,646 --> 00:09:06,797
+antimicrobial therapy maximizes the chance that
+
+178
+00:09:06,817 --> 00:09:09,745
+organisms will grow. In suspected infective
+
+179
+00:09:09,765 --> 00:09:13,165
+endocarditis with sepsis, draw cultures urgently
+
+180
+00:09:13,186 --> 00:09:15,495
+and then start empiric antibiotics without
+
+181
+00:09:15,515 --> 00:09:16,065
+delay.
+
+182
+00:09:17,244 --> 00:09:20,501
+Option B. Start antibiotics immediately and
+
+183
+00:09:20,521 --> 00:09:23,381
+delay blood cultures until vitals stabilize.
+
+184
+00:09:23,615 --> 00:09:26,779
+Antibiotics rapidly reduce culture positivity.
+
+185
+00:09:27,010 --> 00:09:29,845
+Delaying cultures lowers diagnostic yield and
+
+186
+00:09:29,865 --> 00:09:32,359
+risks missing the opportunity to isolate the
+
+187
+00:09:32,379 --> 00:09:35,318
+pathogen, which is crucial in endocarditis.
+
+188
+00:09:35,550 --> 00:09:37,201
+For B to be the answer, you would
+
+189
+00:09:37,221 --> 00:09:40,043
+need this: Alter the vignette so blood cultures
+
+190
+00:09:40,063 --> 00:09:42,227
+were drawn only after several hours of
+
+191
+00:09:42,247 --> 00:09:44,530
+antibiotics and then choose the corrected
+
+192
+00:09:44,550 --> 00:09:47,568
+approach of drawing cultures before antibiotics.
+
+193
+00:09:48,711 --> 00:09:51,494
+Option C. Order only a single blood culture
+
+194
+00:09:51,514 --> 00:09:54,058
+set because endocarditis is persistent.
+
+195
+00:09:54,293 --> 00:09:57,194
+Bacteremia can be intermittent; multiple sets
+
+196
+00:09:57,214 --> 00:09:59,417
+from different venipuncture sites increase the
+
+197
+00:09:59,437 --> 00:10:01,930
+probability of capturing organisms.
+
+198
+00:10:02,161 --> 00:10:05,061
+A single set risks false-negative results.
+
+199
+00:10:05,293 --> 00:10:07,036
+For C to be the answer, you would
+
+200
+00:10:07,056 --> 00:10:09,799
+need this: Change the vignette to include only
+
+201
+00:10:09,819 --> 00:10:12,391
+one blood culture set; then make the correct
+
+202
+00:10:12,411 --> 00:10:14,970
+option correct by revising it to multiple sets
+
+203
+00:10:14,990 --> 00:10:16,943
+drawn before antibiotics.
+
+204
+00:10:18,178 --> 00:10:21,750
+Option D. Use transthoracic echocardiography
+
+205
+00:10:21,770 --> 00:10:24,737
+first and skip blood cultures since echo detects
+
+206
+00:10:24,757 --> 00:10:28,266
+infection. Echocardiography supports diagnosis
+
+207
+00:10:28,286 --> 00:10:30,436
+but does not identify the organism.
+
+208
+00:10:30,667 --> 00:10:33,147
+Blood cultures are essential to guide targeted
+
+209
+00:10:33,167 --> 00:10:35,909
+therapy and determine the causative pathogen.
+
+210
+00:10:36,141 --> 00:10:37,924
+For D to be the answer, you would
+
+211
+00:10:37,944 --> 00:10:40,397
+need this: Revise the vignette to state that
+
+212
+00:10:40,417 --> 00:10:42,687
+blood cultures are not obtained; then the
+
+213
+00:10:42,707 --> 00:10:45,200
+correct action becomes obtaining blood cultures
+
+214
+00:10:45,220 --> 00:10:47,330
+promptly before antibiotics.
+
+215
+00:10:48,444 --> 00:10:51,911
+Option E. Discontinue antibiotics after cultures
+
+216
+00:10:51,931 --> 00:10:54,358
+are drawn because the organism will regrow.
+
+217
+00:10:54,592 --> 00:10:57,335
+Stopping antibiotics after cultures does not
+
+218
+00:10:57,355 --> 00:11:00,019
+reliably allow regrowth and is dangerous in
+
+219
+00:11:00,039 --> 00:11:03,322
+septic patients. Ongoing therapy is required
+
+220
+00:11:03,342 --> 00:11:05,598
+while culture results and susceptibilities are
+
+221
+00:11:05,618 --> 00:11:07,993
+pending. For E to be the answer, you
+
+222
+00:11:08,013 --> 00:11:10,598
+would need this: Modify the vignette to say
+
+223
+00:11:10,618 --> 00:11:13,651
+antibiotics are stopped after cultures; then the
+
+224
+00:11:13,671 --> 00:11:16,414
+corrected diagnostic-yield strategy would still
+
+225
+00:11:16,434 --> 00:11:19,374
+require starting only after cultures are drawn
+
+226
+00:11:19,394 --> 00:11:21,347
+and continuing empiric therapy.
+
+227
+00:11:22,411 --> 00:11:25,259
+In suspected infective endocarditis, draw
+
+228
+00:11:25,279 --> 00:11:28,062
+multiple blood cultures urgently before starting
+
+229
+00:11:28,082 --> 00:11:30,575
+antibiotics to preserve culture yield while
+
+230
+00:11:30,595 --> 00:11:33,087
+treating sepsis immediately afterward.
+
+231
+00:11:34,144 --> 00:11:38,482
+Next: Aortic stenosis. Same format, same honesty
+
+232
+00:11:38,502 --> 00:11:39,837
+about the wrong answers.
+
+233
+00:11:40,068 --> 00:11:41,876
+Subscribe so you don't miss it.

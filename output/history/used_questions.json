@@ -39,6 +39,21 @@
       "id": "cardio-as-exertional-syncope-001",
       "date": "2026-11-26",
       "topic": "Aortic stenosis"
+    },
+    {
+      "id": "renal-prerenal-azotemia-versus-atn-he-says-my-kidneys",
+      "date": "2026-11-26",
+      "topic": "Prerenal Azotemia Versus ATN"
+    },
+    {
+      "id": "endocrine-primary-adrenal-insufficiency-she-has-hyperkalem",
+      "date": "2026-11-26",
+      "topic": "Primary Adrenal Insufficiency"
+    },
+    {
+      "id": "id-infective-endocarditis-blood-culture-tim-it-says-to-wait-fo",
+      "date": "2026-11-26",
+      "topic": "Infective Endocarditis: Blood Culture Timing"
     }
   ]
 }

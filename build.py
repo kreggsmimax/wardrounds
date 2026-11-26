@@ -10,12 +10,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from datetime import datetime
 
 import config as C
-from engine import facts, render, script, seo, shorts, verify
+from engine import ai, facts, render, script, seo, shorts, verify
 
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -52,10 +53,18 @@ def main() -> int:
                     help="days before a question may be reused")
     ap.add_argument("--fresh", action="store_true",
                     help="ignore the cooldown (only for testing)")
+    ap.add_argument("--generate", type=int, default=int(os.getenv("AUTO_GENERATE", "0")),
+                    help="draft N new questions with Pollinations before building")
     ap.add_argument("--list", action="store_true")
     args = ap.parse_args()
 
     everything = facts.load(approved_only=False)
+
+    if args.generate > 0:
+        print(f"\n[0/5] Generate {args.generate} question(s) via Pollinations")
+        added = ai.top_up(args.generate)
+        print(f"      {added} approved and written to the ledger")
+        everything = facts.load(approved_only=False)
 
     if args.list:
         print(f"{'status':<9} {'id':<40} {'system':<12} topic")
@@ -179,7 +188,7 @@ def main() -> int:
              "correct": next(o["letter"] for o in e["options"] if o["correct"])}
             for e in chosen
         ],
-        "privacy": "private",
+        "privacy": C.PRIVACY,
     }
     (C.OUTPUT_DIR / "latest_video.json").write_text(
         json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")

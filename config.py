@@ -39,6 +39,9 @@ TAIL_PAD = 0.35
 QUESTIONS_PER_VIDEO = int(os.getenv("QUESTIONS_PER_VIDEO", "3"))
 MAX_SECONDS = 900  # hard ceiling, matches the Velocity workflow check
 
+# "public" for unattended daily posting, "private" while you are still spot-checking
+PRIVACY = os.getenv("PRIVACY", "public")
+
 # ------------------------------------------------------------------ look
 BG = (14, 17, 22)
 TEXT = (240, 243, 247)

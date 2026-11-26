@@ -177,6 +177,124 @@
         "date": "2026-11-25",
         "note": "Approved as a seed entry for the sample build. Human review required before the first public upload."
       }
+    },
+    {
+      "system": "id",
+      "topic": "Infective Endocarditis: Blood Culture Timing",
+      "difficulty": 3,
+      "hook": "It says to wait for antibiotics—so you order cultures after starting them, right?",
+      "key_finding": "Positive blood cultures before antibiotics",
+      "vignette": "A 62-year-old man with a history of aortic valve replacement presents with 2 days of fever and chills. He is hypotensive and tachycardic. Vitals: T 39.6°C, HR 118/min, BP 92/58 mmHg, RR 22/min. Labs: WBC 15,200/mm3. Two sets of blood cultures are drawn. He receives empiric IV antibiotics immediately afterward. Cultures later grow gram-positive cocci in clusters. Which next action best improves diagnostic yield while also addressing sepsis? ",
+      "short_vignette": "Man with suspected endocarditis: after drawing cultures and starting antibiotics, what improves diagnostic yield?",
+      "stem": "To maximize the likelihood of identifying the causative organism in suspected infective endocarditis, what should be done regarding blood cultures and antibiotics?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obtain multiple blood cultures before giving any antibiotics",
+          "correct": true,
+          "why": "Culturing before antimicrobial therapy maximizes the chance that organisms will grow. In suspected infective endocarditis with sepsis, draw cultures urgently and then start empiric antibiotics without delay.",
+          "would_make_right": "Change the vignette so antibiotics are started before blood cultures are drawn; then correct it by specifying cultures are obtained immediately before antibiotics."
+        },
+        {
+          "letter": "B",
+          "text": "Start antibiotics immediately and delay blood cultures until vitals stabilize",
+          "correct": false,
+          "why": "Antibiotics rapidly reduce culture positivity. Delaying cultures lowers diagnostic yield and risks missing the opportunity to isolate the pathogen, which is crucial in endocarditis.",
+          "would_make_right": "Alter the vignette so blood cultures were drawn only after several hours of antibiotics and then choose the corrected approach of drawing cultures before antibiotics."
+        },
+        {
+          "letter": "C",
+          "text": "Order only a single blood culture set because endocarditis is persistent",
+          "correct": false,
+          "why": "Bacteremia can be intermittent; multiple sets from different venipuncture sites increase the probability of capturing organisms. A single set risks false-negative results.",
+          "would_make_right": "Change the vignette to include only one blood culture set; then make the correct option correct by revising it to multiple sets drawn before antibiotics."
+        },
+        {
+          "letter": "D",
+          "text": "Use transthoracic echocardiography first and skip blood cultures since echo detects infection",
+          "correct": false,
+          "why": "Echocardiography supports diagnosis but does not identify the organism. Blood cultures are essential to guide targeted therapy and determine the causative pathogen.",
+          "would_make_right": "Revise the vignette to state that blood cultures are not obtained; then the correct action becomes obtaining blood cultures promptly before antibiotics."
+        },
+        {
+          "letter": "E",
+          "text": "Discontinue antibiotics after cultures are drawn because the organism will regrow",
+          "correct": false,
+          "why": "Stopping antibiotics after cultures does not reliably allow regrowth and is dangerous in septic patients. Ongoing therapy is required while culture results and susceptibilities are pending.",
+          "would_make_right": "Modify the vignette to say antibiotics are stopped after cultures; then the corrected diagnostic-yield strategy would still require starting only after cultures are drawn and continuing empiric therapy."
+        }
+      ],
+      "rule": "In suspected infective endocarditis, draw multiple blood cultures urgently before starting antibiotics to preserve culture yield while treating sepsis immediately afterward.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Infectious Disease/Endocarditis",
+        "IDSA Infective Endocarditis guideline (blood culture timing)"
+      ],
+      "id": "id-infective-endocarditis-blood-culture-tim-it-says-to-wait-fo",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "heme",
+      "topic": "Hemophilia Pathophysiology",
+      "difficulty": 2,
+      "hook": "He says, 'My son’s bruises started after a dental procedure—so he must have von Willebrand disease,' right?",
+      "key_finding": "Prolonged isolated aPTT with normal platelets",
+      "vignette": "A 6-year-old boy is brought for frequent bruising and prolonged bleeding from minor cuts. His mother reports that after dental work 2 weeks ago, he had persistent gum bleeding for 2 days. He has no epistaxis or petechiae. Vitals are normal. Exam shows large ecchymoses on the legs. CBC shows platelets 240,000/mm3. PT is 11.2 seconds (normal). aPTT is 68 seconds (markedly prolonged). Mixing study fails to correct. No joint deformities are noted yet. The child is otherwise healthy.",
+      "short_vignette": "6-year-old boy with large bruises and prolonged post-dental bleeding; platelets normal; PT normal; isolated prolonged aPTT not corrected by mixing.",
+      "stem": "Which diagnosis best explains the coagulation abnormality?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemophilia A due to factor VIII deficiency",
+          "correct": true,
+          "why": "Hemophilia A causes impaired intrinsic pathway clotting, leading to an isolated prolonged aPTT with normal platelet count and PT. Failure of a mixing study to correct suggests a true factor deficiency pattern consistent with hemophilia rather than factor inhibitor presence.",
+          "would_make_right": "Add a history of similar bleeding in maternal relatives and specify that aPTT does not correct with mixing due to factor VIII deficiency (not an inhibitor)."
+        },
+        {
+          "letter": "B",
+          "text": "von Willebrand disease",
+          "correct": false,
+          "why": "von Willebrand disease typically presents with mucocutaneous bleeding (epistaxis, gum bleeding, menorrhagia) and often shows prolonged bleeding time with variable aPTT prolongation. It would not classically produce a markedly prolonged isolated aPTT with normal PT and normal platelets as the primary abnormality.",
+          "would_make_right": "Change the vignettes bleeding pattern to include recurrent epistaxis and note decreased von Willebrand factor activity with reduced factor VIII secondary effects."
+        },
+        {
+          "letter": "C",
+          "text": "Glanzmann thrombasthenia",
+          "correct": false,
+          "why": "Glanzmann thrombasthenia is a platelet function disorder with normal PT and typically normal or mildly affected aPTT, not a markedly prolonged isolated aPTT. It causes mucocutaneous bleeding with normal platelet counts but impaired aggregation.",
+          "would_make_right": "Keep PT and aPTT normal but add painless mucosal bleeding with normal platelet count and abnormal platelet aggregation testing."
+        },
+        {
+          "letter": "D",
+          "text": "Acquired hemophilia due to factor VIII inhibitor",
+          "correct": false,
+          "why": "Acquired hemophilia usually occurs in older adults or postpartum and causes severe bleeding with a prolonged aPTT that does not correct on mixing due to an inhibitor. The patient is a young boy with no trigger described, making inherited hemophilia more likely.",
+          "would_make_right": "Change the patient to a 70-year-old (or postpartum patient) and add a new, sudden onset of bleeding with no family history, consistent with an acquired inhibitor."
+        },
+        {
+          "letter": "E",
+          "text": "Disseminated intravascular coagulation (DIC)",
+          "correct": false,
+          "why": "DIC typically causes thrombocytopenia and both PT and aPTT prolongation due to consumption of multiple clotting factors. This patient has normal platelets and a normal PT, arguing strongly against DIC.",
+          "would_make_right": "Lower platelets to ~30,000/mm3 and prolong PT as well (eg, both PT and aPTT markedly increased) with clinical sepsis or trauma."
+        }
+      ],
+      "rule": "Isolated prolonged aPTT with normal PT and normal platelets points to intrinsic factor problems (eg hemophilia) rather than platelet disorders or vitamin K deficiency.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Coagulation Disorders",
+        "UpToDate review of hemophilia and mixing studies"
+      ],
+      "id": "heme-hemophilia-pathophysiology-he-says-my-son-s-b",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

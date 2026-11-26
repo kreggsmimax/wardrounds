@@ -157,7 +157,7 @@ def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
         "verdict": "right",
         "option": [correct["letter"], correct["text"]],
         "body": correct["why"],
-        "narration": correct["why"],
+        "narration": f"Option {correct['letter']}. {correct['text']}. {correct['why']}",
     })
 
     # 8 - every distractor, with the signal that would have flipped it
@@ -174,8 +174,9 @@ def question_scenes(entry: dict, number: int, total: int) -> list[dict]:
             "body": opt["why"],
             "bait": opt["would_make_right"],
             "narration": (
-                f"{opt['why']} For {opt['letter']} to be the answer, you would need "
-                f"this: {opt['would_make_right']}"
+                f"Option {opt['letter']}. {opt['text']}. {opt['why']} "
+                f"For {opt['letter']} to be the answer, you would need this: "
+                f"{opt['would_make_right']}"
             ),
         })
 

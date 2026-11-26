@@ -86,6 +86,20 @@ def main() -> int:
         print("no approved questions - nothing is safe to render")
         return 1
 
+    # A single malformed entry must not kill the whole run. Drop it, say why, and
+    # let the pipeline continue with what passes.
+    valid: list[dict] = []
+    for entry in approved:
+        issues = verify.check_entry(entry)
+        if issues:
+            print(f"  skip  {entry['id'][:44]:<46} {issues[0][:70]}")
+        else:
+            valid.append(entry)
+    if not valid:
+        print("no question passes verification - refusing to build")
+        return 1
+    approved = valid
+
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     used = set() if args.fresh else facts.recent_ids(args.cooldown)

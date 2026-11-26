@@ -144,7 +144,12 @@ def generate_one(system: str, avoid_topics: list[str], seed: int) -> dict:
         f"Write ONE USMLE Step 1 question for the {system} system.\n"
         f"{avoid}"
         "Requirements:\n"
-        "- Exactly one option is correct.\n"
+        "- Exactly one option is the single best answer. A reviewer will reject it if any "
+        "distractor is also defensible.\n"
+        "- Test ONE concept. Do not combine two mechanisms in one question.\n"
+        "- The stem must be 10-20 words and end with a question mark.\n"
+        "- Every distractor must be clearly wrong for a reason a student can point to in "
+        "the vignette.\n"
         "- Every 'would_make_right' must name a concrete change to the vignette, not a platitude.\n"
         "- The 'why' for wrong options must explain the misunderstanding they are testing.\n"
         "- Use realistic values. Do not use drug doses.\n"
@@ -233,7 +238,7 @@ def _save_ledger(data: dict) -> None:
 
 
 def top_up(need: int, systems: list[str] | None = None,
-           max_attempts: int = 12, verbose: bool = True) -> int:
+           max_attempts: int = 24, verbose: bool = True) -> int:
     """Draft questions until `need` are approved, and append them to the ledger."""
     if need <= 0:
         return 0

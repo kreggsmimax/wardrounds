@@ -295,6 +295,65 @@
         "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "obgyn",
+      "topic": "Gestational Hypertension Versus Preeclampsia",
+      "difficulty": 2,
+      "hook": "Proteinuria alone is not enough—spot the missing criterion for preeclampsia.",
+      "key_finding": "New-onset hypertension after 20 weeks",
+      "vignette": "A 29-year-old G2P1 woman at 28 weeks’ gestation presents with headache and mild swelling of her face. Blood pressure is 162/104 mmHg on two measurements 4 hours apart. Urinalysis shows protein 1+ with a urine protein-to-creatinine ratio of 0.3. Serum creatinine is 0.8 mg/dL. Platelets are 240,000/µL. AST is 22 U/L and ALT is 24 U/L. She has no right upper quadrant pain and no visual changes. What is the most likely diagnosis?",
+      "short_vignette": "At 28 weeks, BP 162/104 mmHg with urine protein/Cr 0.3 and normal platelets/AST/ALT/creatinine.",
+      "stem": "At 28 weeks’ gestation, she has new-onset hypertension but no evidence of end-organ dysfunction; what is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Preeclampsia",
+          "correct": false,
+          "why": "Preeclampsia requires hypertension after 20 weeks plus proteinuria meeting threshold or end-organ dysfunction (eg, thrombocytopenia, elevated transaminases, renal insufficiency, pulmonary edema, or persistent neurologic symptoms). Her protein-to-creatinine ratio is below the diagnostic cutoff and labs are normal.",
+          "would_make_right": "Increase urine protein-to-creatinine ratio to ≥0.3 with a clearly measured quantitative protein level, or add end-organ findings such as platelets 90,000/µL or creatinine 1.1 mg/dL."
+        },
+        {
+          "letter": "B",
+          "text": "Gestational Hypertension",
+          "correct": true,
+          "why": "Gestational hypertension is new-onset hypertension after 20 weeks without proteinuria meeting criteria and without end-organ dysfunction. Her protein/Cr ratio is 0.3 and she has normal platelets, creatinine, and transaminases.",
+          "would_make_right": "Change the urine protein-to-creatinine ratio to 0.1 (or remove proteinuria findings) while keeping BP and end-organ labs the same."
+        },
+        {
+          "letter": "C",
+          "text": "Chronic Hypertension",
+          "correct": false,
+          "why": "Chronic hypertension is present before 20 weeks or before pregnancy is known to have started, or persists beyond 12 weeks postpartum. This case begins at 28 weeks.",
+          "would_make_right": "Specify that her blood pressure was ≥140/90 mmHg before 20 weeks’ gestation or earlier in the current pregnancy."
+        },
+        {
+          "letter": "D",
+          "text": "HELLP Syndrome",
+          "correct": false,
+          "why": "HELLP requires hemolysis, elevated liver enzymes, and low platelets. She has normal platelets and normal transaminases, with no evidence of hemolysis.",
+          "would_make_right": "Lower platelets to <100,000/µL and elevate AST/ALT to >2× the upper limit, adding hemolysis markers (eg, elevated LDH and schistocytes)."
+        },
+        {
+          "letter": "E",
+          "text": "Acute Fatty Liver of Pregnancy",
+          "correct": false,
+          "why": "This condition typically presents in the third trimester with hepatic dysfunction (markedly elevated transaminases), coagulopathy, and sometimes hypoglycemia. Her AST/ALT are normal and no coagulopathy is provided.",
+          "would_make_right": "Add hepatic failure clues such as AST/ALT significantly elevated with an INR elevation (or hypoglycemia) while keeping hypertension present."
+        }
+      ],
+      "rule": "In pregnancy, diagnose preeclampsia only when hypertension after 20 weeks is accompanied by significant proteinuria and/or end-organ dysfunction.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Obstetrics: Preeclampsia and Gestational Hypertension",
+        "ACOG Practice Bulletin (Preeclampsia and Related Disorders)"
+      ],
+      "id": "obgyn-gestational-hypertension-versus-preeclam-proteinuria-alone-",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

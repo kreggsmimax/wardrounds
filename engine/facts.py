@@ -113,7 +113,11 @@ def pick(entries: list[dict], count: int, system: str | None = None,
     rng = random.Random(seed)
     used_ids = used_ids or set()
 
-    pool = [e for e in entries if e["id"] not in used_ids]
+    # drop id-repeats AND topic-repeats, so "Aortic Stenosis" cannot return as a
+    # differently-worded question a week later
+    covered = recent_topics(COOLDOWN_DAYS)
+    pool = [e for e in entries
+            if e["id"] not in used_ids and not is_repeat(e.get("topic", ""), covered)]
     if system:
         pool = [e for e in pool if e["system"] == system]
 
@@ -181,6 +185,36 @@ def recent_ids(days: int = COOLDOWN_DAYS, path: Path = HISTORY) -> set[str]:
     cutoff = (date.today() - timedelta(days=days)).isoformat()
     return {row["id"] for row in load_history(path)
             if row.get("date", "") >= cutoff}
+
+
+_STOP = {"and", "of", "the", "in", "vs", "versus", "a", "an", "with", "disease",
+         "syndrome", "disorder", "causes", "cause"}
+
+
+def topic_tokens(topic: str) -> set[str]:
+    import re
+    return {t for t in re.findall(r"[a-z0-9]+", str(topic).lower()) if t not in _STOP}
+
+
+def topics_overlap(a: str, b: str, threshold: float = 0.60) -> bool:
+    """Same topic written differently ('AS vs HCM' / 'Aortic Stenosis Murmur')."""
+    ta, tb = topic_tokens(a), topic_tokens(b)
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / len(ta | tb) >= threshold
+
+
+def recent_topics(days: int = COOLDOWN_DAYS, path: Path = HISTORY) -> list[str]:
+    from datetime import date, timedelta
+
+    cutoff = (date.today() - timedelta(days=days)).isoformat()
+    return [row.get("topic", "") for row in load_history(path)
+            if row.get("date", "") >= cutoff and row.get("topic")]
+
+
+def is_repeat(entry_topic: str, covered: list[str]) -> bool:
+    """True if this topic has effectively already been used inside the window."""
+    return any(topics_overlap(entry_topic, t) for t in covered if t)
 
 
 def record_used(entries: list[dict], path: Path = HISTORY) -> None:

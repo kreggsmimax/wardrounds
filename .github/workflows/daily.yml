@@ -22,6 +22,10 @@ on:
         description: 'New questions to draft with Pollinations'
         required: false
         default: '3'
+      bootstrap:
+        description: 'Draft N questions only, no video (0 = off)'
+        required: false
+        default: '0'
 
 permissions:
   contents: write
@@ -75,10 +79,15 @@ jobs:
       - name: Ledger state
         run: python build.py --list
 
+      - name: Bootstrap ledger
+        if: ${{ github.event.inputs.bootstrap != '' && github.event.inputs.bootstrap != '0' }}
+        run: python build.py --bootstrap "${{ github.event.inputs.bootstrap }}"
+
       # Generates fresh questions, drafts are fact-checked by a second model, then the
       # video is built from the approved pool. Refuses to publish duplicates inside the
       # 21-day cooldown.
       - name: Build
+        if: ${{ github.event.inputs.bootstrap == '' || github.event.inputs.bootstrap == '0' }}
         run: |
           python build.py \
             --questions "${{ github.event.inputs.questions || '3' }}" \
@@ -86,6 +95,7 @@ jobs:
             --shorts
 
       - name: Check output
+        if: ${{ github.event.inputs.bootstrap == '' || github.event.inputs.bootstrap == '0' }}
         run: |
           python - <<'PY'
           import json, sys

@@ -55,10 +55,19 @@ def main() -> int:
                     help="ignore the cooldown (only for testing)")
     ap.add_argument("--generate", type=int, default=int(os.getenv("AUTO_GENERATE", "0")),
                     help="draft N new questions with Pollinations before building")
+    ap.add_argument("--bootstrap", type=int, default=0,
+                    help="only draft N questions into the ledger, build nothing")
     ap.add_argument("--list", action="store_true")
     args = ap.parse_args()
 
     everything = facts.load(approved_only=False)
+
+    if args.bootstrap > 0:
+        print(f"\n[0/1] Bootstrap: drafting {args.bootstrap} question(s)")
+        added = ai.top_up(args.bootstrap, max_attempts=max(24, args.bootstrap * 6))
+        print(f"      {added} approved and written to the ledger")
+        print(f"      ledger now holds {len(facts.load(approved_only=False))} entries")
+        return 0
 
     if args.generate > 0:
         print(f"\n[0/5] Generate {args.generate} question(s) via Pollinations")
@@ -118,17 +127,14 @@ def main() -> int:
     print(f"      cooling  : {len(approved) - fresh} (used in the last {args.cooldown} days)")
     print(f"      fresh    : {fresh}")
     if fresh < args.questions:
-        print(f"\n      Not enough fresh questions for a {args.questions}-question video.")
         if fresh > 0:
-            print(f"      Run with --questions {fresh}, or add "
-                  f"{args.questions - fresh} more approved entries to "
-                  f"data/questions.json.")
+            print(f"      Not enough fresh for {args.questions}; publishing "
+                  f"{fresh} question(s) today instead.")
+            args.questions = fresh
         else:
             print(f"      Every approved question is inside the {args.cooldown}-day "
-                  f"window. Add {args.questions} more approved entries to "
-                  f"data/questions.json.")
-        if not args.fresh:
-            return 1
+                  f"window. Nothing to publish today - skipping cleanly.")
+            return 0
 
     chosen = facts.pick(approved, args.questions, system=args.system,
                         used_ids=used, seed=stamp, strict=not args.fresh)

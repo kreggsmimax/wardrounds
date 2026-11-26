@@ -245,7 +245,8 @@ def top_up(need: int, systems: list[str] | None = None,
 
     data = _load_ledger()
     existing = data.get("questions", [])
-    used_topics = [q.get("topic", "") for q in existing]
+    # avoid both the whole ledger and anything published in the cooldown window
+    used_topics = [q.get("topic", "") for q in existing] + facts.recent_topics()
     used_ids = {q.get("id") for q in existing}
     systems = systems or [s for s in C.SYSTEM_ACCENT if s != "biostats"]
 
@@ -267,6 +268,11 @@ def top_up(need: int, systems: list[str] | None = None,
             if verbose:
                 print(f"      rejected by reviewer: {entry['topic']} - {'; '.join(issues)[:100]}")
             used_topics.append(entry["topic"])
+            continue
+
+        if facts.is_repeat(entry["topic"], used_topics):
+            if verbose:
+                print(f"      rejected as repeat topic: {entry['topic']}")
             continue
 
         if entry["id"] in used_ids:

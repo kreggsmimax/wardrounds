@@ -87,10 +87,18 @@ def main() -> int:
         return 1
 
     # A single malformed entry must not kill the whole run. Drop it, say why, and
-    # let the pipeline continue with what passes.
+    # let the pipeline continue with what passes. This includes a dry run of the
+    # question's own scenes, so a bad question never reaches the renderer.
     valid: list[dict] = []
     for entry in approved:
         issues = verify.check_entry(entry)
+        if not issues:
+            issues = verify.check_scenes(
+                script.question_scenes(entry, 1, 1), entry)
+        if not issues and entry.get("short_vignette"):
+            issues = verify.check_scenes(
+                shorts.build(entry), entry,
+                vignette=entry["short_vignette"], include_options=False)
         if issues:
             print(f"  skip  {entry['id'][:44]:<46} {issues[0][:70]}")
         else:

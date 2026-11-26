@@ -61,8 +61,12 @@ def check_scenes(scenes: list[dict], entry: dict,
 
     parts = [vignette or entry["vignette"], entry["stem"], entry["rule"]]
     if include_options:
-        parts += [o["text"] + " " + o["why"] + " " + o["would_make_right"]
-                  for o in entry["options"]]
+        for o in entry["options"]:
+            # the correct option's "would_make_right" is never narrated, and for the
+            # right answer the field is contradictory anyway
+            parts.append(o["text"] + " " + o["why"])
+            if not o["correct"]:
+                parts.append(o["would_make_right"])
     source = " ".join(parts)
 
     missing = numbers_in(source) - numbers_in(spoken)

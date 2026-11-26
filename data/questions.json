@@ -354,6 +354,124 @@
         "date": "2026-11-26",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "renal",
+      "topic": "Prerenal Azotemia Versus ATN",
+      "difficulty": 2,
+      "hook": "He says, “My kidneys will be fine again once I stop the medication,” but what do labs show?",
+      "key_finding": "Low FENa with high urine osmolality",
+      "vignette": "A 68-year-old man with chronic heart failure presents with 2 days of poor oral intake and dizziness after starting a new diuretic. He has dry mucous membranes. Vitals: BP 88/54 mmHg, HR 102/min, RR 18/min, T 36.8°C. Labs show creatinine 2.1 mg/dL (baseline 1.0) and BUN 42 mg/dL. Urinalysis shows no casts. Urine studies: urine sodium 18 mEq/L, urine osmolality 620 mOsm/kg. After IV fluids, his urine output improves over several hours.",
+      "short_vignette": "Elderly on diuretics with dehydration: creatinine up, no casts. Urine Na low (18), urine osm high (620) after fluids improve output.",
+      "stem": "Which interpretation best explains his acute kidney injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prerenal azotemia from decreased renal perfusion",
+          "correct": true,
+          "why": "Prerenal AKI is characterized by intact tubular function, leading to avid sodium and water reabsorption. Low urine sodium and high urine osmolality support this.",
+          "would_make_right": "Change urine sodium to 18 mEq/L (already low) and add “no granular casts” to the urinalysis; keep dehydration and hypotension unchanged."
+        },
+        {
+          "letter": "B",
+          "text": "Acute tubular necrosis from nephrotoxin injury",
+          "correct": false,
+          "why": "ATN typically causes impaired tubular sodium reabsorption, yielding higher urine sodium and often granular casts. This patient’s urine sodium is low and urinalysis shows no casts.",
+          "would_make_right": "Replace urine sodium 18 mEq/L with 60 mEq/L and add “muddy brown granular casts” to urinalysis; keep hypotension history but remove dehydration as the dominant finding."
+        },
+        {
+          "letter": "C",
+          "text": "Postrenal obstruction from kidney stones",
+          "correct": false,
+          "why": "Postrenal AKI often presents with urinary retention symptoms or flank pain and can show hydronephrosis. The vignette emphasizes dehydration/hypotension and shows rapid improvement with fluids.",
+          "would_make_right": "Add decreased urine output with suprapubic fullness and flank pain; include renal ultrasound showing bilateral hydronephrosis."
+        },
+        {
+          "letter": "D",
+          "text": "Glomerulonephritis causing intrinsic AKI",
+          "correct": false,
+          "why": "Intrinsic glomerular disease would more likely produce hematuria with dysmorphic RBCs or RBC casts and proteinuria. Urinalysis here shows no casts and no hematuria is described.",
+          "would_make_right": "Add urinalysis with “RBC casts and dysmorphic RBCs” plus proteinuria; do not include the dehydration/hypotension response to fluids."
+        },
+        {
+          "letter": "E",
+          "text": "Renal artery stenosis causing ischemic nephropathy",
+          "correct": false,
+          "why": "Renal artery stenosis often presents with refractory hypertension and can show asymmetric kidney size or elevated renovascular indices. This patient is hypotensive with dehydration and improves with volume repletion.",
+          "would_make_right": "Change BP to 170/96 mmHg and add “abdominal bruit” with ultrasound showing small, atrophic kidney; remove the poor oral intake/dehydration narrative."
+        }
+      ],
+      "rule": "Low urine sodium with concentrated urine suggests prerenal azotemia; ATN shows higher urine sodium and casts.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Renal Physiology",
+        "FENa interpretation (prerenal vs ATN) and urine concentration/casts"
+      ],
+      "id": "renal-prerenal-azotemia-versus-atn-he-says-my-kidneys",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "endocrine",
+      "topic": "Primary Adrenal Insufficiency",
+      "difficulty": 3,
+      "hook": "She has hyperkalemia and low sodium—don't confuse Addison disease with adrenal crisis from secondary causes.",
+      "key_finding": "ACTH elevated with low cortisol",
+      "vignette": "A 42-year-old woman with progressive fatigue and weight loss reports dizziness when standing. She also has nausea and craving salt. Exam shows mild hyperpigmentation of the knuckles. Vitals: BP 86/54 mmHg, HR 102/min. Labs: Na 128 mEq/L, K 6.1 mEq/L, glucose 68 mg/dL. Morning serum cortisol is 4.2 µg/dL. Plasma ACTH is 860 pg/mL.",
+      "short_vignette": "Hypotension, hyperpigmentation, Na 128, K 6.1, cortisol 4.2; ACTH 860.",
+      "stem": "Which endocrine diagnosis best explains her laboratory pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary adrenal insufficiency (Addison disease)",
+          "correct": true,
+          "why": "Primary adrenal failure lowers cortisol, removing negative feedback and causing markedly elevated ACTH. High ACTH also drives increased melanocyte stimulation, explaining hyperpigmentation.",
+          "would_make_right": "Change the vignette to describe chronic adrenal destruction and keep ACTH markedly elevated with low cortisol."
+        },
+        {
+          "letter": "B",
+          "text": "Secondary adrenal insufficiency due to pituitary failure",
+          "correct": false,
+          "why": "Secondary causes reduce cortisol but do not significantly increase ACTH, so hyperpigmentation would be absent and hyperkalemia would be less prominent.",
+          "would_make_right": "Replace the ACTH result with low or normal ACTH (e.g., ACTH 10 pg/mL) while keeping low cortisol."
+        },
+        {
+          "letter": "C",
+          "text": "Thyroid storm",
+          "correct": false,
+          "why": "Thyroid storm causes hyperthermia, tachycardia, and agitation; it does not cause the specific cortisol–ACTH pattern or hyperkalemia from aldosterone deficiency.",
+          "would_make_right": "Change the vignette to include fever and severe tachyarrhythmia with normal electrolytes and a normal cortisol/ACTH pattern."
+        },
+        {
+          "letter": "D",
+          "text": "Pheochromocytoma",
+          "correct": false,
+          "why": "Pheochromocytoma presents with episodic hypertension, palpitations, and diaphoresis; it does not produce low cortisol with elevated ACTH or hyperpigmentation.",
+          "would_make_right": "Add paroxysmal headaches and sustained hypertension with normal sodium and potassium and remove cortisol/ACTH abnormalities."
+        },
+        {
+          "letter": "E",
+          "text": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+          "correct": false,
+          "why": "Classic 21-hydroxylase deficiency often causes androgen excess and typically presents earlier in life; the vignette describes adult-onset symptoms without virilization or androgen-related findings.",
+          "would_make_right": "Add a history of childhood onset with signs of androgen excess (eg, early pubarche/virilization) while keeping cortisol low and ACTH high."
+        }
+      ],
+      "rule": "Low cortisol with high ACTH and hyperpigmentation indicates primary adrenal insufficiency.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Endocrine (Adrenal Cortex Disorders)",
+        "Guideline: Endocrine Society clinical guidance on adrenal insufficiency diagnosis (ACTH/cortisol interpretation)"
+      ],
+      "id": "endocrine-primary-adrenal-insufficiency-she-has-hyperkalem",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

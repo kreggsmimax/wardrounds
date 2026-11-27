@@ -1357,6 +1357,124 @@
         "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Mitral Regurgitation",
+      "difficulty": 3,
+      "hook": "This murmur is not about aortic outflow; listen for mitral regurg flow back into the left atrium.",
+      "key_finding": "Holosystolic murmur at apex",
+      "vignette": "A 67-year-old man reports progressive dyspnea on exertion and orthopnea over 3 months. On exam, he is afebrile. Vitals: HR 98/min, BP 132/78 mm Hg, RR 20/min, SpO2 96% on room air. Cardiac exam reveals an apical, blowing murmur that is present throughout systole and radiates to the axilla. Bedside ultrasound shows an enlarged left atrium. Labs show no infection. A chest X-ray demonstrates mild pulmonary venous congestion.",
+      "short_vignette": "67M with dyspnea has a blowing apical holosystolic murmur radiating to axilla and left atrial enlargement: which diagnosis is this?",
+      "stem": "Which physical finding best supports mitral regurgitation rather than mitral stenosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Holosystolic blowing murmur at the cardiac apex",
+          "correct": true,
+          "why": "Mitral regurgitation causes backflow from the left ventricle to the left atrium during all of systole, producing a holosystolic murmur at the apex. Radiation to the axilla is typical due to left atrial flow jets.",
+          "would_make_right": "Keep the murmur described as holosystolic, apical, and radiating to the axilla."
+        },
+        {
+          "letter": "B",
+          "text": "Low-pitched rumbling diastolic murmur at the apex with opening snap",
+          "correct": false,
+          "why": "A diastolic murmur with an opening snap indicates mitral stenosis due to impaired left atrial-to-left ventricular filling. Mitral regurgitation is systolic because the abnormal flow occurs during ventricular contraction.",
+          "would_make_right": "Change the murmur to diastolic with an opening snap and specify only during early diastole."
+        },
+        {
+          "letter": "C",
+          "text": "Systolic crescendo-decrescendo murmur that radiates to the carotids",
+          "correct": false,
+          "why": "Carotid radiation and a crescendo-decrescendo pattern are characteristic of aortic stenosis, reflecting turbulent flow across the aortic valve. Mitral regurgitation radiates to the axilla rather than the carotids.",
+          "would_make_right": "Move the murmur to the right upper sternal border with carotid radiation and a crescendo-decrescendo contour."
+        },
+        {
+          "letter": "D",
+          "text": "Harsh systolic murmur with a thrill at the left lower sternal border",
+          "correct": false,
+          "why": "A harsh murmur with thrill at the left lower sternal border suggests a ventricular septal defect. Mitral regurgitation is a valvular regurgitant lesion centered at the apex.",
+          "would_make_right": "Describe a thrill at the left lower sternal border and a murmur location consistent with a septal defect."
+        },
+        {
+          "letter": "E",
+          "text": "Early diastolic murmur best heard along the left sternal border",
+          "correct": false,
+          "why": "An early diastolic murmur at the left sternal border is typical of aortic regurgitation, which occurs when blood flows back into the left ventricle during diastole. Mitral regurgitation occurs during systole.",
+          "would_make_right": "Alter the murmur timing to early diastole and shift the best auscultation site to the left sternal border."
+        }
+      ],
+      "rule": "Mitral regurgitation produces a holosystolic murmur at the apex because blood regurgitates into the left atrium during systole.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Heart Sounds and Murmurs",
+        "ACC/AHA Valvular Heart Disease Guideline (heart murmur characteristics)"
+      ],
+      "id": "cardiology-mitral-regurgitation-this-murmur-is-not",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Aortic Regurgitation",
+      "difficulty": 3,
+      "hook": "Don’t confuse aortic regurgitation’s bounding pulse with aortic stenosis’s delayed, weak pulse.",
+      "key_finding": "Wide pulse pressure; bounding pulses",
+      "vignette": "A 62-year-old man presents with worsening shortness of breath when lying flat and fatigue. He reports palpitations and says his pulse feels “strong and pounding.” Vitals: BP 170/60 mm Hg, HR 96/min, RR 18/min, SpO2 97% on room air. Exam shows a high-pitched blowing diastolic murmur along the left sternal border that increases when leaning forward. Peripheral pulses are brisk with a bounding quality. Bedside ultrasound shows early diastolic backflow into the left ventricle. Labs are not remarkable.",
+      "short_vignette": "62M: dyspnea, blowing diastolic murmur LSB. BP 170/60 with bounding pulses and early diastolic backflow.",
+      "stem": "Which physical sign best supports aortic regurgitation rather than aortic stenosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bounding peripheral pulses with wide pulse pressure",
+          "correct": true,
+          "why": "Aortic regurgitation causes increased stroke volume and rapid forward-to-backflow dynamics, producing wide pulse pressure and bounding pulses. This contrasts with aortic stenosis, where reduced forward flow causes weak, delayed pulses.",
+          "would_make_right": "Replace the vignette’s BP with 170/60 mm Hg and explicitly describe “bounding, brisk carotid upstrokes.”"
+        },
+        {
+          "letter": "B",
+          "text": "Delayed, low-amplitude carotid upstroke",
+          "correct": false,
+          "why": "A delayed, low-amplitude upstroke reflects fixed outflow obstruction from aortic stenosis. In regurgitation, the pulse pressure is widened rather than diminished.",
+          "would_make_right": "Change the murmur description to a harsh systolic crescendo-decrescendo at the right upper sternal border and make pulses delayed with narrowed pulse pressure."
+        },
+        {
+          "letter": "C",
+          "text": "Single loud S2 with absent S2 after exertion",
+          "correct": false,
+          "why": "A single loud S2 and absent/worsened S2 after exertion are not characteristic of primary aortic regurgitation findings. The hallmark here is diastolic murmur and widened pulse pressure.",
+          "would_make_right": "Remove the diastolic murmur and add clear findings consistent with severe aortic stenosis physiology (e.g., syncope plus delayed carotid upstroke)."
+        },
+        {
+          "letter": "D",
+          "text": "Pulses that become weaker during sustained handgrip",
+          "correct": false,
+          "why": "This pattern suggests impaired forward flow dynamics typical of obstructive lesions, not regurgitation. Aortic regurgitation classically produces bounding pulses.",
+          "would_make_right": "Add a vignette statement describing obstructive physiology and convert diastolic murmur to systolic ejection murmur with narrow pulse pressure."
+        },
+        {
+          "letter": "E",
+          "text": "Paradoxical splitting of S2 with inspiratory closure of pulmonic valve",
+          "correct": false,
+          "why": "Paradoxical splitting of S2 is associated with right-sided conduction delays or other causes of abnormal timing, not the specific hemodynamic signature of aortic regurgitation.",
+          "would_make_right": "Change the cardiac exam to emphasize paradoxical splitting of S2 and right-sided findings, while eliminating the diastolic regurgitant murmur."
+        }
+      ],
+      "rule": "In aortic regurgitation, look for diastolic backflow signs causing wide pulse pressure and bounding pulses.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Valvular Heart Disease",
+        "ACC/AHA Valvular Heart Disease Guidelines"
+      ],
+      "id": "cardiology-aortic-regurgitation-don-t-confuse-aort",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "_comment": "Seed ledger. Every entry must pass engine/facts.py:validate before render. review.status 'approved' requires a named reviewer; leave entries 'pending' until a human signs off.",
   "version": 1,
+  "_comment": "Seed ledger. Every entry must pass engine/facts.py:validate before render. review.status 'approved' requires a named reviewer; leave entries 'pending' until a human signs off.",
   "questions": [
     {
       "id": "cardio-as-exertional-syncope-001",
@@ -533,63 +533,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "system": "cardiology",
-      "topic": "Mitral Stenosis",
-      "difficulty": 3,
-      "hook": "“Why does this patient have a diastolic murmur that gets louder when the heart rate slows?”",
-      "key_finding": "Opening snap with diastolic rumble",
-      "vignette": "A 68-year-old woman presents with progressive dyspnea on exertion and orthopnea for 6 months. She reports palpitations but no chest pain. Vitals: BP 128/76 mmHg, HR 86/min, RR 18/min, SpO2 94% on room air. Cardiac exam shows an irregularly irregular rhythm. A low-pitched, mid-diastolic murmur is heard best at the cardiac apex with the patient in the left lateral position. An additional high-frequency sound follows S2. Transthoracic echocardiography shows thickened mitral valve leaflets with restricted opening. What maneuver will most increase the murmur’s intensity?",
-      "short_vignette": "68F with dyspnea, AF, apex mid-diastolic rumble plus opening snap; echo shows restricted mitral leaflet opening. Which maneuver increases murmur intensity?",
-      "stem": "Which maneuver would most increase the intensity of her murmur?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Squatting",
-          "correct": true,
-          "why": "Squatting increases systemic vascular resistance and increases venous return, raising left atrial pressure and transmit flow across a stenotic mitral valve, making the diastolic murmur louder.",
-          "would_make_right": "Change the vignette to state the murmur is a mitral stenosis diastolic rumble with opening snap, then ask specifically for a maneuver that increases venous return/left atrial pressure (squatting)."
-        },
-        {
-          "letter": "B",
-          "text": "Standing quickly",
-          "correct": false,
-          "why": "Standing decreases venous return, lowering left atrial pressure and reducing flow across the stenotic mitral valve, so the murmur would lessen.",
-          "would_make_right": "If squatting (A) were replaced by standing (B) in the question with the same vignette, B would become correct."
-        },
-        {
-          "letter": "C",
-          "text": "Instructing her to perform a Valsalva maneuver",
-          "correct": false,
-          "why": "Valsalva decreases venous return (especially with strain), reducing mitral flow and diminishing the intensity of the diastolic murmur.",
-          "would_make_right": "If the vignette’s question instead asked for a maneuver that decreases venous return, then Valsalva would be the correct choice."
-        },
-        {
-          "letter": "D",
-          "text": "Administering a beta-agonist that increases heart rate",
-          "correct": false,
-          "why": "In mitral stenosis, tachycardia shortens diastole, reducing time for blood to flow across the stenotic valve, so the murmur becomes softer.",
-          "would_make_right": "If the vignette asked which intervention decreases murmur intensity in mitral stenosis, then increasing heart rate would be correct."
-        },
-        {
-          "letter": "E",
-          "text": "Administering nitrates to reduce preload",
-          "correct": false,
-          "why": "Reducing preload lowers left atrial pressure and mitral transvalvular flow, which would weaken the murmur rather than increase it.",
-          "would_make_right": "If the vignette asked which maneuver decreases murmur intensity, nitrate-induced preload reduction would make E correct."
-        }
-      ],
-      "rule": "In mitral stenosis, maneuvers that increase left atrial pressure or prolong diastole increase the murmur intensity.",
-      "sources": [
-        "First Aid for the USMLE Step 1 - Cardiology: Valvular Heart Disease",
-        "ACC/AHA guideline discussion of physical exam maneuvers for valvular lesions"
-      ],
-      "id": "cardiology-mitral-stenosis-why-does-this-pati",
-      "review": {
-        "status": "approved",
-        "by": "auto-reviewer",
-        "date": "2026-11-27",
-=======
       "system": "endocrine",
       "topic": "Acromegaly Mechanism",
       "difficulty": 3,
@@ -645,68 +588,10 @@
         "status": "approved",
         "by": "auto-reviewer",
         "date": "2026-11-26",
->>>>>>> 404c1b48395f5be76e09a5f169f3fdefd38bbfa5
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
     },
     {
-<<<<<<< HEAD
-      "system": "cardiology",
-      "topic": "Acute Coronary Syndrome: NSTEMI vs Unstable Angina",
-      "difficulty": 2,
-      "hook": "You can’t assume chest pain with no ST elevation is unstable angina—troponin decides NSTEMI.",
-      "key_finding": "Elevated troponin with nondiagnostic ECG",
-      "vignette": "A 58-year-old man with hypertension presents to the ED with 40 minutes of substernal chest pressure at rest. He is diaphoretic and nauseated. Vitals: BP 146/88 mmHg, HR 104/min, RR 20/min, SpO2 98% on room air, T 36.8°C. ECG shows 1 mm ST depression in leads V4-V6 without ST-segment elevation. Serum high-sensitivity troponin I returns at 0.9 ng/mL (reference <0.04 ng/mL). What diagnosis best fits this presentation?",
-      "short_vignette": "58M with rest chest pressure, ST depression (no ST elevation), high-sensitivity troponin I elevated to 0.9 ng/mL.",
-      "stem": "Which diagnosis best explains his presentation?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Non–ST-Elevation Myocardial Infarction (NSTEMI)",
-          "correct": true,
-          "why": "NSTEMI presents with evidence of myocardial necrosis (elevated troponin) along with ischemic symptoms. ST elevation is absent.",
-          "would_make_right": "Change troponin to be clearly elevated (e.g., 0.9 ng/mL) while keeping ECG without ST elevation."
-        },
-        {
-          "letter": "B",
-          "text": "Unstable Angina",
-          "correct": false,
-          "why": "Unstable angina causes ischemic symptoms and ECG changes but does not elevate troponin because there is no measurable myocardial necrosis.",
-          "would_make_right": "Set high-sensitivity troponin I to remain normal (e.g., 0.02 ng/mL) with the same ECG findings."
-        },
-        {
-          "letter": "C",
-          "text": "ST-Elevation Myocardial Infarction (STEMI)",
-          "correct": false,
-          "why": "STEMI requires ST-segment elevation on ECG, which is explicitly not present here.",
-          "would_make_right": "Modify the ECG description to include ST-segment elevation (e.g., ≥1 mm in contiguous leads) while keeping troponin elevated."
-        },
-        {
-          "letter": "D",
-          "text": "Acute Pericarditis",
-          "correct": false,
-          "why": "Acute pericarditis typically has diffuse, pleuritic pain and ECG changes such as diffuse ST elevation with PR depression, not regional ST depression plus troponin-defined NSTEMI.",
-          "would_make_right": "Replace symptoms with pleuritic pain relieved by leaning forward and describe diffuse ST elevation with PR depression."
-        },
-        {
-          "letter": "E",
-          "text": "Pulmonary Embolism",
-          "correct": false,
-          "why": "Pulmonary embolism may cause chest pain and tachycardia, but the vignette lacks supportive features (eg, hypoxemia, risk factors) and shows troponin elevation with ischemic ECG changes consistent with ACS.",
-          "would_make_right": "Add hypoxemia and tachycardia with high clinical suspicion for PE (e.g., SpO2 90% and ECG showing S1Q3T3) while removing ischemic ECG pattern."
-        }
-      ],
-      "rule": "In acute coronary syndrome, troponin presence distinguishes myocardial infarction (NSTEMI) from unstable angina when no ST elevation exists.",
-      "sources": [
-        "First Aid for the USMLE Step 1 - Cardiovascular System",
-        "ACC/AHA Guidelines for Acute Coronary Syndromes"
-      ],
-      "id": "cardiology-acute-coronary-syndrome-nstemi-vs-unstab-you-can-t-assume-c",
-      "review": {
-        "status": "approved",
-        "by": "auto-reviewer",
-        "date": "2026-11-27",
-=======
       "system": "heme",
       "topic": "Iron Deficiency Anemia Microcytosis",
       "difficulty": 2,
@@ -1352,7 +1237,124 @@
         "status": "approved",
         "by": "auto-reviewer",
         "date": "2026-11-26",
->>>>>>> 404c1b48395f5be76e09a5f169f3fdefd38bbfa5
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Mitral Stenosis",
+      "difficulty": 3,
+      "hook": "“Why does this patient have a diastolic murmur that gets louder when the heart rate slows?”",
+      "key_finding": "Opening snap with diastolic rumble",
+      "vignette": "A 68-year-old woman presents with progressive dyspnea on exertion and orthopnea for 6 months. She reports palpitations but no chest pain. Vitals: BP 128/76 mmHg, HR 86/min, RR 18/min, SpO2 94% on room air. Cardiac exam shows an irregularly irregular rhythm. A low-pitched, mid-diastolic murmur is heard best at the cardiac apex with the patient in the left lateral position. An additional high-frequency sound follows S2. Transthoracic echocardiography shows thickened mitral valve leaflets with restricted opening. What maneuver will most increase the murmur’s intensity?",
+      "short_vignette": "68F with dyspnea, AF, apex mid-diastolic rumble plus opening snap; echo shows restricted mitral leaflet opening. Which maneuver increases murmur intensity?",
+      "stem": "Which maneuver would most increase the intensity of her murmur?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Squatting",
+          "correct": true,
+          "why": "Squatting increases systemic vascular resistance and increases venous return, raising left atrial pressure and transmit flow across a stenotic mitral valve, making the diastolic murmur louder.",
+          "would_make_right": "Change the vignette to state the murmur is a mitral stenosis diastolic rumble with opening snap, then ask specifically for a maneuver that increases venous return/left atrial pressure (squatting)."
+        },
+        {
+          "letter": "B",
+          "text": "Standing quickly",
+          "correct": false,
+          "why": "Standing decreases venous return, lowering left atrial pressure and reducing flow across the stenotic mitral valve, so the murmur would lessen.",
+          "would_make_right": "If squatting (A) were replaced by standing (B) in the question with the same vignette, B would become correct."
+        },
+        {
+          "letter": "C",
+          "text": "Instructing her to perform a Valsalva maneuver",
+          "correct": false,
+          "why": "Valsalva decreases venous return (especially with strain), reducing mitral flow and diminishing the intensity of the diastolic murmur.",
+          "would_make_right": "If the vignette’s question instead asked for a maneuver that decreases venous return, then Valsalva would be the correct choice."
+        },
+        {
+          "letter": "D",
+          "text": "Administering a beta-agonist that increases heart rate",
+          "correct": false,
+          "why": "In mitral stenosis, tachycardia shortens diastole, reducing time for blood to flow across the stenotic valve, so the murmur becomes softer.",
+          "would_make_right": "If the vignette asked which intervention decreases murmur intensity in mitral stenosis, then increasing heart rate would be correct."
+        },
+        {
+          "letter": "E",
+          "text": "Administering nitrates to reduce preload",
+          "correct": false,
+          "why": "Reducing preload lowers left atrial pressure and mitral transvalvular flow, which would weaken the murmur rather than increase it.",
+          "would_make_right": "If the vignette asked which maneuver decreases murmur intensity, nitrate-induced preload reduction would make E correct."
+        }
+      ],
+      "rule": "In mitral stenosis, maneuvers that increase left atrial pressure or prolong diastole increase the murmur intensity.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Valvular Heart Disease",
+        "ACC/AHA guideline discussion of physical exam maneuvers for valvular lesions"
+      ],
+      "id": "cardiology-mitral-stenosis-why-does-this-pati",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Acute Coronary Syndrome: NSTEMI vs Unstable Angina",
+      "difficulty": 2,
+      "hook": "You can’t assume chest pain with no ST elevation is unstable angina—troponin decides NSTEMI.",
+      "key_finding": "Elevated troponin with nondiagnostic ECG",
+      "vignette": "A 58-year-old man with hypertension presents to the ED with 40 minutes of substernal chest pressure at rest. He is diaphoretic and nauseated. Vitals: BP 146/88 mmHg, HR 104/min, RR 20/min, SpO2 98% on room air, T 36.8°C. ECG shows 1 mm ST depression in leads V4-V6 without ST-segment elevation. Serum high-sensitivity troponin I returns at 0.9 ng/mL (reference <0.04 ng/mL). What diagnosis best fits this presentation?",
+      "short_vignette": "58M with rest chest pressure, ST depression (no ST elevation), high-sensitivity troponin I elevated to 0.9 ng/mL.",
+      "stem": "Which diagnosis best explains his presentation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Non–ST-Elevation Myocardial Infarction (NSTEMI)",
+          "correct": true,
+          "why": "NSTEMI presents with evidence of myocardial necrosis (elevated troponin) along with ischemic symptoms. ST elevation is absent.",
+          "would_make_right": "Change troponin to be clearly elevated (e.g., 0.9 ng/mL) while keeping ECG without ST elevation."
+        },
+        {
+          "letter": "B",
+          "text": "Unstable Angina",
+          "correct": false,
+          "why": "Unstable angina causes ischemic symptoms and ECG changes but does not elevate troponin because there is no measurable myocardial necrosis.",
+          "would_make_right": "Set high-sensitivity troponin I to remain normal (e.g., 0.02 ng/mL) with the same ECG findings."
+        },
+        {
+          "letter": "C",
+          "text": "ST-Elevation Myocardial Infarction (STEMI)",
+          "correct": false,
+          "why": "STEMI requires ST-segment elevation on ECG, which is explicitly not present here.",
+          "would_make_right": "Modify the ECG description to include ST-segment elevation (e.g., ≥1 mm in contiguous leads) while keeping troponin elevated."
+        },
+        {
+          "letter": "D",
+          "text": "Acute Pericarditis",
+          "correct": false,
+          "why": "Acute pericarditis typically has diffuse, pleuritic pain and ECG changes such as diffuse ST elevation with PR depression, not regional ST depression plus troponin-defined NSTEMI.",
+          "would_make_right": "Replace symptoms with pleuritic pain relieved by leaning forward and describe diffuse ST elevation with PR depression."
+        },
+        {
+          "letter": "E",
+          "text": "Pulmonary Embolism",
+          "correct": false,
+          "why": "Pulmonary embolism may cause chest pain and tachycardia, but the vignette lacks supportive features (eg, hypoxemia, risk factors) and shows troponin elevation with ischemic ECG changes consistent with ACS.",
+          "would_make_right": "Add hypoxemia and tachycardia with high clinical suspicion for PE (e.g., SpO2 90% and ECG showing S1Q3T3) while removing ischemic ECG pattern."
+        }
+      ],
+      "rule": "In acute coronary syndrome, troponin presence distinguishes myocardial infarction (NSTEMI) from unstable angina when no ST elevation exists.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System",
+        "ACC/AHA Guidelines for Acute Coronary Syndromes"
+      ],
+      "id": "cardiology-acute-coronary-syndrome-nstemi-vs-unstab-you-can-t-assume-c",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
     }

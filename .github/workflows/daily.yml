@@ -31,7 +31,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-wardrounds
+  group: wardrounds
   cancel-in-progress: false
 
 jobs:

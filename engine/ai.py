@@ -31,6 +31,7 @@ MODEL = os.getenv("AI_MODEL", "openai/gpt-5.4-nano")
 FALLBACK = os.getenv("AI_FALLBACK_MODEL", "openai/gpt-4.1-nano")
 
 LEDGER = Path(__file__).resolve().parent.parent / "data" / "questions.json"
+CURRICULUM = Path(__file__).resolve().parent.parent / "data" / "curriculum.json"
 
 DRAFT_SYSTEM = (
     "You are a senior USMLE Step 1 question writer with a pharmacology and "
@@ -135,15 +136,21 @@ def _slug(text: str) -> str:
     return s[:40] or "question"
 
 
-def generate_one(system: str, avoid_topics: list[str], seed: int) -> dict:
+def generate_one(system: str, avoid_topics: list[str], seed: int,
+                 topic_hint: str | None = None) -> dict:
     avoid = ""
     if avoid_topics:
         avoid = ("Do not reuse these topics: " + "; ".join(avoid_topics[:40]) + ".\n")
 
+    target = (f"Write ONE USMLE Step 1 question specifically about: {topic_hint}.\n"
+              f"Stay on this topic. Do not drift to a neighbouring diagnosis.\n"
+              if topic_hint else
+              f"Write ONE USMLE Step 1 question for the {system} system.\n")
+
     prompt = (
-        f"Write ONE USMLE Step 1 question for the {system} system.\n"
-        f"{avoid}"
-        "Requirements:\n"
+        target
+        + avoid
+        + "Requirements:\n"
         "- Exactly one option is the single best answer. A reviewer will reject it if any "
         "distractor is also defensible.\n"
         "- Test ONE concept. Do not combine two mechanisms in one question.\n"
@@ -237,8 +244,31 @@ def _save_ledger(data: dict) -> None:
     LEDGER.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def curriculum_plan(limit: int | None = None) -> list[tuple[str, str]]:
+    """Ordered (system, subtopic) pairs not yet covered by the ledger or recent history."""
+    if not CURRICULUM.exists():
+        return []
+    try:
+        curriculum = json.loads(CURRICULUM.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    data = _load_ledger()
+    covered = [q.get("topic", "") for q in data.get("questions", [])]
+    covered += facts.recent_topics()
+
+    plan: list[tuple[str, str]] = []
+    for system, subtopics in curriculum.items():
+        if system.startswith("_"):
+            continue
+        for sub in subtopics:
+            if not any(facts.topics_overlap(sub, c) for c in covered if c):
+                plan.append((system, sub))
+    return plan[:limit] if limit else plan
+
+
 def top_up(need: int, systems: list[str] | None = None,
-           max_attempts: int = 24, verbose: bool = True) -> int:
+           max_attempts: int = 40, verbose: bool = True) -> int:
     """Draft questions until `need` are approved, and append them to the ledger."""
     if need <= 0:
         return 0
@@ -250,17 +280,27 @@ def top_up(need: int, systems: list[str] | None = None,
     used_ids = {q.get("id") for q in existing}
     systems = systems or [s for s in C.SYSTEM_ACCENT if s != "biostats"]
 
+    # walk the curriculum in order; rotate a rejected subtopic to the back so one
+    # stubborn topic cannot burn the whole attempt budget
+    plan: list[tuple[str, str | None]] = list(curriculum_plan())
+    if not plan:
+        plan = [(s, None) for s in systems]
+    if verbose:
+        print(f"      curriculum: {len(plan)} uncovered subtopic(s) remaining")
+
     added = 0
     attempts = 0
     rng = random.Random()
-    while added < need and attempts < max_attempts:
+    while added < need and attempts < max_attempts and plan:
         attempts += 1
-        system = systems[attempts % len(systems)]
+        system, hint = plan.pop(0)
         try:
-            entry = generate_one(system, used_topics, seed=rng.randint(1, 10_000))
+            entry = generate_one(system, used_topics, seed=rng.randint(1, 10_000),
+                                 topic_hint=hint)
         except Exception as exc:  # noqa: BLE001
             if verbose:
-                print(f"      draft failed ({system}): {str(exc)[:90]}")
+                print(f"      draft failed ({hint or system}): {str(exc)[:80]}")
+            plan.append((system, hint))
             continue
 
         ok, issues = review(entry)
@@ -268,11 +308,13 @@ def top_up(need: int, systems: list[str] | None = None,
             if verbose:
                 print(f"      rejected by reviewer: {entry['topic']} - {'; '.join(issues)[:100]}")
             used_topics.append(entry["topic"])
+            plan.append((system, hint))
             continue
 
         if facts.is_repeat(entry["topic"], used_topics):
             if verbose:
                 print(f"      rejected as repeat topic: {entry['topic']}")
+            plan.append((system, hint))
             continue
 
         if entry["id"] in used_ids:

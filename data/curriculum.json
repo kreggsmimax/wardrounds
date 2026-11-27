@@ -1,0 +1,88 @@
+{
+  "_comment": "Ordered high-yield Step 1 subtopics. The generator walks this list and skips anything already in the ledger or published inside the cooldown window. Add to the end; never reorder published entries.",
+  "cardiology": [
+    "Aortic stenosis", "Mitral stenosis", "Mitral regurgitation", "Aortic regurgitation",
+    "Hypertrophic cardiomyopathy", "Acute coronary syndrome", "Heart failure with reduced ejection fraction",
+    "Atrial fibrillation", "Wolff-Parkinson-White syndrome", "Complete heart block",
+    "Acute pericarditis", "Cardiac tamponade", "Infective endocarditis", "Rheumatic fever",
+    "Coarctation of the aorta", "Tetralogy of Fallot", "Transposition of the great arteries",
+    "Ventricular septal defect", "Patent ductus arteriosus", "Kawasaki disease"
+  ],
+  "renal": [
+    "Prerenal azotemia versus acute tubular necrosis", "Nephrotic syndrome", "Nephritic syndrome",
+    "Post-streptococcal glomerulonephritis", "IgA nephropathy", "Minimal change disease",
+    "Focal segmental glomerulosclerosis", "Membranous nephropathy", "Goodpasture syndrome",
+    "Alport syndrome", "Autosomal dominant polycystic kidney disease", "Renal artery stenosis",
+    "Hyperkalemia", "Hyponatremia and SIADH", "Diabetes insipidus", "Renal tubular acidosis",
+    "Nephrolithiasis", "Hypercalcemia", "Hypocalcemia", "Metabolic alkalosis"
+  ],
+  "endocrine": [
+    "Diabetic ketoacidosis", "Hyperosmolar hyperglycemic state", "Graves disease",
+    "Hashimoto thyroiditis", "Thyroid storm", "Cushing syndrome", "Primary adrenal insufficiency",
+    "Primary hyperaldosteronism", "Pheochromocytoma", "Acromegaly", "Insulinoma",
+    "Multiple endocrine neoplasia", "Primary hyperparathyroidism", "Osteoporosis",
+    "Polycystic ovary syndrome", "Pituitary adenoma", "Congenital adrenal hyperplasia",
+    "Type 2 diabetes pharmacology"
+  ],
+  "id": [
+    "Tuberculosis", "Bacterial meningitis", "Osteomyelitis", "Cellulitis and erysipelas",
+    "Sepsis and septic shock", "HIV and opportunistic infections", "Syphilis", "Lyme disease",
+    "Rocky Mountain spotted fever", "Hepatitis B", "Hepatitis C", "Epstein-Barr virus",
+    "Cytomegalovirus", "Malaria", "Toxoplasmosis", "Botulism", "Tetanus", "Rabies"
+  ],
+  "heme": [
+    "Iron deficiency anemia", "Vitamin B12 deficiency", "Folate deficiency",
+    "Thalassemia", "Sickle cell disease", "G6PD deficiency", "Hereditary spherocytosis",
+    "Aplastic anemia", "Thrombotic thrombocytopenic purpura", "Disseminated intravascular coagulation",
+    "Hemophilia A", "von Willebrand disease", "Immune thrombocytopenic purpura",
+    "Acute myeloid leukemia", "Acute lymphoblastic leukemia", "Chronic myeloid leukemia",
+    "Hodgkin lymphoma", "Multiple myeloma", "Transfusion reactions"
+  ],
+  "pharm": [
+    "Beta blockers", "ACE inhibitors and ARBs", "Loop diuretics", "Thiazide diuretics",
+    "Statins", "Warfarin", "Heparin", "Antiplatelet drugs", "Aminoglycosides",
+    "Vancomycin", "Antituberculous drugs", "Chemotherapy toxicity", "Cyclosporine",
+    "Opioids", "Benzodiazepines", "SSRIs", "Lithium", "Antiepileptic drugs",
+    "Organophosphate poisoning", "Autonomic receptor pharmacology"
+  ],
+  "neuro": [
+    "Ischemic stroke", "Subarachnoid hemorrhage", "Epidural hematoma", "Subdural hematoma",
+    "Multiple sclerosis", "Guillain-Barre syndrome", "Myasthenia gravis", "Lambert-Eaton syndrome",
+    "Amyotrophic lateral sclerosis", "Parkinson disease", "Huntington disease",
+    "Alzheimer disease", "Status epilepticus", "Migraine", "Bell palsy", "Horner syndrome",
+    "Wernicke encephalopathy", "Syringomyelia", "Brown-Sequard syndrome"
+  ],
+  "resp": [
+    "Asthma", "Chronic obstructive pulmonary disease", "Community-acquired pneumonia",
+    "Pulmonary embolism", "Tension pneumothorax", "Pleural effusion", "Acute respiratory distress syndrome",
+    "Sarcoidosis", "Idiopathic pulmonary fibrosis", "Lung cancer", "Obstructive sleep apnea",
+    "Cystic fibrosis", "Bronchiectasis", "Aspiration pneumonia", "Lung abscess"
+  ],
+  "gi": [
+    "Gastroesophageal reflux disease", "Peptic ulcer disease", "Acute gastritis",
+    "Celiac disease", "Ulcerative colitis", "Crohn disease", "Irritable bowel syndrome",
+    "Acute pancreatitis", "Cirrhosis", "Portal hypertension", "Esophageal varices",
+    "Cholelithiasis", "Ascending cholangitis", "Acute appendicitis", "Diverticulitis",
+    "Small bowel obstruction", "Colorectal cancer", "Hepatocellular carcinoma"
+  ],
+  "biostats": [
+    "Sensitivity and specificity", "Positive predictive value", "Likelihood ratios",
+    "Case-control study design", "Cohort study design", "Randomized controlled trial",
+    "Selection bias", "Lead-time bias", "Number needed to treat", "Incidence versus prevalence",
+    "Confidence intervals", "Type I and type II errors", "Screening test characteristics",
+    "Meta-analysis and heterogeneity"
+  ],
+  "obgyn": [
+    "Preeclampsia", "Gestational diabetes", "Ectopic pregnancy", "Placenta previa",
+    "Placental abruption", "Postpartum hemorrhage", "Ovarian torsion",
+    "Polycystic ovary syndrome", "Endometriosis", "Uterine fibroids", "Cervical cancer",
+    "Endometrial cancer", "Ovarian cancer", "Contraception counseling", "Menopause",
+    "Fetal heart rate tracing"
+  ],
+  "peds": [
+    "Neonatal jaundice", "Respiratory distress syndrome of the newborn", "Meconium aspiration",
+    "Pyloric stenosis", "Intussusception", "Hirschsprung disease", "Croup",
+    "Epiglottitis", "Bronchiolitis", "Febrile seizures", "Down syndrome",
+    "Turner syndrome", "Marfan syndrome", "Fragile X syndrome", "Klinefelter syndrome"
+  ]
+}

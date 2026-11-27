@@ -533,6 +533,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "system": "cardiology",
       "topic": "Mitral Stenosis",
       "difficulty": 3,
@@ -588,10 +589,68 @@
         "status": "approved",
         "by": "auto-reviewer",
         "date": "2026-11-27",
+=======
+      "system": "endocrine",
+      "topic": "Acromegaly Mechanism",
+      "difficulty": 3,
+      "hook": "“My wedding ring won’t fit anymore—could this be thyroid hormone?”",
+      "key_finding": "↑ IGF-1 with pituitary macroadenoma",
+      "vignette": "A 48-year-old man reports enlargement of his hands and feet over 3 years. He also developed thickened facial features and increased shoe size. He complains of new headaches and blurred peripheral vision. On exam, he has prognathism and coarse facial features. Blood pressure is 148/92 mmHg, pulse 82/min, and temperature 36.8°C. MRI shows a sellar mass compressing the optic chiasm. Laboratory testing reveals elevated IGF-1 at 840 ng/mL (reference 90–250). Serum TSH is normal and free T4 is normal. Which underlying process best explains his condition?",
+      "short_vignette": "48M with enlarged hands, headaches, visual field symptoms, sellar mass, and high IGF-1 with normal thyroid tests—what causes it?",
+      "stem": "Which underlying process best explains his condition?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pituitary somatotroph tumor secreting excess GH",
+          "correct": true,
+          "why": "Acromegaly is due to excess growth hormone from a pituitary adenoma, leading to increased IGF-1. Elevated IGF-1 with a sellar mass and compressive symptoms is decisive.",
+          "would_make_right": "Keep the sellar mass and add that the patient’s GH is inappropriately elevated for the time of day."
+        },
+        {
+          "letter": "B",
+          "text": "Autonomous activation of thyroid hormone receptors in peripheral tissues",
+          "correct": false,
+          "why": "Thyroid hormone excess would affect thyroid labs (↑ free T4 and often suppressed TSH). The vignette explicitly shows normal TSH and normal free T4.",
+          "would_make_right": "Replace the normal thyroid tests with elevated free T4 and suppressed TSH."
+        },
+        {
+          "letter": "C",
+          "text": "Ectopic secretion of GH-releasing hormone by a small cell lung tumor",
+          "correct": false,
+          "why": "Ectopic GH-releasing hormone is uncommon and would not produce a sellar mass compressing the optic chiasm. The imaging finding localizes the source to the pituitary.",
+          "would_make_right": "Remove the sellar mass and add CT findings of a lung mass with elevated GH-releasing hormone."
+        },
+        {
+          "letter": "D",
+          "text": "Deficiency of pituitary growth hormone leading to reduced IGF-1",
+          "correct": false,
+          "why": "Growth hormone deficiency would lower IGF-1 rather than elevate it. The patient has classic acromegalic changes with elevated IGF-1.",
+          "would_make_right": "Change IGF-1 to below reference and MRI to show a non-secreting or damaged pituitary without mass effect."
+        },
+        {
+          "letter": "E",
+          "text": "Excess adrenal cortisol causing acromegaly-like body changes",
+          "correct": false,
+          "why": "Cushing syndrome features centripetal obesity, striae, and glucose/cortisol-related findings, not a sellar mass with increased IGF-1. The vignette lacks cortisol features and shows a GH–IGF-1 pattern.",
+          "would_make_right": "Add Cushingoid exam findings (eg, wide purple striae) and provide evidence of hypercortisolism (eg, elevated late-night salivary cortisol)."
+        }
+      ],
+      "rule": "In suspected acromegaly, elevated IGF-1 plus pituitary mass effect points to a GH-secreting pituitary adenoma.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Endocrine (Pituitary Disorders)",
+        "Endocrine Society clinical practice guidance (Acromegaly)"
+      ],
+      "id": "endocrine-acromegaly-mechanism-my-wedding-ring-wo",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+>>>>>>> 404c1b48395f5be76e09a5f169f3fdefd38bbfa5
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
     },
     {
+<<<<<<< HEAD
       "system": "cardiology",
       "topic": "Acute Coronary Syndrome: NSTEMI vs Unstable Angina",
       "difficulty": 2,
@@ -647,6 +706,653 @@
         "status": "approved",
         "by": "auto-reviewer",
         "date": "2026-11-27",
+=======
+      "system": "heme",
+      "topic": "Iron Deficiency Anemia Microcytosis",
+      "difficulty": 2,
+      "hook": "Low MCV always means thalassemia, not iron deficiency, right?",
+      "key_finding": "Low ferritin with elevated TIBC",
+      "vignette": "A 34-year-old woman presents with months of fatigue and pica. She reports heavy menstrual bleeding and dietary restriction. Vitals are T 37.0°C (98.6°F), HR 98/min, BP 112/70 mmHg, and SpO2 99% on room air. CBC shows hemoglobin 9.2 g/dL, MCV 68 fL, and RDW 18%. Peripheral smear demonstrates microcytosis and hypochromia. Iron studies reveal serum ferritin 6 ng/mL, serum iron 28 mcg/dL, and total iron-binding capacity 420 mcg/dL. What is the most likely diagnosis?",
+      "short_vignette": "Woman with heavy menses: microcytic anemia (MCV 68), high RDW, low ferritin, low iron, high TIBC. Most likely diagnosis?",
+      "stem": "Which diagnosis best explains her microcytic anemia pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iron deficiency anemia",
+          "correct": true,
+          "why": "Low ferritin indicates depleted iron stores. Elevated TIBC with low serum iron supports iron deficiency rather than impaired globin synthesis.",
+          "would_make_right": "Keep ferritin low (e.g., 6 ng/mL) and TIBC high; mention ongoing heavy menstrual bleeding would remain."
+        },
+        {
+          "letter": "B",
+          "text": "Thalassemia trait",
+          "correct": false,
+          "why": "Thalassemia trait typically has normal or elevated iron stores and often a relatively normal RDW. Her iron studies show depleted stores.",
+          "would_make_right": "Change ferritin to normal or high (e.g., 100 ng/mL) and make TIBC low/normal while keeping microcytosis."
+        },
+        {
+          "letter": "C",
+          "text": "Anemia of chronic inflammation",
+          "correct": false,
+          "why": "Anemia of chronic inflammation usually shows low serum iron with low/normal TIBC due to increased hepcidin. Her TIBC is elevated.",
+          "would_make_right": "Add a chronic inflammatory condition and change TIBC to low/normal with ferritin elevated (not 6 ng/mL)."
+        },
+        {
+          "letter": "D",
+          "text": "Sideroblastic anemia",
+          "correct": false,
+          "why": "Sideroblastic anemia is characterized by impaired heme synthesis and often increased iron stores. Her ferritin is markedly low.",
+          "would_make_right": "Add ring sideroblasts on smear and change ferritin to elevated with higher iron and low TIBC."
+        },
+        {
+          "letter": "E",
+          "text": "Lead poisoning",
+          "correct": false,
+          "why": "Lead poisoning causes microcytosis and can show basophilic stippling, but iron stores are not depleted like in iron deficiency. The vignette lacks exposure and shows low ferritin.",
+          "would_make_right": "Add relevant exposure (e.g., old paint renovation) and include basophilic stippling, while changing ferritin to normal."
+        }
+      ],
+      "rule": "Microcytic anemia with low ferritin and high TIBC indicates iron deficiency, not thalassemia or inflammation.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Hematology (Anemia; Microcytic Anemias)",
+        "N/A"
+      ],
+      "id": "heme-iron-deficiency-anemia-microcytosis-low-mcv-always-mea",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "peds",
+      "topic": "Acute Disseminated Encephalomyelitis",
+      "difficulty": 3,
+      "hook": "After a viral illness, new neuro deficits suggest which demyelinating disease?",
+      "key_finding": "MRI: multifocal demyelinating lesions",
+      "vignette": "An 8-year-old boy presents 10 days after recovering from a febrile viral illness with sudden ataxia, dysarthria, and bilateral lower-extremity weakness. His temperature is 37.1°C. Vitals are stable. Exam shows truncal instability and increased reflexes with ankle clonus. Lumbar puncture reveals CSF with mild lymphocytic pleocytosis and elevated protein. MRI brain shows multiple nonenhancing, scattered white-matter lesions. He has no meningismus and no focal seizure activity.",
+      "short_vignette": "Eight-year-old develops ataxia and weakness 10 days after viral illness; mild lymphocytic CSF; MRI shows multifocal white-matter demyelination.",
+      "stem": "Which diagnosis best explains his symptoms and imaging pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acute Disseminated Encephalomyelitis",
+          "correct": true,
+          "why": "Typically occurs days to weeks after a viral infection via immune-mediated demyelination. MRI often shows multifocal white-matter lesions; CSF may show mild lymphocytic pleocytosis and elevated protein.",
+          "would_make_right": "Add a 1–3-week post-viral timeline and multifocal nonenhancing white-matter lesions on MRI."
+        },
+        {
+          "letter": "B",
+          "text": "Bacterial meningitis",
+          "correct": false,
+          "why": "Bacterial meningitis usually presents with fever, meningismus, and CSF with marked neutrophilic pleocytosis and low glucose. His afebrile status and lack of meningismus argue against it.",
+          "would_make_right": "Change the vignette to fever with meningismus and CSF neutrophils plus low glucose."
+        },
+        {
+          "letter": "C",
+          "text": "Guillain-Barré syndrome",
+          "correct": false,
+          "why": "GBS causes ascending symmetric weakness and areflexia, often with nerve conduction abnormalities. This child has central signs (ataxia, clonus) suggesting CNS involvement rather than peripheral neuropathy.",
+          "would_make_right": "Replace ataxia/clonus with progressive ascending weakness and absent reflexes, and add albuminocytologic dissociation in CSF."
+        },
+        {
+          "letter": "D",
+          "text": "Acute ischemic stroke",
+          "correct": false,
+          "why": "Stroke would not classically follow a viral illness by days with multifocal demyelinating white-matter lesions. The CSF pattern here is mild inflammatory rather than focal vascular injury.",
+          "would_make_right": "Add sudden unilateral deficits with vascular risk factors and MRI showing acute territorial infarction rather than multifocal demyelination."
+        },
+        {
+          "letter": "E",
+          "text": "Multiple sclerosis",
+          "correct": false,
+          "why": "Multiple sclerosis is less likely in an 8-year-old with a single monophasic post-infectious presentation. MS typically shows dissemination in time and space, often with enhancing lesions on MRI.",
+          "would_make_right": "Add prior neurologic episodes separated over time and persistent new lesions to demonstrate dissemination in time."
+        }
+      ],
+      "rule": "Post-infectious onset with multifocal demyelinating CNS lesions and mild inflammatory CSF suggests acute disseminated encephalomyelitis.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Neurologic Disorders",
+        "AAN guideline: demyelinating disorders clinical correlation"
+      ],
+      "id": "peds-acute-disseminated-encephalomyelitis-after-a-viral-illn",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "gi",
+      "topic": "Acute Pancreatitis Diagnosis",
+      "difficulty": 2,
+      "hook": "He says, 'Only one test matters for pancreatitis,' but you must use the full diagnostic criteria.",
+      "key_finding": "Serum lipase ≥ 3× upper limit",
+      "vignette": "A 42-year-old man presents with severe epigastric pain radiating to the back and nausea for 2 days. He drinks alcohol daily. Vitals: T 38.2 C (100.8 F), HR 102/min, BP 128/76 mm Hg. Exam shows epigastric tenderness without guarding. Labs show AST 70 U/L, ALT 65 U/L, and serum lipase 920 U/L (laboratory upper limit 200 U/L). Abdominal ultrasound shows gallstones. How should pancreatitis be diagnosed in this patient?",
+      "short_vignette": "42-year-old man with epigastric pain radiating to back; lipase 920 U/L with ULN 200; diagnosis requires key criteria—so which is best?",
+      "stem": "Which finding best supports the diagnosis of acute pancreatitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Serum amylase 1.5× the upper limit",
+          "correct": false,
+          "why": "Mild elevations of amylase can occur with many conditions and are not specific for acute pancreatitis. The diagnostic criterion requires lipase or amylase elevated to at least 3× the upper limit.",
+          "would_make_right": "Change lipase to 920 U/L with ULN 200 while amylase remains only 1.5×; then amylase would not be the best supportive finding."
+        },
+        {
+          "letter": "B",
+          "text": "Serum lipase 2× the upper limit",
+          "correct": false,
+          "why": "A 2× elevation does not meet the usual threshold used for diagnostic support. The criterion is at least 3× the upper limit in the appropriate clinical setting.",
+          "would_make_right": "Lower the reported lipase to 400 U/L (2× ULN 200) while keeping symptoms; then pancreatitis would be less strongly supported."
+        },
+        {
+          "letter": "C",
+          "text": "Serum lipase 4.6× the upper limit",
+          "correct": true,
+          "why": "Serum lipase is elevated to ≥3× the upper limit, which is a core diagnostic criterion for acute pancreatitis when consistent with symptoms.",
+          "would_make_right": "Keep epigastric pain radiating to back and change lipase to ≥600 U/L (3× ULN 200), as in the vignette."
+        },
+        {
+          "letter": "D",
+          "text": "Normal serum lipase with mild epigastric tenderness",
+          "correct": false,
+          "why": "Normal pancreatic enzymes argue against acute pancreatitis, especially in the absence of imaging-confirming findings. Tenderness alone is not diagnostic.",
+          "would_make_right": "Change lipase to normal and add imaging evidence of pancreatic inflammation; then imaging-based criteria could become best."
+        },
+        {
+          "letter": "E",
+          "text": "Gallstones on ultrasound without enzyme elevation",
+          "correct": false,
+          "why": "Gallstones can be present without pancreatitis. Diagnosis requires clinical features and/or enzyme elevation to meet diagnostic criteria.",
+          "would_make_right": "Keep gallstones but raise lipase to ≥3× ULN; then enzyme elevation would support diagnosis as in the vignette."
+        }
+      ],
+      "rule": "Acute pancreatitis is diagnosed when typical symptoms plus ≥3× upper-limit lipase/amylase and/or characteristic imaging findings are present.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - GI Disorders",
+        "ACG guideline for acute pancreatitis (diagnostic criteria: 2 of 3)"
+      ],
+      "id": "gi-acute-pancreatitis-diagnosis-he-says-only-one-t",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "endocrine",
+      "topic": "Hypothyroidism and Medication-Related Decreased GI Absorption",
+      "difficulty": 2,
+      "hook": "A patient on levothyroxine develops constipation—stop thinking dose changes if meds interfere with absorption.",
+      "key_finding": "Low T4 with high TSH",
+      "vignette": "A 42-year-old woman has fatigue and weight gain for 6 weeks. Vitals are T 36.8 C, HR 74/min, BP 118/76 mmHg, RR 14/min. She was diagnosed with hypothyroidism 2 years ago and takes levothyroxine daily. Over the last month, she started taking calcium carbonate twice daily for dyspepsia. Labs show total T4 3.2 mcg/dL (normal 5-12), TSH 12.8 mIU/L (normal 0.4-4.5). She reports increased constipation but no heat intolerance, tremor, or palpitations. What is the most likely reason her levothyroxine is less effective?",
+      "short_vignette": "Hypothyroid symptoms: T4 low, TSH high. New calcium carbonate started—what mechanism explains decreased levothyroxine effect?",
+      "stem": "What is the most likely reason her levothyroxine is less effective?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcium binds levothyroxine in the gut, reducing absorption",
+          "correct": true,
+          "why": "Calcium can form insoluble complexes with levothyroxine in the gastrointestinal tract. This decreases bioavailability, leading to low T4 with compensatory elevated TSH.",
+          "would_make_right": "Add a brief note that she takes levothyroxine and calcium carbonate at the same time each day."
+        },
+        {
+          "letter": "B",
+          "text": "Calcium stimulates thyroid hormone production, lowering TSH",
+          "correct": false,
+          "why": "The patient already has hypothyroidism and is taking replacement therapy. Calcium does not directly increase thyroid hormone synthesis to lower TSH.",
+          "would_make_right": "Change labs to show high T4 with low TSH and include symptoms of hyperthyroidism."
+        },
+        {
+          "letter": "C",
+          "text": "Calcium increases hepatic clearance of levothyroxine",
+          "correct": false,
+          "why": "Hepatic clearance increases are better explained by enzyme-inducing drugs. The vignette points to an intestinal absorption issue rather than altered metabolism.",
+          "would_make_right": "Replace calcium with a known hepatic enzyme inducer and specify timing consistent with enhanced metabolism."
+        },
+        {
+          "letter": "D",
+          "text": "Calcium decreases TSH secretion from the pituitary",
+          "correct": false,
+          "why": "If TSH secretion decreased, TSH would be low or normal rather than elevated in response to low T4.",
+          "would_make_right": "Change TSH to be low (e.g., 0.2 mIU/L) while T4 is low or normal."
+        },
+        {
+          "letter": "E",
+          "text": "Calcium causes thyroid gland destruction, leading to hyperthyroidism",
+          "correct": false,
+          "why": "Gland destruction would not selectively produce hyperthyroidism in a chronic replacement scenario, and the labs show low T4 with high TSH.",
+          "would_make_right": "Add acute onset of weight loss, tremor, and labs showing elevated T4 with suppressed TSH."
+        }
+      ],
+      "rule": "In hypothyroid patients on levothyroxine, a new low T4 with high TSH suggests decreased hormone bioavailability or ineffective dosing schedule.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Endocrine (Thyroid Disease) and Pharmacology (Levothyroxine interactions)",
+        "American Thyroid Association patient counseling/medication administration guidance"
+      ],
+      "id": "endocrine-hypothyroidism-and-medication-related-de-a-patient-on-levot",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "pharm",
+      "topic": "Naloxone Reversal of Opioids",
+      "difficulty": 2,
+      "hook": "He got better after naloxone—what must the opioid have been doing first?",
+      "key_finding": "Naloxone is a competitive antagonist",
+      "vignette": "A 42-year-old man is found unresponsive after taking “pain pills.” Vitals show RR 6/min, O2 sat 88%, and BP 104/68 mmHg. Pupils are pinpoint. Capillary glucose is 98 mg/dL. After naloxone is administered, his respiratory rate rapidly improves to 16/min and oxygen saturation rises to 97% within minutes. The opioid effect wears off as naloxone competes at receptors. Which drug mechanism best explains this immediate reversal?",
+      "short_vignette": "Opioid overdose with pinpoint pupils and hypoventilation improves rapidly after naloxone. What opioid receptor effect was being reversed?",
+      "stem": "How does naloxone produce rapid improvement in opioid-induced respiratory depression?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Competitive blockade at opioid receptors",
+          "correct": true,
+          "why": "Naloxone rapidly displaces opioids at μ-opioid receptors because it is a competitive antagonist. This restores normal respiratory drive quickly when the receptor is no longer occupied by the agonist.",
+          "would_make_right": "Keep the same vignette, but add that the patient had opioids at high concentrations; naloxone would still restore breathing promptly by receptor competition."
+        },
+        {
+          "letter": "B",
+          "text": "Irreversible destruction of opioid receptors",
+          "correct": false,
+          "why": "Irreversible receptor damage would not explain rapid recovery within minutes. It would be unlikely to show quick, reversible physiologic improvement.",
+          "would_make_right": "Change the vignette to show that recovery takes days and includes evidence of receptor loss (eg, no response to further naloxone), which is not present here."
+        },
+        {
+          "letter": "C",
+          "text": "Inhibition of hepatic CYP450 metabolism of opioids",
+          "correct": false,
+          "why": "Blocking metabolism would prolong opioid effects rather than rapidly reverse them. The expected outcome would be persistent hypoventilation.",
+          "would_make_right": "Alter the vignette so naloxone worsens or does not improve respiratory depression; that would fit metabolism inhibition, not receptor antagonism."
+        },
+        {
+          "letter": "D",
+          "text": "Opening of GABA-A chloride channels",
+          "correct": false,
+          "why": "GABA-A activation causes sedation and respiratory depression, not reversal of opioid-induced hypoventilation. It would worsen the presentation.",
+          "would_make_right": "Modify the vignette so the patient becomes more somnolent and hypoventilates after the reversal agent, consistent with GABA-A potentiation."
+        },
+        {
+          "letter": "E",
+          "text": "Activation of cannabinoid receptors leading to respiratory stimulation",
+          "correct": false,
+          "why": "Cannabinoid receptor activation is not the mechanism of naloxone. In this vignette, the classic opioid toxidrome is present and is specifically reversed by opioid antagonism.",
+          "would_make_right": "Change the vignette hook to explicitly describe synthetic cannabinoid intoxication without opioid signs; then a cannabinoid mechanism could be tested."
+        }
+      ],
+      "rule": "Naloxone reverses opioid toxicity by competitively antagonizing μ-opioid receptors, rapidly restoring respiration when the receptor is displaced.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Pharmacology: Opioids & Antagonists",
+        "FDA/Drug label: Naloxone mechanism of action"
+      ],
+      "id": "pharm-naloxone-reversal-of-opioids-he-got-better-afte",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "neuro",
+      "topic": "Parkinson Disease Treatment Mechanism",
+      "difficulty": 2,
+      "hook": "He asks why a drug helps tremor without fixing the underlying dopamine cell loss.",
+      "key_finding": "Resting tremor with cogwheel rigidity",
+      "vignette": "A 67-year-old man reports a 2-year history of resting tremor in his right hand and progressive stiffness when turning in bed. He has bradykinesia and cogwheel rigidity bilaterally, worse on the right. Vitals are T 36.8 C, HR 78/min, BP 128/74 mm Hg. He reports no history of stroke, and his cognition is intact. A clinician starts an oral medication to reduce tremor and improve movement. Which mechanism best explains the medication’s symptomatic benefit?",
+      "short_vignette": "67M with resting tremor, bradykinesia, cogwheel rigidity; intact cognition. Oral therapy started. Which mechanism explains symptomatic benefit?",
+      "stem": "Which mechanism best explains the symptomatic benefit of therapy for his disorder?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increases synaptic dopamine by inhibiting its breakdown",
+          "correct": true,
+          "why": "Parkinson disease is characterized by loss of dopaminergic neurons. Inhibiting dopamine breakdown increases available dopamine in the striatum, improving symptoms without reversing neuron loss.",
+          "would_make_right": "Add a statement that the chosen medication is an MAO-B inhibitor and that symptoms improve as dopamine is preserved."
+        },
+        {
+          "letter": "B",
+          "text": "Blocks postsynaptic dopamine D2 receptors in the striatum",
+          "correct": false,
+          "why": "D2 receptor antagonism would worsen parkinsonian symptoms by reducing dopaminergic signaling, which contradicts symptomatic improvement in the vignette.",
+          "would_make_right": "Change the vignette to describe symptom worsening after starting a dopamine antagonist (e.g., new antipsychotic)."
+        },
+        {
+          "letter": "C",
+          "text": "Depletes dopamine via irreversible vesicular monoamine transporter inhibition",
+          "correct": false,
+          "why": "Depleting dopamine decreases motor control and would exacerbate tremor and rigidity rather than improving them.",
+          "would_make_right": "Specify the medication irreversibly depletes vesicular dopamine, and adjust the vignette to worsening symptoms after initiation."
+        },
+        {
+          "letter": "D",
+          "text": "Promotes dopamine synthesis by increasing tyrosine hydroxylase activity",
+          "correct": false,
+          "why": "This mechanism is a different approach to raising dopamine, and the vignette does not provide clues that the therapy is a dopamine precursor strategy.",
+          "would_make_right": "Replace the medication with a dopamine precursor (e.g., explicitly name levodopa) and state the patient has severe motor symptoms responsive to it."
+        },
+        {
+          "letter": "E",
+          "text": "Increases acetylcholine signaling by inhibiting acetylcholinesterase",
+          "correct": false,
+          "why": "Enhancing acetylcholine would worsen the dopamine–acetylcholine imbalance typical of Parkinson disease rather than treating tremor and rigidity.",
+          "would_make_right": "State the medication is an acetylcholinesterase inhibitor and that he develops worsening rigidity."
+        }
+      ],
+      "rule": "Parkinson disease symptoms improve when dopaminergic signaling in the striatum is increased, often by preventing dopamine breakdown.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Neurology/Movement Disorders",
+        "First Aid for the USMLE Step 1 - Pharmacology (Parkinson disease drugs: MAO-B inhibitors, levodopa, dopamine agonists)"
+      ],
+      "id": "neuro-parkinson-disease-treatment-mechanism-he-asks-why-a-drug",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "obgyn",
+      "topic": "Postpartum Hemorrhage Etiologies",
+      "difficulty": 2,
+      "hook": "Atony is common, but which risk factors actually point you to genital tract laceration?",
+      "key_finding": "Firm uterus; bright red heavy bleeding",
+      "vignette": "A 28-year-old G2P2 woman is 2 hours postpartum after an uncomplicated vaginal delivery. She reports heavy vaginal bleeding and feeling lightheaded. Vitals are T 36.8°C, HR 118/min, BP 92/60 mmHg, RR 18/min. Exam shows brisk bright red bleeding from the vagina. The uterus is firm and well-contracted. Pelvic exam reveals pooling of blood with a suspected cervical laceration. She has no fever. Which etiology best explains her hemorrhage?",
+      "short_vignette": "2 hours postpartum with brisk bright red bleeding, firm uterus, and suspected cervical laceration.",
+      "stem": "Which cause is most consistent with her postpartum hemorrhage presentation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uterine atony from overdistention",
+          "correct": false,
+          "why": "Uterine atony causes a boggy, poorly contracted uterus. Her uterus is firm and well-contracted.",
+          "would_make_right": "Change exam to a boggy, enlarged uterus with poor tone despite uterine massage."
+        },
+        {
+          "letter": "B",
+          "text": "Genital tract laceration",
+          "correct": true,
+          "why": "Active heavy bleeding with a firm uterus and suspected cervical/vaginal trauma indicates laceration-related hemorrhage.",
+          "would_make_right": "Keep uterus firm and add a clearly visualized cervical or vaginal tear on speculum exam."
+        },
+        {
+          "letter": "C",
+          "text": "Retained products of conception",
+          "correct": false,
+          "why": "Retained products typically produce subinvolution with a boggy uterus and often abnormal bleeding patterns later postpartum.",
+          "would_make_right": "Change uterus to boggy and add ultrasound evidence of retained placental tissue."
+        },
+        {
+          "letter": "D",
+          "text": "Uterine inversion",
+          "correct": false,
+          "why": "Uterine inversion causes an altered fundus position and severe pain during delivery, not a firm, well-contracted uterus.",
+          "would_make_right": "Alter exam to show the fundus inverted into the vagina with acute severe pain."
+        },
+        {
+          "letter": "E",
+          "text": "Coagulopathy from amniotic fluid embolism",
+          "correct": false,
+          "why": "Amniotic fluid embolism presents with sudden respiratory distress and shock accompanied by DIC, not isolated firm-uterus bleeding.",
+          "would_make_right": "Add sudden hypoxia, frothy breathing, and prolonged PT/aPTT with low fibrinogen."
+        }
+      ],
+      "rule": "In postpartum hemorrhage, a firm uterus points to genital trauma; a boggy uterus points to atony.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Obstetrics: Postpartum Hemorrhage",
+        "ACOG Practice Bulletin (postpartum hemorrhage evaluation)"
+      ],
+      "id": "obgyn-postpartum-hemorrhage-etiologies-atony-is-common-bu",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "resp",
+      "topic": "Asthma Mechanism of Bronchoconstriction",
+      "difficulty": 2,
+      "hook": "He wheezes after exercise—don’t confuse asthma with COPD or anaphylaxis.",
+      "key_finding": "Eosinophils and elevated IgE",
+      "vignette": "A 19-year-old man with seasonal allergies reports 2 weeks of intermittent nighttime wheezing and chest tightness. Symptoms worsen with cold air and during a soccer match, then improve after using an inhaler. Vitals show T 36.8°C, HR 92/min, RR 22/min, BP 118/70 mmHg, and SpO2 96% on room air. Spirometry demonstrates reversible airflow obstruction. Serum studies show elevated IgE. Peripheral blood smear reveals eosinophilia. He has no fever, no productive cough, and no smoking history.",
+      "short_vignette": "19M with seasonal allergies has reversible wheeze after exercise; elevated IgE and eosinophilia point to allergic asthma.",
+      "stem": "Which mechanism best explains his episodic wheezing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IL-4 and IL-13 driven class switching to IgE in B cells",
+          "correct": true,
+          "why": "Allergic asthma is mediated by Th2 cytokines (IL-4/IL-13) that promote IgE class switching, leading to mast cell activation. This matches elevated IgE and eosinophilia with reversible obstruction.",
+          "would_make_right": "Add a history of atopy with positive skin testing to a specific allergen and note mast cell–mediated immediate symptoms after allergen exposure."
+        },
+        {
+          "letter": "B",
+          "text": "Neutrophil elastase causing fixed airway destruction",
+          "correct": false,
+          "why": "Fixed airway destruction is characteristic of COPD/emphysema rather than asthma. His obstruction is reversible and eosinophilia with elevated IgE suggests allergic inflammation.",
+          "would_make_right": "Change spirometry to show persistent obstruction with no reversibility after bronchodilator and add long smoking history with chronic productive cough."
+        },
+        {
+          "letter": "C",
+          "text": "IgG-mediated immune complex deposition in alveoli",
+          "correct": false,
+          "why": "Immune complex disease (often IgG) is associated with conditions like hypersensitivity pneumonitis or certain vasculitides, not typical episodic wheezing with reversible obstruction and atopy.",
+          "would_make_right": "Replace wheezing episodes with progressive dyspnea and hypoxemia after a specific exposure, and include imaging consistent with alveolar infiltrates (e.g., ground-glass opacities)."
+        },
+        {
+          "letter": "D",
+          "text": "Rapid mast-cell degranulation triggered by IgE cross-linking",
+          "correct": false,
+          "why": "IgE cross-linking can occur in allergic reactions, but the question asks for the mechanism best explaining his disease pattern given the decisive lab clue (elevated IgE with eosinophilia). The key immunologic driver is Th2 cytokine–mediated IgE class switching.",
+          "would_make_right": "If you add an immediate onset of symptoms within minutes after allergen exposure and omit the elevated IgE/eosinophilia emphasis, then rapid mast-cell degranulation would become the best answer."
+        },
+        {
+          "letter": "E",
+          "text": "Destruction of alveolar septa from granulomatous inflammation",
+          "correct": false,
+          "why": "Granulomatous inflammation leading to septal destruction is not the mechanism of asthma. His reversible bronchospasm and atopic findings argue against a granulomatous process.",
+          "would_make_right": "Introduce systemic symptoms (fever, night sweats), chest CT showing granulomas, and include labs suggesting sarcoidosis or another granulomatous disease."
+        }
+      ],
+      "rule": "In allergic asthma, Th2 cytokines promote IgE production that triggers mast cells and eosinophilic airway inflammation.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Respiratory Disorders (Asthma)",
+        "GINA (allergic asthma/Th2–IgE pathophysiology)"
+      ],
+      "id": "resp-asthma-mechanism-of-bronchoconstriction-he-wheezes-after-e",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "endocrine",
+      "topic": "Thyroid Hormone Action",
+      "difficulty": 2,
+      "hook": "Do not confuse high free T4 from thyroid hormone resistance with primary hypothyroidism.",
+      "key_finding": "High T4 with nonsuppressed TSH",
+      "vignette": "A 16-year-old girl has fatigue and poor concentration. Her mother reports she has always been “a little slowed,” and she started puberty on time. She takes no medications. Vitals are T 36.2°C, HR 58/min, and BP 108/70 mmHg. Labs show free T4 2.8 ng/dL (normal 0.8–1.8) and TSH 6.0 mIU/L (normal 0.4–4.0). Thyroid antibodies are negative. Which diagnosis best explains the discordant thyroid studies?",
+      "short_vignette": "Teen with fatigue: free T4 high and TSH elevated. Antibodies negative. Not medication related—best diagnosis?",
+      "stem": "Which diagnosis best explains elevated free T4 with an inappropriately high TSH?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thyroid hormone resistance",
+          "correct": true,
+          "why": "In thyroid hormone resistance, peripheral tissues are less responsive to thyroid hormone, so feedback cannot suppress TSH despite elevated thyroid hormone levels. This produces high free T4 with nonsuppressed or elevated TSH.",
+          "would_make_right": "Add family history of similar thyroid lab abnormalities with minimal symptoms despite high free T4."
+        },
+        {
+          "letter": "B",
+          "text": "Primary hypothyroidism due to thyroid failure",
+          "correct": false,
+          "why": "Primary hypothyroidism would cause low free T4 due to impaired thyroid hormone production. TSH is typically elevated in response, but free T4 should not be high.",
+          "would_make_right": "Change free T4 to below the normal range (e.g., 0.5 ng/dL) while keeping TSH elevated."
+        },
+        {
+          "letter": "C",
+          "text": "Central hypothyroidism from pituitary dysfunction",
+          "correct": false,
+          "why": "Central hypothyroidism causes low or low-normal free T4 with inappropriately low or normal TSH. Elevated free T4 argues against pituitary failure causing insufficient thyroid stimulation.",
+          "would_make_right": "Change TSH to low or normal (e.g., 0.6 mIU/L) while free T4 is low."
+        },
+        {
+          "letter": "D",
+          "text": "Toxic multinodular goiter",
+          "correct": false,
+          "why": "Toxic multinodular goiter causes excessive thyroid hormone production, leading to high free T4 and/or T3 with suppressed TSH via negative feedback. Here, TSH is elevated, which contradicts hyperthyroidism feedback physiology.",
+          "would_make_right": "Suppress TSH to below normal (e.g., 0.1 mIU/L) while free T4 remains high."
+        },
+        {
+          "letter": "E",
+          "text": "Thyroid hormone ingestion from exogenous levothyroxine",
+          "correct": false,
+          "why": "Exogenous thyroid hormone increases free T4 and should suppress TSH through negative feedback. Persistent elevation of TSH indicates the feedback loop is not appropriately responding to circulating hormone.",
+          "would_make_right": "Specify missed doses are impossible and add TSH suppression to below normal (e.g., 0.2 mIU/L)."
+        }
+      ],
+      "rule": "Discordant thyroid labs with high free T4 should suppress TSH unless tissues or the feedback system are resistant.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Endocrine",
+        "American Thyroid Association (patient and clinician educational summaries on thyroid hormone resistance)"
+      ],
+      "id": "endocrine-thyroid-hormone-action-do-not-confuse-hig",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "heme",
+      "topic": "Microcytic Anemia: Thalassemia Versus Iron Deficiency",
+      "difficulty": 3,
+      "hook": "Don’t assume all microcytosis is iron deficiency—look at the RDW and RBC count.",
+      "key_finding": "Low MCV with normal/high RBC",
+      "vignette": "A 27-year-old man presents for evaluation of long-standing fatigue. He denies melena and has no pica. Vitals are normal: T 36.8 C, HR 78/min, BP 118/72 mmHg, SpO2 99% on room air. CBC shows: Hb 10.8 g/dL, Hct 33%, MCV 62 fL, RDW 13%, RBC count 6.1 million/µL, platelets 260,000/µL. Iron studies are normal with ferritin 95 ng/mL and transferrin saturation 32%. Which diagnosis best explains the microcytosis?",
+      "short_vignette": "Fatigue with Hb 10.8, MCV 62, RDW 13%, high RBC count, normal ferritin and saturation—most consistent with thalassemia.",
+      "stem": "Which diagnosis best explains this patient’s microcytosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iron deficiency anemia",
+          "correct": false,
+          "why": "Iron deficiency classically causes elevated RDW and low ferritin/transferrin saturation. Here, ferritin and saturation are normal, arguing against iron deficiency.",
+          "would_make_right": "Change ferritin to 10 ng/mL and transferrin saturation to 10%, and increase RDW to 18%."
+        },
+        {
+          "letter": "B",
+          "text": "Thalassemia trait",
+          "correct": true,
+          "why": "Thalassemia trait causes microcytosis with a relatively normal RDW and often a normal or elevated RBC count, with normal iron studies.",
+          "would_make_right": "Keep ferritin and transferrin saturation normal; also raise Hb slightly (e.g., 11.5 g/dL) while preserving low MCV and normal RDW."
+        },
+        {
+          "letter": "C",
+          "text": "Sideroblastic anemia",
+          "correct": false,
+          "why": "Sideroblastic anemia is associated with impaired heme synthesis and often elevated RDW with iron overload; iron studies would not be normal in a way that explains isolated microcytosis here.",
+          "would_make_right": "Add iron overload pattern (e.g., elevated serum iron and transferrin saturation) and note increased ring sideroblasts on marrow."
+        },
+        {
+          "letter": "D",
+          "text": "Anemia of chronic inflammation",
+          "correct": false,
+          "why": "Anemia of chronic inflammation typically shows low serum iron with normal or increased ferritin and usually presents in the setting of chronic disease rather than isolated normal iron studies.",
+          "would_make_right": "Introduce a chronic inflammatory condition and make transferrin saturation low (e.g., 12%) with ferritin elevated (e.g., 250 ng/mL)."
+        },
+        {
+          "letter": "E",
+          "text": "Lead poisoning",
+          "correct": false,
+          "why": "Lead poisoning can cause microcytosis, but the vignette lacks exposure history and would be expected to show additional findings such as basophilic stippling and abnormal iron handling.",
+          "would_make_right": "Add occupational exposure to lead-based paint and include basophilic stippling on peripheral smear with elevated blood lead level."
+        }
+      ],
+      "rule": "In microcytic anemia, normal iron studies plus low RDW and normal/high RBC count favors thalassemia trait over iron deficiency.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Hematology/Anemias",
+        "USPSTF/clinical diagnostic approach to microcytic anemia (general)"
+      ],
+      "id": "heme-microcytic-anemia-thalassemia-versus-iro-don-t-assume-all-m",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "pharm",
+      "topic": "Mechanism of Proton Pump Inhibitors",
+      "difficulty": 2,
+      "hook": "This patient’s symptoms improve, but ask what drug target is blocked, not acid output alone.",
+      "key_finding": "Irreversible H+/K+ ATPase inhibition",
+      "vignette": "A 58-year-old man with epigastric burning and GERD takes omeprazole daily. Over the next several days, his symptoms improve and his gastric pH rises. He asks why the medication works even though he has no immediate relief right after the first dose. Vitals are normal. An endoscopy shows reflux esophagitis. A gastric sample taken 24 hours after the last dose shows markedly reduced activity of the proton pump in parietal cells compared with baseline. Which process is directly inhibited by omeprazole?",
+      "short_vignette": "GERD improved days into therapy; gastric sampling shows reduced proton pump activity—mechanism involves irreversible inhibition.",
+      "stem": "What process is directly inhibited by omeprazole in parietal cells?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "H+/K+ ATPase in gastric parietal cells",
+          "correct": true,
+          "why": "Omeprazole irreversibly inhibits the luminal H+/K+ ATPase, shutting down final common pathway for gastric acid secretion. The clinical effect improves after parietal cells regenerate, explaining delayed maximal symptom relief.",
+          "would_make_right": "Change the vignette to state that parietal cell H+/K+ ATPase activity is irreversibly decreased with omeprazole exposure."
+        },
+        {
+          "letter": "B",
+          "text": "Histamine H2 receptors on parietal cells",
+          "correct": false,
+          "why": "H2 blockers reduce acid via decreased cAMP signaling, but they do not irreversibly inhibit the ATPase pump. The vignette emphasizes proton pump activity specifically being reduced.",
+          "would_make_right": "Change the vignette to show decreased histamine-driven cAMP signaling at the H2 receptor without mention of ATPase activity reduction."
+        },
+        {
+          "letter": "C",
+          "text": "Carbonic anhydrase in gastric parietal cells",
+          "correct": false,
+          "why": "Carbonic anhydrase inhibitors reduce formation of bicarbonate and affect acid generation, but they are not the mechanism of omeprazole. The key finding points to the final proton pump.",
+          "would_make_right": "Change the vignette to mention decreased CO2 hydration (carbonic anhydrase activity) affecting bicarbonate production."
+        },
+        {
+          "letter": "D",
+          "text": "Gastrin receptor signaling via increased cAMP",
+          "correct": false,
+          "why": "Gastrin receptor blockade is not the direct target of PPIs. The vignette describes direct reduction in the proton pump, not altered gastrin-mediated second messenger pathways.",
+          "would_make_right": "Change the vignette to document blockade of gastrin receptors and restored cAMP dynamics rather than reduced ATPase activity."
+        },
+        {
+          "letter": "E",
+          "text": "Vagal stimulation through muscarinic receptors",
+          "correct": false,
+          "why": "Muscarinic antagonists reduce acid by blocking acetylcholine on parietal cells, not by irreversibly inhibiting the H+/K+ ATPase. The stem’s emphasis is on proton pump activity.",
+          "would_make_right": "Change the vignette to show that acetylcholine-driven muscarinic signaling is blocked with unchanged proton pump ATPase activity."
+        }
+      ],
+      "rule": "PPIs irreversibly inhibit the gastric H+/K+ ATPase, the final common pathway for acid secretion.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Pharmacology (Proton Pump Inhibitors)",
+        "Gastroesophageal Reflux Disease pharmacology review (final common pathway acid secretion)"
+      ],
+      "id": "pharm-mechanism-of-proton-pump-inhibitors-this-patient-s-sym",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-26",
+>>>>>>> 404c1b48395f5be76e09a5f169f3fdefd38bbfa5
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
     }

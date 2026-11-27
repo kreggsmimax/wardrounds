@@ -1652,6 +1652,301 @@
         "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Hypertrophic Cardiomyopathy",
+      "difficulty": 3,
+      "hook": "Listen closely: which maneuver causes an increase in the murmur for hypertrophic cardiomyopathy?",
+      "key_finding": "Murmur increases with decreased preload",
+      "vignette": "A 26-year-old man reports exertional lightheadedness and chest discomfort. Exam shows a harsh systolic murmur best heard at the left lower sternal border that becomes louder with standing. Blood pressure is 132/70 mmHg supine and 104/66 mmHg standing; heart rate rises from 76 to 98/min. ECG shows LV hypertrophy with deep, narrow Q waves. An echocardiogram demonstrates asymmetric septal hypertrophy with systolic anterior motion of the mitral valve and dynamic LV outflow tract obstruction. Which bedside maneuver would most increase the murmur’s intensity?",
+      "short_vignette": "Young man has HCM with LV outflow obstruction; standing lowers BP and worsens murmur. Which maneuver increases murmur most?",
+      "stem": "Which bedside maneuver would most increase the systolic murmur intensity in this patient?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Squatting",
+          "correct": false,
+          "why": "Squatting increases venous return (increases preload), which reduces dynamic LV outflow tract obstruction in HCM. The murmur should decrease, not increase.",
+          "would_make_right": "Change the vignette to say the murmur decreases with standing (suggesting increased preload worsens obstruction), and add that squatting makes it louder."
+        },
+        {
+          "letter": "B",
+          "text": "Passive leg raise",
+          "correct": false,
+          "why": "Passive leg raise increases preload and thereby decreases the degree of dynamic outflow obstruction. In HCM, increased preload typically makes the murmur softer.",
+          "would_make_right": "Modify the vignette so that passive leg raise decreases BP and increases murmur, indicating the opposite preload effect."
+        },
+        {
+          "letter": "C",
+          "text": "Standing quickly (decreased preload)",
+          "correct": true,
+          "why": "HCM causes dynamic LV outflow tract obstruction that worsens when preload decreases. This increases the murmur intensity, consistent with the patient’s standing-related worsening.",
+          "would_make_right": "Provide vitals demonstrating that standing lowers BP and loudness parallels worsening LV obstruction on repeat echo."
+        },
+        {
+          "letter": "D",
+          "text": "Inhalation of a bronchodilator causing tachycardia",
+          "correct": false,
+          "why": "Tachycardia can affect murmur timing/diastolic filling, but the key bedside determinant tested here is preload. This distractor targets a misconception that any tachycardia increases the murmur regardless of preload.",
+          "would_make_right": "Alter the vignette to explicitly state the maneuver selectively decreases preload without changing volume status and then worsens the murmur."
+        },
+        {
+          "letter": "E",
+          "text": "Rapid isotonic fluid bolus (increased preload)",
+          "correct": false,
+          "why": "Increasing preload reduces dynamic LV outflow tract obstruction, so the systolic murmur intensity should decrease. This option flips the expected preload effect.",
+          "would_make_right": "Add a statement that fluid administration decreases BP and paradoxically increases murmur; that would make this option correct."
+        }
+      ],
+      "rule": "In hypertrophic cardiomyopathy, decreased preload increases dynamic LV outflow obstruction and the systolic murmur.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System",
+        "Dynamic LV outflow obstruction (HCM) preload maneuvers"
+      ],
+      "id": "cardiology-hypertrophic-cardiomyopathy-listen-closely-whi",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Acute Coronary Syndrome: Plaque Rupture",
+      "difficulty": 3,
+      "hook": "“It’s just stable angina—same plaques, no rupture.” What is occurring in the culprit artery?",
+      "key_finding": "Thrombus over ruptured atherosclerotic plaque",
+      "vignette": "A 62-year-old man with long-standing exertional chest discomfort arrives 1 hour after sudden-onset substernal pressure at rest. He is diaphoretic. Blood pressure is 98/62 mmHg, heart rate 112/min, and oxygen saturation 95% on room air. ECG shows new ST-segment depression in leads V4–V6. High-sensitivity troponin I is elevated at 1.8 ng/mL (reference <0.04). He smokes and has hyperlipidemia. Coronary angiography demonstrates an irregular plaque with a superimposed intraluminal thrombus at the site of maximal stenosis. What process most directly explains the acute event?",
+      "short_vignette": "62M sudden rest pain, hypotension, ST depression, troponin elevated; angiography shows irregular plaque with intraluminal thrombus.",
+      "stem": "Which pathologic event most directly triggers this acute coronary syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rupture of an atherosclerotic plaque with superimposed platelet-rich thrombus",
+          "correct": true,
+          "why": "Acute coronary syndromes are driven by disruption of an atherosclerotic plaque, exposing thrombogenic material. This promotes platelet activation and thrombus formation, causing partial or complete coronary occlusion.",
+          "would_make_right": "Change angiography wording to “fibrous cap rupture with overlying thrombus,” and keep troponin elevated and ST depression."
+        },
+        {
+          "letter": "B",
+          "text": "Progressive concentric plaque growth causing fixed, slowly worsening stenosis",
+          "correct": false,
+          "why": "Stable angina results from chronic, fixed obstruction due to gradual plaque progression. The vignette emphasizes sudden onset and thrombus formation, which are not features of purely stable stenosis.",
+          "would_make_right": "Replace angiography finding with “smooth plaque without thrombus” and change presentation to exertional pain relieved by rest."
+        },
+        {
+          "letter": "C",
+          "text": "A chronic thrombus organization that gradually narrows the lumen over months",
+          "correct": false,
+          "why": "Organized chronic thrombus can contribute to stable obstruction, but the scenario shows acute symptoms within hours and an intraluminal thrombus over an irregular plaque. Timing and morphology point to plaque disruption rather than long-term organization.",
+          "would_make_right": "Alter the vignette so symptoms evolve gradually over months, and angiography shows “organized mural thrombus with no acute thrombus.”"
+        },
+        {
+          "letter": "D",
+          "text": "Coronary vasospasm without any plaque disruption or thrombosis",
+          "correct": false,
+          "why": "Vasospastic angina involves transient coronary artery constriction, typically without thrombus or plaque rupture. The angiography explicitly shows superimposed intraluminal thrombus.",
+          "would_make_right": "Change angiography to “transient narrowing that resolves with vasodilator, no thrombus,” and remove troponin elevation."
+        },
+        {
+          "letter": "E",
+          "text": "Hemorrhage into the plaque with immediate inhibition of platelet aggregation",
+          "correct": false,
+          "why": "Intramural plaque hemorrhage can occur, but acute coronary syndromes still involve thrombosis and platelet activation. The vignette demonstrates an active thrombus, not inhibited platelet aggregation.",
+          "would_make_right": "State that angiography shows plaque hemorrhage but also “no thrombus” and that platelet function markers indicate inhibited aggregation."
+        }
+      ],
+      "rule": "Acute coronary syndromes commonly occur from plaque disruption that exposes thrombogenic material, triggering platelet-rich thrombus.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular Pathology",
+        "ACC/AHA guideline summaries on Acute Coronary Syndromes"
+      ],
+      "id": "cardiology-acute-coronary-syndrome-plaque-rupture-it-s-just-stable-a",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "HFrEF Pathophysiology",
+      "difficulty": 3,
+      "hook": "He thinks his “fluid overload” is the only cause—what actually drives HFrEF symptoms?",
+      "key_finding": "↑ SVR from RAAS activation",
+      "vignette": "A 62-year-old man with known dilated cardiomyopathy presents with 3 weeks of worsening exertional dyspnea and orthopnea. He reports decreased urine output. Vitals are T 37.0°C, HR 104/min, BP 92/60 mmHg, RR 22/min, and SpO2 94% on room air. Exam shows elevated JVP and bibasilar crackles. Labs show Na 131 mEq/L, creatinine 1.6 mg/dL, and BNP 980 pg/mL. Transthoracic echocardiography reveals LVEF 25%. ECG shows sinus tachycardia.",
+      "short_vignette": "62M with LVEF 25%, hypotension, hyponatremia, JVP, crackles—what pathway primarily causes the worsening symptoms?",
+      "stem": "Which mechanism best explains his progressive symptoms in HFrEF?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Baroreceptor-mediated renin release causing vasoconstriction via RAAS",
+          "correct": true,
+          "why": "Low effective arterial blood volume in HFrEF activates baroreceptors, increasing renin, angiotensin II, and aldosterone. Angiotensin II increases systemic vascular resistance, worsening afterload and symptoms.",
+          "would_make_right": "Replace “decreased urine output” with “low effective arterial blood volume from reduced forward flow,” while keeping BP low and LVEF 25%."
+        },
+        {
+          "letter": "B",
+          "text": "Systemic vasodilation from excess nitric oxide leading to compensatory tachycardia only",
+          "correct": false,
+          "why": "In HFrEF, the dominant compensatory response is vasoconstriction (increased SVR) from RAAS activation, not primary nitric-oxide–mediated vasodilation. Tachycardia occurs, but the main driver is increased afterload and volume retention.",
+          "would_make_right": "Change BP to markedly low with warm extremities and explicitly state chronic severe sepsis physiology; that would shift mechanisms away from typical HFrEF compensation."
+        },
+        {
+          "letter": "C",
+          "text": "Primary intrinsic kidney failure causing fluid retention independent of neurohormonal activation",
+          "correct": false,
+          "why": "He has mild renal dysfunction, but the key trigger is reduced perfusion (“effective arterial blood volume”) activating RAAS and sympathetic pathways. Primary intrinsic renal failure would be expected to present differently and not fit the described HFrEF mechanism.",
+          "would_make_right": "Add urinalysis findings consistent with intrinsic renal disease (eg, muddy brown casts) and remove evidence of neurohormonal activation patterns."
+        },
+        {
+          "letter": "D",
+          "text": "Pulmonary arterial smooth muscle hypertrophy causing fixed outflow obstruction",
+          "correct": false,
+          "why": "Pulmonary arterial smooth muscle hypertrophy leads to pulmonary hypertension and right-sided strain patterns. The vignette centers on LV systolic failure with reduced LVEF and classic HFrEF compensation.",
+          "would_make_right": "Include right-heart catheterization showing chronically elevated pulmonary vascular resistance with preserved LVEF."
+        },
+        {
+          "letter": "E",
+          "text": "A primary valvular lesion causing sudden left atrial pressure spikes",
+          "correct": false,
+          "why": "HFrEF due to reduced LVEF is primarily a myocardial pump problem with neurohormonal activation. Aortic or mitral valvular disorders would create different hemodynamics and exam/lab patterns.",
+          "would_make_right": "Add echocardiographic evidence of severe valvular disease (eg, severe mitral regurgitation with preserved LVEF) and remove dilated cardiomyopathy context."
+        }
+      ],
+      "rule": "In HFrEF, reduced forward flow triggers baroreceptor-driven RAAS activation, increasing afterload and worsening symptoms.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System (Heart Failure)",
+        "ACC/AHA Heart Failure guideline (general mechanism: neurohormonal activation in HFrEF)"
+      ],
+      "id": "cardiology-hfref-pathophysiology-he-thinks-his-flui",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Complete Heart Block",
+      "difficulty": 3,
+      "hook": "“If the PR interval gets longer, it must be a first-degree block, right?”",
+      "key_finding": "AV dissociation with bradycardia",
+      "vignette": "A 67-year-old man presents with dizziness and near-syncope after feeling “weak all day.” Vitals show blood pressure 126/68 mmHg, pulse 38/min and regular. ECG demonstrates P waves at a rate of 60/min, but the QRS complexes occur at 38/min with no consistent relationship between P waves and QRS complexes. Labs show potassium 4.2 mEq/L and creatinine 1.0 mg/dL. He has no chest pain. Which mechanism best explains his ECG pattern?",
+      "short_vignette": "ECG shows bradycardia with P waves independent from QRS rate—AV dissociation. What mechanism causes this rhythm?",
+      "stem": "What mechanism best explains the ECG pattern in this patient?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Failure of impulse conduction through the AV node",
+          "correct": true,
+          "why": "In complete heart block, impulses from atria cannot reliably traverse the AV node, so atrial and ventricular rhythms become independent (AV dissociation).",
+          "would_make_right": "Change the vignette ECG description to explicitly note no consistent P-to-QRS relationship due to blocked AV-node conduction."
+        },
+        {
+          "letter": "B",
+          "text": "Prolonged PR interval from delayed AV nodal conduction without complete separation",
+          "correct": false,
+          "why": "First-degree AV block has all P waves followed by QRS complexes with a uniformly prolonged PR interval, not independent atrial and ventricular rates.",
+          "would_make_right": "Alter the ECG finding so every P wave is followed by a QRS with a consistently prolonged PR interval."
+        },
+        {
+          "letter": "C",
+          "text": "Reentrant ventricular tachycardia causing irregularly timed QRS complexes",
+          "correct": false,
+          "why": "Ventricular tachycardia typically produces wide QRS complexes with a rate driven by ventricular reentry, not AV dissociation with independent P waves at a different fixed rate.",
+          "would_make_right": "Replace the ECG description with sustained wide-complex tachycardia and no discrete independent atrial rhythm."
+        },
+        {
+          "letter": "D",
+          "text": "Atrial fibrillation with variable AV nodal conduction to the ventricles",
+          "correct": false,
+          "why": "Atrial fibrillation produces no discrete P waves; QRS timing varies due to irregular AV nodal conduction, rather than clear AV dissociation with organized P waves.",
+          "would_make_right": "Modify the ECG to show absent P waves and an irregularly irregular ventricular rhythm."
+        },
+        {
+          "letter": "E",
+          "text": "Sinus bradycardia where each sinus impulse conducts normally to the ventricles",
+          "correct": false,
+          "why": "Sinus bradycardia preserves 1:1 AV conduction, so P waves and QRS complexes remain linked; it does not produce AV dissociation.",
+          "would_make_right": "Change the ECG to show 1:1 relationship between P waves and QRS complexes despite a slow rate."
+        }
+      ],
+      "rule": "In complete heart block, atria and ventricles beat independently due to failure of AV conduction (AV dissociation).",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Arrhythmias",
+        "ACLS / AHA ECG concepts: AV block and AV dissociation"
+      ],
+      "id": "cardiology-complete-heart-block-if-the-pr-interval",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "renal",
+      "topic": "Post-Streptococcal Glomerulonephritis",
+      "difficulty": 3,
+      "hook": "This patient’s cough is over—now think immune complex GN, not ongoing bacterial infection.",
+      "key_finding": "Low complement with RBC casts",
+      "vignette": "An 8-year-old boy presents 2 weeks after a sore throat that resolved without antibiotics. He now has periorbital swelling and cola-colored urine. Vitals are T 37.1 C, BP 148/92 mmHg, HR 98/min. Urinalysis shows 3+ blood with dysmorphic RBCs and red blood cell casts. Serum creatinine is 1.1 mg/dL. Serum albumin is 3.0 g/dL. Complement studies show C3 is low at 45 mg/dL. Throat culture is negative. What is the most likely underlying mechanism of his kidney injury?",
+      "short_vignette": "Child develops cola urine and RBC casts 2 weeks after sore throat; UA shows dysmorphic RBCs; C3 low.",
+      "stem": "What mechanism best explains this child’s post-streptococcal kidney findings?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Immune complex deposition with complement activation",
+          "correct": true,
+          "why": "Post-streptococcal glomerulonephritis is a type III hypersensitivity reaction. Streptococcal antigens trigger immune complex deposition in glomeruli and consumption of complement, especially low C3.",
+          "would_make_right": "Change the vignette to specify C3 low and dysmorphic RBCs/RBC casts after a recent untreated pharyngitis."
+        },
+        {
+          "letter": "B",
+          "text": "Anti-GBM antibodies causing linear basement membrane injury",
+          "correct": false,
+          "why": "Anti-GBM disease causes rapidly progressive GN with linear staining and typically severe pulmonary-renal syndrome features. The classic post-infectious timing with low C3 points to immune complex disease instead.",
+          "would_make_right": "Add hemoptysis and specify linear IgG deposition on immunofluorescence."
+        },
+        {
+          "letter": "C",
+          "text": "ANCA-mediated necrotizing GN with pauci-immune inflammation",
+          "correct": false,
+          "why": "ANCA-associated vasculitis is characterized by pauci-immune necrotizing GN and often has systemic vasculitic symptoms; complement levels are not typically low. Timing after pharyngitis with low C3 supports immune complexes.",
+          "would_make_right": "Add constitutional symptoms and require a positive c-ANCA with pauci-immune findings."
+        },
+        {
+          "letter": "D",
+          "text": "Antibody-dependent cytotoxicity of podocytes by IgE",
+          "correct": false,
+          "why": "Podocyte injury in GN is not mediated by IgE cytotoxicity. IgE mechanisms more closely relate to immediate hypersensitivity conditions and do not explain low C3 and post-streptococcal timing.",
+          "would_make_right": "Replace the post-infectious story with an acute allergic trigger and add elevated IgE with normal C3."
+        },
+        {
+          "letter": "E",
+          "text": "Steroid-responsive nephrotic syndrome from podocyte effacement",
+          "correct": false,
+          "why": "Nephrotic syndrome from podocyte effacement presents with heavy proteinuria and edema, not cola urine with dysmorphic RBCs and RBC casts. Low C3 suggests glomerulonephritis rather than primary nephrotic syndromes.",
+          "would_make_right": "Change the urinalysis to show 4+ protein with bland urine sediment and remove RBC casts."
+        }
+      ],
+      "rule": "Post-streptococcal GN is a type III immune complex reaction with low C3 and glomerular bleeding.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Renal Pathology",
+        "Immunology: Hypersensitivity Reactions (Type III)"
+      ],
+      "id": "renal-post-streptococcal-glomerulonephritis-this-patient-s-cou",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

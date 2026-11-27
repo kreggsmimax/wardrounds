@@ -1,0 +1,84 @@
+1
+00:00:00,100 --> 00:00:02,500
+A 95% sensitive test.
+
+2
+00:00:02,734 --> 00:00:05,385
+An 8.8% chance you
+actually have the
+
+3
+00:00:05,405 --> 00:00:06,147
+disease.
+
+4
+00:00:06,835 --> 00:00:10,302
+A screening test has
+95% sensitivity and
+
+5
+00:00:10,322 --> 00:00:13,962
+90% specificity. The
+disease affects 1% of
+
+6
+00:00:13,982 --> 00:00:16,882
+the population. A
+patient tests positive.
+
+7
+00:00:17,935 --> 00:00:19,864
+Pause. Pick
+your answer.
+
+8
+00:00:23,440 --> 00:00:24,840
+The answer is A.
+
+9
+00:00:25,151 --> 00:00:26,419
+8.8%.
+
+10
+00:00:27,110 --> 00:00:29,458
+Sensitivity and
+specificity belong to the
+
+11
+00:00:29,478 --> 00:00:31,922
+test. Predictive
+values belong to the
+
+12
+00:00:31,942 --> 00:00:33,658
+patient in front
+of you, and they
+
+13
+00:00:33,678 --> 00:00:35,922
+move with prevalence.
+Never answer a
+
+14
+00:00:35,942 --> 00:00:38,106
+predictive-value
+question before writing
+
+15
+00:00:38,126 --> 00:00:39,302
+down the prevalence.
+
+16
+00:00:40,377 --> 00:00:42,672
+The full breakdown,
+with all four wrong
+
+17
+00:00:42,692 --> 00:00:44,265
+answers and what
+would have made each
+
+18
+00:00:44,285 --> 00:00:46,171
+one correct, is
+on the channel.

@@ -1475,6 +1475,183 @@
         "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Cardiac Tamponade",
+      "difficulty": 3,
+      "hook": "This patient is in shock—don’t mistake tamponade for acute coronary syndrome, okay?",
+      "key_finding": "Pulsus paradoxus",
+      "vignette": "A 63-year-old man presents with progressive dyspnea and chest discomfort after a recent viral illness. He appears anxious and is sitting upright. Vitals: BP 88/60 mmHg, HR 112/min, RR 26/min, SpO2 93% on room air, and he is afebrile. Exam shows elevated jugular venous pressure and muffled heart sounds. Bedside cardiac ultrasound demonstrates pericardial effusion with right-sided diastolic collapse. On pulse oximetry, the systolic blood pressure decreases by 18 mmHg during inspiration. ECG shows low voltage without ischemic changes; troponin is normal.",
+      "short_vignette": "Hypotension, JVD, muffled heart sounds, echo shows pericardial effusion with right diastolic collapse; systolic BP drops 18 mmHg on inspiration.",
+      "stem": "Which physical exam finding most directly supports the diagnosis of cardiac tamponade?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Systolic blood pressure decreases >10 mmHg with inspiration",
+          "correct": true,
+          "why": "In tamponade, increased intrapericardial pressure accentuates impaired right ventricular filling during inspiration, causing pulsus paradoxus.",
+          "would_make_right": "Increase the inspiration-related systolic BP drop from 18 mmHg to 12 mmHg while keeping the pericardial effusion and right diastolic collapse."
+        },
+        {
+          "letter": "B",
+          "text": "New systolic murmur that radiates to the carotids",
+          "correct": false,
+          "why": "A carotid-radiating systolic murmur suggests aortic stenosis rather than pericardial effusion with impaired diastolic filling.",
+          "would_make_right": "Replace the pericardial effusion and diastolic collapse on ultrasound with aortic valve calcification and a loud crescendo-decrescendo murmur."
+        },
+        {
+          "letter": "C",
+          "text": "ST-segment elevations in contiguous leads with elevated troponin",
+          "correct": false,
+          "why": "ST-elevation and troponin elevation indicate acute MI, not tamponade physiology.",
+          "would_make_right": "Change the ECG to show ST elevations and add elevated troponin while removing echo evidence of pericardial effusion."
+        },
+        {
+          "letter": "D",
+          "text": "Bilateral wheezing with prolonged expiration and normal jugular venous pressure",
+          "correct": false,
+          "why": "Wheezing and a normal JVP point toward obstructive lung disease rather than increased pericardial pressure.",
+          "would_make_right": "Add diffuse wheezes, give normal JVP, and remove the ultrasound finding of pericardial effusion."
+        },
+        {
+          "letter": "E",
+          "text": "Focal neurologic deficits that progress over hours with fever",
+          "correct": false,
+          "why": "Progressive focal deficits with fever suggest a neurologic infectious/inflammatory process rather than a cardiopulmonary mechanical cause.",
+          "would_make_right": "Replace cardiopulmonary findings with neurologic signs (eg, weakness, aphasia) and omit the echo/pressure changes."
+        }
+      ],
+      "rule": "Cardiac tamponade causes impaired ventricular filling that produces pulsus paradoxus during inspiration.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular Infections/Cardiac Tamponade and Pericardial Disease",
+        "American College of Cardiology/American Heart Association guidance on pericardial disease"
+      ],
+      "id": "cardiology-cardiac-tamponade-this-patient-is-in",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Infective Endocarditis: Predisposing Valve Lesions",
+      "difficulty": 2,
+      "hook": "“New fever after dental work—does endocarditis still require preexisting valve damage?”",
+      "key_finding": "Mitral regurgitation murmur, new",
+      "vignette": "A 56-year-old man has 2 days of fever and malaise after dental cleaning. He reports increasing shortness of breath. On exam, temperature is 39.2 C (102.6 F), pulse 112/min, blood pressure 128/72 mmHg. A new holosystolic murmur is heard at the cardiac apex radiating to the axilla. Labs show WBC 15,800/mm3 and C-reactive protein 12.5 mg/dL. Urinalysis shows no casts. Transthoracic echocardiography demonstrates a mitral valve vegetation. Which mechanism best explains why his risk was higher than in a young healthy adult?",
+      "short_vignette": "Older man develops fever after dental work. Echo shows mitral vegetation and new holosystolic murmur. What predisposition explains higher risk?",
+      "stem": "Which mechanism best explains why his risk was higher than in a young healthy adult?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endothelial injury exposes platelets, enabling bacterial adherence",
+          "correct": true,
+          "why": "Infective endocarditis requires bacteria to adhere to damaged endocardium, where platelet-fibrin deposition creates a nidus for colonization. Predisposing valve lesions increase likelihood of this process after transient bacteremia.",
+          "would_make_right": "Add a sentence that his echocardiogram shows chronic mitral valve prolapse with regurgitation before infection."
+        },
+        {
+          "letter": "B",
+          "text": "Impaired neutrophil chemotaxis allows bacteria to invade myocardium directly",
+          "correct": false,
+          "why": "Neutrophil chemotaxis defects are associated with recurrent bacterial infections but do not specifically describe the pathogenesis of endocardial vegetation formation on valve surfaces.",
+          "would_make_right": "Change the vignette to document a congenital neutrophil adhesion/chemotaxis disorder and remove the new valve murmur."
+        },
+        {
+          "letter": "C",
+          "text": "Renal hypoperfusion causes bacterial growth in the bloodstream",
+          "correct": false,
+          "why": "Prerenal states predispose to acute kidney injury, not bacterial adherence on valves or vegetation formation. His urinalysis does not suggest a renal perfusion problem.",
+          "would_make_right": "Replace CRP and echocardiography findings with low urine sodium and muddy brown casts, and remove evidence of valve vegetation."
+        },
+        {
+          "letter": "D",
+          "text": "Autoantibodies bind cardiolipin, causing sterile thrombi and emboli",
+          "correct": false,
+          "why": "Antiphospholipid syndrome causes thrombotic, sterile lesions rather than infectious vegetations with bacterial colonization after bacteremia.",
+          "would_make_right": "Add positive antiphospholipid antibodies and remove the echo finding of vegetation."
+        },
+        {
+          "letter": "E",
+          "text": "Systemic viral infection reactivates dormant bacteria without bacteremia",
+          "correct": false,
+          "why": "Viral reactivation without bacteremia does not explain how bacteria reach and adhere to cardiac valves. Infective endocarditis classically follows transient bacteremia from procedures or infections.",
+          "would_make_right": "Remove the dental trigger and instead describe chronic viral prodrome only, with no transient bacteremia."
+        }
+      ],
+      "rule": "Infective endocarditis forms when transient bacteremia seeds damaged endocardium with platelet-fibrin thrombi.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular Infections",
+        "AHA/IDSA Infective Endocarditis guideline (pathogenesis overview)"
+      ],
+      "id": "cardiology-infective-endocarditis-predisposing-valv-new-fever-after-de",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Coarctation Of The Aorta",
+      "difficulty": 2,
+      "hook": "He feels arm BP is high—don’t assume aortic stenosis explains upper-body hypertension.",
+      "key_finding": "Upper BP high; lower BP low",
+      "vignette": "A 14-year-old boy presents with headaches and leg fatigue when running. His mother reports noticing decreased exercise tolerance over several months. Vitals show BP 165/90 mmHg in the right arm and 110/65 mmHg in the right leg; heart rate is 92/min. Cardiac exam reveals a systolic murmur best heard over the left infraclavicular area. An ECG shows left ventricular hypertrophy. A chest X-ray demonstrates rib notching. No fever or murmur timing suggesting infection is present.",
+      "short_vignette": "Arm BP 165/90, leg BP 110/65; systolic murmur; LVH; rib notching—upper hypertension with lower hypotension.",
+      "stem": "Which finding best supports coarctation of the aorta over a valvular problem?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Higher systolic BP in arms than legs",
+          "correct": true,
+          "why": "Coarctation causes fixed narrowing of the aorta distal to the branch vessels to the upper extremities, producing arm hypertension and leg hypotension. This pattern localizes the problem to the aorta rather than the aortic valve.",
+          "would_make_right": "Keep arm BP 165/90 and leg BP 110/65; mention explicit arm-minus-leg systolic gradient."
+        },
+        {
+          "letter": "B",
+          "text": "Ejection murmur with bounding pulses and wide pulse pressure",
+          "correct": false,
+          "why": "Aortic stenosis typically produces a late-peaking systolic murmur with diminished/slow-rising pulses, not bounding pulses with wide pulse pressure. The vignette’s arm–leg BP difference argues against a purely valvular explanation.",
+          "would_make_right": "Change vitals to show equal arm and leg systolic BP and describe slow-rising pulses."
+        },
+        {
+          "letter": "C",
+          "text": "Low-grade fever and splinter hemorrhages on exam",
+          "correct": false,
+          "why": "Those findings suggest infective endocarditis rather than coarctation. The vignette’s primary clue is differential BP between arms and legs.",
+          "would_make_right": "Add fever, positive blood cultures, and new/changed murmur; remove arm–leg BP discrepancy."
+        },
+        {
+          "letter": "D",
+          "text": "Bilateral decreased arm pulses with equal arm and leg pressures",
+          "correct": false,
+          "why": "This would not fit coarctation because coarctation primarily affects distal aortic flow to the lower extremities, not both arms equally. Equal arm and leg pressures would undermine the vascular gradient.",
+          "would_make_right": "Change vitals to equal systolic BP in arms and legs and document diminished pulses in both arms."
+        },
+        {
+          "letter": "E",
+          "text": "Markedly decreased oxygen saturation with diffuse lung crackles",
+          "correct": false,
+          "why": "Respiratory findings suggest pulmonary pathology, not aortic narrowing. Coarctation explains systemic hypertension in the upper body with reduced perfusion to the legs.",
+          "would_make_right": "Replace the cardiovascular exam with severe hypoxemia, crackles, and remove rib notching/arm–leg BP data."
+        }
+      ],
+      "rule": "In coarctation, compare extremities: upper-body hypertension with lower-body hypotension localizes aortic narrowing.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System (Congenital Heart Disease/Hypertension)",
+        "AHA/ACC congenital heart disease review (physical exam: arm-leg BP gradient)"
+      ],
+      "id": "cardiology-coarctation-of-the-aorta-he-feels-arm-bp-is",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-27",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

@@ -1,7 +1,19 @@
-﻿{
+{
   "used": [
-    { "id": "heme-ttp-no-platelets-001", "date": "2026-11-26", "topic": "Thrombotic thrombocytopenic purpura" },
-    { "id": "biostats-ppv-base-rate-001", "date": "2026-11-26", "topic": "Positive predictive value" },
-    { "id": "cardio-as-exertional-syncope-001", "date": "2026-11-26", "topic": "Aortic stenosis" }
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "date": "2026-11-27",
+      "topic": "Positive predictive value"
+    },
+    {
+      "id": "pharm-naloxone-reversal-of-opioids-he-got-better-afte",
+      "date": "2026-11-27",
+      "topic": "Naloxone Reversal of Opioids"
+    },
+    {
+      "id": "heme-hemophilia-pathophysiology-he-says-my-son-s-b",
+      "date": "2026-11-27",
+      "topic": "Hemophilia Pathophysiology"
+    }
   ]
 }

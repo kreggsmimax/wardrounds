@@ -1,0 +1,313 @@
+{
+  "brand": "WARD ROUNDS",
+  "handle": "@wardrounds",
+  "timestamp": "20261127_125653",
+  "video_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.mp4",
+  "short_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653_short.mp4",
+  "thumbnail_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.jpg",
+  "srt_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.srt",
+  "title": "USMLE Step 1: A 95% sensitive test. An 8.8% chance you actually have… — 3 Questions",
+  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Positive predictive value\n04:00  Q2 · Naloxone Reversal of Opioids\n08:00  Q3 · Hemophilia Pathophysiology\n\nSOURCES\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1 - Pharmacology: Opioids & Antagonists\n· FDA/Drug label: Naloxone mechanism of action\n· First Aid for the USMLE Step 1 - Coagulation Disorders\n· UpToDate review of hemophilia and mixing studies\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nWARD ROUNDS · @wardrounds\nRead the stem. Beat the test.",
+  "tags": [
+    "usmle",
+    "usmle step 1",
+    "step 1",
+    "medical education",
+    "med school",
+    "question bank",
+    "medical student",
+    "vignette",
+    "positive predictive value",
+    "biostatistics",
+    "naloxone reversal of opioids",
+    "pharmacology",
+    "hemophilia pathophysiology",
+    "hematology"
+  ],
+  "hashtags": "#usmle #step1 #medschool #medicaleducation #biostats",
+  "duration_seconds": 643.9,
+  "minutes": 10.73,
+  "render_minutes": 9.09,
+  "scenes": [
+    {
+      "index": 0,
+      "kind": "titlecard",
+      "seconds": 11.1,
+      "beat": "USMLE STEP 1"
+    },
+    {
+      "index": 1,
+      "kind": "titlecard",
+      "seconds": 10.77,
+      "beat": "QUESTION 1 OF 3"
+    },
+    {
+      "index": 2,
+      "kind": "prose",
+      "seconds": 12.13,
+      "beat": "THE VIGNETTE"
+    },
+    {
+      "index": 3,
+      "kind": "keyfind",
+      "seconds": 4.46,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 4,
+      "kind": "prose",
+      "seconds": 6.67,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 5,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 6,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 7,
+      "kind": "reveal",
+      "seconds": 3.67,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 8,
+      "kind": "elim",
+      "seconds": 23.3,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 9,
+      "kind": "elim",
+      "seconds": 20.77,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 10,
+      "kind": "elim",
+      "seconds": 17.73,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 11,
+      "kind": "elim",
+      "seconds": 23.5,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 12,
+      "kind": "elim",
+      "seconds": 21.9,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 13,
+      "kind": "prose",
+      "seconds": 13.27,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 14,
+      "kind": "titlecard",
+      "seconds": 8.36,
+      "beat": "QUESTION 2 OF 3"
+    },
+    {
+      "index": 15,
+      "kind": "prose",
+      "seconds": 19.23,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 16,
+      "kind": "prose",
+      "seconds": 18.77,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 17,
+      "kind": "keyfind",
+      "seconds": 5.18,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 18,
+      "kind": "prose",
+      "seconds": 5.53,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 19,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 20,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 21,
+      "kind": "reveal",
+      "seconds": 4.85,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 22,
+      "kind": "elim",
+      "seconds": 17.7,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 23,
+      "kind": "elim",
+      "seconds": 26.7,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 24,
+      "kind": "elim",
+      "seconds": 26.97,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 25,
+      "kind": "elim",
+      "seconds": 25.03,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 26,
+      "kind": "elim",
+      "seconds": 29.23,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 27,
+      "kind": "prose",
+      "seconds": 11.07,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 28,
+      "kind": "titlecard",
+      "seconds": 11.53,
+      "beat": "QUESTION 3 OF 3"
+    },
+    {
+      "index": 29,
+      "kind": "prose",
+      "seconds": 16.27,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 30,
+      "kind": "prose",
+      "seconds": 23.0,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 31,
+      "kind": "keyfind",
+      "seconds": 6.18,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 32,
+      "kind": "prose",
+      "seconds": 7.08,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 33,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 34,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 35,
+      "kind": "reveal",
+      "seconds": 4.97,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 36,
+      "kind": "elim",
+      "seconds": 22.37,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 37,
+      "kind": "elim",
+      "seconds": 37.2,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 38,
+      "kind": "elim",
+      "seconds": 32.27,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 39,
+      "kind": "elim",
+      "seconds": 34.5,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 40,
+      "kind": "elim",
+      "seconds": 35.47,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 41,
+      "kind": "prose",
+      "seconds": 12.83,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 42,
+      "kind": "outro",
+      "seconds": 8.43,
+      "beat": "NEXT"
+    }
+  ],
+  "caption_cues": 218,
+  "questions": [
+    {
+      "id": "biostats-ppv-base-rate-001",
+      "system": "biostats",
+      "topic": "Positive predictive value",
+      "correct": "A"
+    },
+    {
+      "id": "pharm-naloxone-reversal-of-opioids-he-got-better-afte",
+      "system": "pharm",
+      "topic": "Naloxone Reversal of Opioids",
+      "correct": "A"
+    },
+    {
+      "id": "heme-hemophilia-pathophysiology-he-says-my-son-s-b",
+      "system": "heme",
+      "topic": "Hemophilia Pathophysiology",
+      "correct": "A"
+    }
+  ],
+  "privacy": "public"
+}

@@ -1,0 +1,871 @@
+1
+00:00:00,100 --> 00:00:01,434
+This is Ward Rounds.
+
+2
+00:00:01,668 --> 00:00:03,713
+Step 1, question by question.
+
+3
+00:00:03,945 --> 00:00:05,845
+Today's set has 3 questions.
+
+4
+00:00:06,076 --> 00:00:08,201
+Pause whenever you need to, and commit to
+
+5
+00:00:08,221 --> 00:00:10,161
+an answer before the explanation.
+
+6
+00:00:11,200 --> 00:00:13,600
+A 95% sensitive test.
+
+7
+00:00:13,834 --> 00:00:17,247
+An 8.8% chance you actually have the disease.
+
+8
+00:00:17,479 --> 00:00:19,313
+This one is biostatistics.
+
+9
+00:00:19,545 --> 00:00:20,774
+Question 1 of 3.
+
+10
+00:00:21,967 --> 00:00:23,907
+A new screening test for a disease has
+
+11
+00:00:23,927 --> 00:00:27,723
+a sensitivity of 95% and a specificity of
+
+12
+00:00:27,743 --> 00:00:31,199
+90%. The disease has a prevalence of 1%
+
+13
+00:00:31,219 --> 00:00:33,027
+in the population being screened.
+
+14
+00:00:34,100 --> 00:00:35,868
+Here is the finding that decides it.
+
+15
+00:00:36,103 --> 00:00:37,858
+Prevalence: 1%
+
+16
+00:00:38,560 --> 00:00:41,355
+If a person from this population tests positive,
+
+17
+00:00:41,599 --> 00:00:43,658
+what is the probability that they actually have
+
+18
+00:00:43,678 --> 00:00:44,539
+the disease?
+
+19
+00:00:45,226 --> 00:00:47,682
+Pause here. Commit to an answer before the
+
+20
+00:00:47,702 --> 00:00:48,629
+explanation.
+
+21
+00:00:53,193 --> 00:00:54,593
+The answer is A.
+
+22
+00:00:54,904 --> 00:00:56,172
+8.8%.
+
+23
+00:00:56,863 --> 00:01:01,727
+Option A. 8.8%. In 10,000 people, 100 have
+
+24
+00:01:01,747 --> 00:01:04,555
+the disease and 95 of those test positive;
+
+25
+00:01:04,734 --> 00:01:09,214
+of the 9,900 without disease, 990 test positive
+
+26
+00:01:09,234 --> 00:01:13,963
+falsely. Of 1,085 positives only 95 are true,
+
+27
+00:01:14,208 --> 00:01:19,081
+giving 95/1,085 = 8.8%.
+
+28
+00:01:20,163 --> 00:01:24,632
+Option B. 95%. This is the sensitivity, which
+
+29
+00:01:24,652 --> 00:01:27,290
+answers the opposite question: among people who
+
+30
+00:01:27,310 --> 00:01:30,066
+have the disease, what fraction test positive.
+
+31
+00:01:30,297 --> 00:01:32,040
+For B to be the answer, you would
+
+32
+00:01:32,060 --> 00:01:34,817
+need this: A question asking for the proportion
+
+33
+00:01:34,837 --> 00:01:37,475
+of diseased patients who test positive, not the
+
+34
+00:01:37,495 --> 00:01:39,842
+proportion of positives who are diseased.
+
+35
+00:01:40,930 --> 00:01:45,320
+Option C. 90%. This is the specificity: among
+
+36
+00:01:45,340 --> 00:01:47,504
+people who are well, what fraction test
+
+37
+00:01:47,524 --> 00:01:50,281
+negative. It ignores prevalence and runs in the
+
+38
+00:01:50,301 --> 00:01:52,951
+wrong direction. For C to be the answer,
+
+39
+00:01:53,051 --> 00:01:55,347
+you would need this: A question asking what
+
+40
+00:01:55,367 --> 00:01:57,635
+fraction of healthy people test negative.
+
+41
+00:01:58,663 --> 00:02:03,698
+Option D. 50%. A 50% positive predictive value
+
+42
+00:02:03,718 --> 00:02:06,132
+would require prevalence high enough to balance
+
+43
+00:02:06,152 --> 00:02:07,645
+the false positive rate.
+
+44
+00:02:07,876 --> 00:02:10,817
+At 1% prevalence the false positives swamp the
+
+45
+00:02:10,837 --> 00:02:13,592
+true positives. For D to be the answer,
+
+46
+00:02:13,745 --> 00:02:16,238
+you would need this: A prevalence roughly equal
+
+47
+00:02:16,258 --> 00:02:18,580
+to the false positive rate, which at these
+
+48
+00:02:18,600 --> 00:02:21,158
+test characteristics is about 10%.
+
+49
+00:02:22,163 --> 00:02:26,527
+Option E. 0.9%. This is the false positive
+
+50
+00:02:26,547 --> 00:02:29,014
+rate applied to the whole population, not a
+
+51
+00:02:29,034 --> 00:02:31,711
+predictive value. It answers no question that
+
+52
+00:02:31,731 --> 00:02:34,079
+was asked. For E to be the answer,
+
+53
+00:02:34,205 --> 00:02:36,422
+you would need this: A question asking for
+
+54
+00:02:36,442 --> 00:02:38,672
+the probability that a healthy person tests
+
+55
+00:02:38,692 --> 00:02:43,000
+positive, which is 10% here, not 0.9%.
+
+56
+00:02:44,063 --> 00:02:47,016
+Sensitivity and specificity belong to the test.
+
+57
+00:02:47,250 --> 00:02:49,704
+Predictive values belong to the patient in front
+
+58
+00:02:49,724 --> 00:02:51,874
+of you, and they move with prevalence.
+
+59
+00:02:52,105 --> 00:02:54,717
+Never answer a predictive-value question before
+
+60
+00:02:54,737 --> 00:02:56,255
+writing down the prevalence.
+
+61
+00:02:57,330 --> 00:02:59,797
+He got better after naloxone—what must the
+
+62
+00:02:59,817 --> 00:03:01,545
+opioid have been doing first?
+
+63
+00:03:01,780 --> 00:03:03,443
+This one is pharmacology.
+
+64
+00:03:03,674 --> 00:03:04,969
+Question 2 of 3.
+
+65
+00:03:05,691 --> 00:03:08,763
+A 42-year-old man is found unresponsive after
+
+66
+00:03:08,783 --> 00:03:12,950
+taking “pain pills.” Vitals show RR 6/min, O2
+
+67
+00:03:12,970 --> 00:03:18,264
+sat 88%, and BP 104/68 mmHg.
+
+68
+00:03:18,496 --> 00:03:23,700
+Pupils are pinpoint. Capillary glucose is 98
+
+69
+00:03:23,720 --> 00:03:24,270
+mg/dL.
+
+70
+00:03:24,924 --> 00:03:27,733
+After naloxone is administered, his respiratory
+
+71
+00:03:27,753 --> 00:03:31,207
+rate rapidly improves to 16/min and oxygen
+
+72
+00:03:31,227 --> 00:03:34,666
+saturation rises to 97% within minutes.
+
+73
+00:03:34,900 --> 00:03:37,880
+The opioid effect wears off as naloxone competes
+
+74
+00:03:37,900 --> 00:03:41,025
+at receptors. Which drug mechanism best explains
+
+75
+00:03:41,045 --> 00:03:42,550
+this immediate reversal?
+
+76
+00:03:43,691 --> 00:03:45,459
+Here is the finding that decides it.
+
+77
+00:03:45,693 --> 00:03:48,172
+Naloxone is a competitive antagonist
+
+78
+00:03:48,870 --> 00:03:51,455
+How does naloxone produce rapid improvement in
+
+79
+00:03:51,475 --> 00:03:53,678
+opioid-induced respiratory depression?
+
+80
+00:03:54,398 --> 00:03:56,854
+Pause here. Commit to an answer before the
+
+81
+00:03:56,874 --> 00:03:57,800
+explanation.
+
+82
+00:04:02,365 --> 00:04:03,673
+The answer is A.
+
+83
+00:04:03,720 --> 00:04:06,515
+Competitive blockade at opioid receptors.
+
+84
+00:04:07,219 --> 00:04:10,041
+Option A. Competitive blockade at opioid
+
+85
+00:04:10,061 --> 00:04:13,741
+receptors. Naloxone rapidly displaces opioids at
+
+86
+00:04:13,761 --> 00:04:16,412
+μ-opioid receptors because it is a competitive
+
+87
+00:04:16,432 --> 00:04:19,517
+antagonist. This restores normal respiratory
+
+88
+00:04:19,537 --> 00:04:22,096
+drive quickly when the receptor is no longer
+
+89
+00:04:22,116 --> 00:04:23,871
+occupied by the agonist.
+
+90
+00:04:24,919 --> 00:04:28,096
+Option B. Irreversible destruction of opioid
+
+91
+00:04:28,116 --> 00:04:31,125
+receptors. Irreversible receptor damage would
+
+92
+00:04:31,145 --> 00:04:33,769
+not explain rapid recovery within minutes.
+
+93
+00:04:34,000 --> 00:04:36,678
+It would be unlikely to show quick, reversible
+
+94
+00:04:36,698 --> 00:04:39,821
+physiologic improvement. For B to be the answer,
+
+95
+00:04:40,013 --> 00:04:42,033
+you would need this: Change the vignette to
+
+96
+00:04:42,053 --> 00:04:44,533
+show that recovery takes days and includes
+
+97
+00:04:44,553 --> 00:04:47,717
+evidence of receptor loss (eg, no response to
+
+98
+00:04:47,737 --> 00:04:50,519
+further naloxone), which is not present here.
+
+99
+00:04:51,619 --> 00:04:55,336
+Option C. Inhibition of hepatic CYP450
+
+100
+00:04:55,356 --> 00:04:58,772
+metabolism of opioids. Blocking metabolism would
+
+101
+00:04:58,792 --> 00:05:01,364
+prolong opioid effects rather than rapidly
+
+102
+00:05:01,384 --> 00:05:04,022
+reverse them. The expected outcome would be
+
+103
+00:05:04,042 --> 00:05:06,878
+persistent hypoventilation. For C to be the
+
+104
+00:05:06,898 --> 00:05:09,430
+answer, you would need this: Alter the vignette
+
+105
+00:05:09,450 --> 00:05:12,101
+so naloxone worsens or does not improve
+
+106
+00:05:12,121 --> 00:05:14,062
+respiratory depression; that would fit
+
+107
+00:05:14,082 --> 00:05:17,403
+metabolism inhibition, not receptor antagonism.
+
+108
+00:05:18,585 --> 00:05:21,946
+Option D. Opening of GABA-A chloride channels.
+
+109
+00:05:22,180 --> 00:05:24,765
+GABA-A activation causes sedation and
+
+110
+00:05:24,785 --> 00:05:27,213
+respiratory depression, not reversal of
+
+111
+00:05:27,233 --> 00:05:30,134
+opioid-induced hypoventilation. It would worsen
+
+112
+00:05:30,154 --> 00:05:32,883
+the presentation. For D to be the answer,
+
+113
+00:05:33,022 --> 00:05:35,568
+you would need this: Modify the vignette so
+
+114
+00:05:35,588 --> 00:05:37,660
+the patient becomes more somnolent and
+
+115
+00:05:37,680 --> 00:05:40,093
+hypoventilates after the reversal agent,
+
+116
+00:05:40,259 --> 00:05:42,435
+consistent with GABA-A potentiation.
+
+117
+00:05:43,619 --> 00:05:46,599
+Option E. Activation of cannabinoid receptors
+
+118
+00:05:46,619 --> 00:05:48,571
+leading to respiratory stimulation.
+
+119
+00:05:48,806 --> 00:05:51,259
+Cannabinoid receptor activation is not the
+
+120
+00:05:51,279 --> 00:05:54,233
+mechanism of naloxone. In this vignette, the
+
+121
+00:05:54,253 --> 00:05:57,101
+classic opioid toxidrome is present and is
+
+122
+00:05:57,121 --> 00:06:00,140
+specifically reversed by opioid antagonism.
+
+123
+00:06:00,371 --> 00:06:01,996
+For E to be the answer, you would
+
+124
+00:06:02,016 --> 00:06:04,036
+need this: Change the vignette hook to
+
+125
+00:06:04,056 --> 00:06:06,522
+explicitly describe synthetic cannabinoid
+
+126
+00:06:06,542 --> 00:06:09,312
+intoxication without opioid signs; then a
+
+127
+00:06:09,332 --> 00:06:11,745
+cannabinoid mechanism could be tested.
+
+128
+00:06:12,852 --> 00:06:15,700
+Naloxone reverses opioid toxicity by
+
+129
+00:06:15,720 --> 00:06:19,107
+competitively antagonizing μ-opioid receptors,
+
+130
+00:06:19,260 --> 00:06:21,740
+rapidly restoring respiration when the receptor
+
+131
+00:06:21,760 --> 00:06:22,713
+is displaced.
+
+132
+00:06:23,919 --> 00:06:26,714
+He says, 'My son’s bruises started after a
+
+133
+00:06:26,734 --> 00:06:29,714
+dental procedure—so he must have von Willebrand
+
+134
+00:06:29,734 --> 00:06:32,821
+disease,' right? This one is hematology.
+
+135
+00:06:33,053 --> 00:06:34,413
+Question 3 of 3.
+
+136
+00:06:35,452 --> 00:06:37,814
+A 6-year-old boy is brought for frequent
+
+137
+00:06:37,834 --> 00:06:40,615
+bruising and prolonged bleeding from minor cuts.
+
+138
+00:06:40,849 --> 00:06:43,171
+His mother reports that after dental work 2
+
+139
+00:06:43,191 --> 00:06:45,645
+weeks ago, he had persistent gum bleeding for
+
+140
+00:06:45,665 --> 00:06:46,316
+2 days. He has no epistaxis or petechiae.
+
+141
+00:06:46,336 --> 00:06:46,886
+Vitals are normal.
+
+142
+00:06:51,719 --> 00:06:54,553
+Exam shows large ecchymoses on the legs.
+
+143
+00:06:54,787 --> 00:06:57,292
+CBC shows platelets 240,000/mm3.
+
+144
+00:07:00,103 --> 00:07:02,201
+PT is 11.2 seconds (normal).
+
+145
+00:07:02,221 --> 00:07:02,521
+aPTT is 68 seconds (markedly prolonged).
+
+146
+00:07:02,221 --> 00:07:02,521
+Mixing study fails to correct.
+
+147
+00:07:02,221 --> 00:07:02,521
+No joint deformities are noted yet.
+
+148
+00:07:02,221 --> 00:07:02,771
+The child is otherwise healthy.
+
+149
+00:07:14,719 --> 00:07:16,487
+Here is the finding that decides it.
+
+150
+00:07:16,721 --> 00:07:20,174
+Prolonged isolated aPTT with normal platelets
+
+151
+00:07:20,897 --> 00:07:23,508
+Which inherited disorder best explains markedly
+
+152
+00:07:23,528 --> 00:07:27,270
+prolonged aPTT with normal PT and platelets?
+
+153
+00:07:27,981 --> 00:07:30,437
+Pause here. Commit to an answer before the
+
+154
+00:07:30,457 --> 00:07:31,383
+explanation.
+
+155
+00:07:35,948 --> 00:07:37,216
+The answer is A.
+
+156
+00:07:37,566 --> 00:07:40,203
+Hemophilia A due to factor VIII deficiency.
+
+157
+00:07:40,918 --> 00:07:43,727
+Option A. Hemophilia A due to factor VIII
+
+158
+00:07:43,747 --> 00:07:46,769
+deficiency. Hemophilia A causes impaired
+
+159
+00:07:46,789 --> 00:07:49,229
+intrinsic pathway clotting, leading to an
+
+160
+00:07:49,249 --> 00:07:52,492
+isolated prolonged aPTT with normal platelet
+
+161
+00:07:52,512 --> 00:07:55,361
+count and PT. Failure of a mixing study
+
+162
+00:07:55,381 --> 00:07:57,887
+to correct suggests a true factor deficiency
+
+163
+00:07:57,907 --> 00:08:00,400
+pattern consistent with hemophilia rather than
+
+164
+00:08:00,420 --> 00:08:02,215
+factor inhibitor presence.
+
+165
+00:08:03,284 --> 00:08:05,987
+Option B. von Willebrand disease.
+
+166
+00:08:06,221 --> 00:08:08,583
+von Willebrand disease typically presents with
+
+167
+00:08:08,603 --> 00:08:12,292
+mucocutaneous bleeding (epistaxis, gum bleeding,
+
+168
+00:08:12,405 --> 00:08:15,280
+menorrhagia) and often shows prolonged bleeding
+
+169
+00:08:15,300 --> 00:08:18,253
+time with variable aPTT prolongation.
+
+170
+00:08:18,484 --> 00:08:20,767
+It would not classically produce a markedly
+
+171
+00:08:20,787 --> 00:08:24,478
+prolonged isolated aPTT with normal PT and
+
+172
+00:08:24,498 --> 00:08:27,213
+normal platelets as the primary abnormality.
+
+173
+00:08:27,445 --> 00:08:29,096
+For B to be the answer, you would
+
+174
+00:08:29,116 --> 00:08:31,793
+need this: Change the vignettes bleeding pattern
+
+175
+00:08:31,813 --> 00:08:34,214
+to include recurrent epistaxis and note
+
+176
+00:08:34,234 --> 00:08:36,925
+decreased von Willebrand factor activity with
+
+177
+00:08:36,945 --> 00:08:39,450
+reduced factor VIII secondary effects.
+
+178
+00:08:40,484 --> 00:08:43,187
+Option C. Glanzmann thrombasthenia.
+
+179
+00:08:43,421 --> 00:08:45,993
+Glanzmann thrombasthenia is a platelet function
+
+180
+00:08:46,013 --> 00:08:49,020
+disorder with normal PT and typically normal or
+
+181
+00:08:49,040 --> 00:08:52,770
+mildly affected aPTT, not a markedly prolonged
+
+182
+00:08:52,790 --> 00:08:56,980
+isolated aPTT. It causes mucocutaneous bleeding
+
+183
+00:08:57,000 --> 00:08:59,112
+with normal platelet counts but impaired
+
+184
+00:08:59,132 --> 00:09:01,901
+aggregation. For C to be the answer, you
+
+185
+00:09:01,921 --> 00:09:05,599
+would need this: Keep PT and aPTT normal
+
+186
+00:09:05,619 --> 00:09:08,217
+but add painless mucosal bleeding with normal
+
+187
+00:09:08,237 --> 00:09:11,112
+platelet count and abnormal platelet aggregation
+
+188
+00:09:11,132 --> 00:09:11,755
+testing.
+
+189
+00:09:12,751 --> 00:09:15,968
+Option D. Acquired hemophilia due to factor VIII
+
+190
+00:09:15,988 --> 00:09:19,405
+inhibitor. Acquired hemophilia usually occurs in
+
+191
+00:09:19,425 --> 00:09:22,392
+older adults or postpartum and causes severe
+
+192
+00:09:22,412 --> 00:09:25,194
+bleeding with a prolonged aPTT that does not
+
+193
+00:09:25,214 --> 00:09:27,351
+correct on mixing due to an inhibitor.
+
+194
+00:09:27,583 --> 00:09:29,405
+The patient is a young boy with no
+
+195
+00:09:29,425 --> 00:09:32,313
+trigger described, making inherited hemophilia
+
+196
+00:09:32,333 --> 00:09:34,825
+more likely. For D to be the answer,
+
+197
+00:09:34,951 --> 00:09:37,115
+you would need this: Change the patient to
+
+198
+00:09:37,135 --> 00:09:40,536
+a 70-year-old (or postpartum patient) and add a
+
+199
+00:09:40,556 --> 00:09:43,286
+new, sudden onset of bleeding with no family
+
+200
+00:09:43,306 --> 00:09:46,193
+history, consistent with an acquired inhibitor.
+
+201
+00:09:47,251 --> 00:09:50,678
+Option E. Disseminated intravascular coagulation
+
+202
+00:09:50,698 --> 00:09:54,615
+(DIC). DIC typically causes thrombocytopenia and
+
+203
+00:09:54,635 --> 00:09:58,484
+both PT and aPTT prolongation due to consumption
+
+204
+00:09:58,504 --> 00:10:00,246
+of multiple clotting factors.
+
+205
+00:10:00,477 --> 00:10:02,997
+This patient has normal platelets and a normal
+
+206
+00:10:03,017 --> 00:10:05,930
+PT, arguing strongly against DIC.
+
+207
+00:10:06,162 --> 00:10:07,905
+For E to be the answer, you would
+
+208
+00:10:07,925 --> 00:10:13,418
+need this: Lower platelets to ~30,000/mm3 and
+
+209
+00:10:13,438 --> 00:10:17,207
+prolong PT as well (eg, both PT and
+
+210
+00:10:17,227 --> 00:10:20,997
+aPTT markedly increased) with clinical sepsis or
+
+211
+00:10:21,017 --> 00:10:21,654
+trauma.
+
+212
+00:10:22,718 --> 00:10:26,356
+Isolated prolonged aPTT with normal PT and
+
+213
+00:10:26,376 --> 00:10:28,737
+normal platelets points to intrinsic factor
+
+214
+00:10:28,757 --> 00:10:31,777
+problems (eg hemophilia) rather than platelet
+
+215
+00:10:31,797 --> 00:10:34,355
+disorders or vitamin K deficiency.
+
+216
+00:10:35,551 --> 00:10:39,889
+Next: Aortic stenosis. Same format, same honesty
+
+217
+00:10:39,909 --> 00:10:41,243
+about the wrong answers.
+
+218
+00:10:41,475 --> 00:10:43,283
+Subscribe so you don't miss it.

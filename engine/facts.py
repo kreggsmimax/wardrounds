@@ -70,6 +70,11 @@ def validate(entry: dict) -> None:
 
     if len(entry["rule"].strip()) < 20:
         raise LedgerError(f"{qid}: rule too thin")
+    stem = str(entry.get("stem", "")).strip()
+    if not stem.endswith("?"):
+        raise LedgerError(f"{qid}: stem must end with a question mark")
+    if len(stem.split()) < 8:
+        raise LedgerError(f"{qid}: stem under 8 words, too terse to test reasoning")
     if not entry["sources"]:
         raise LedgerError(f"{qid}: needs at least one source")
 
@@ -80,8 +85,13 @@ def validate(entry: dict) -> None:
         raise LedgerError(f"{qid}: approved entries need a reviewer")
 
 
-def load(path: Path = DATA, approved_only: bool = True) -> list[dict]:
-    """Load and validate the ledger. Returns approved entries only by default."""
+def load(path: Path = DATA, approved_only: bool = True,
+         strict: bool = False) -> list[dict]:
+    """Load and validate the ledger.
+
+    Invalid entries are skipped with a warning unless strict=True. The build treats a
+    bad entry as a reason to skip it, not a reason to refuse to run.
+    """
     if not path.exists():
         raise LedgerError(f"no ledger at {path}")
 
@@ -89,20 +99,31 @@ def load(path: Path = DATA, approved_only: bool = True) -> list[dict]:
     entries = raw["questions"] if isinstance(raw, dict) else raw
 
     out: list[dict] = []
+    skipped: list[str] = []
     for entry in entries:
-        validate(entry)
+        try:
+            validate(entry)
+        except LedgerError as exc:
+            if strict:
+                raise
+            skipped.append(str(exc))
+            continue
         if approved_only and entry["review"]["status"] != "approved":
             continue
         out.append(entry)
 
+    if skipped:
+        print(f"  ledger: {len(skipped)} invalid entr(ies) skipped "
+              f"(run --repair to fix stems)")
+
     if approved_only and not out:
-        raise LedgerError("no approved entries - nothing is safe to render")
+        raise LedgerError("no usable approved entries - nothing is safe to render")
     return out
 
 
 def pick(entries: list[dict], count: int, system: str | None = None,
          used_ids: set[str] | None = None, seed: int | None = None,
-         strict: bool = False) -> list[dict]:
+         strict: bool = False, history_path: Path | None = None) -> list[dict]:
     """
     Choose questions for a video, avoiding recently used ids and spreading across
     systems so a single video never stacks three cardiology questions.
@@ -115,7 +136,7 @@ def pick(entries: list[dict], count: int, system: str | None = None,
 
     # drop id-repeats AND topic-repeats, so "Aortic Stenosis" cannot return as a
     # differently-worded question a week later
-    covered = recent_topics(COOLDOWN_DAYS)
+    covered = recent_topics(COOLDOWN_DAYS, history_path) if history_path else recent_topics(COOLDOWN_DAYS)
     pool = [e for e in entries
             if e["id"] not in used_ids and not is_repeat(e.get("topic", ""), covered)]
     if system:

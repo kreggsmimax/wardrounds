@@ -57,10 +57,18 @@ def main() -> int:
                     help="draft N new questions with Pollinations before building")
     ap.add_argument("--bootstrap", type=int, default=0,
                     help="only draft N questions into the ledger, build nothing")
+    ap.add_argument("--repair", action="store_true",
+                    help="rewrite short stems in existing ledger entries")
     ap.add_argument("--list", action="store_true")
     args = ap.parse_args()
 
     everything = facts.load(approved_only=False)
+
+    if args.repair:
+        print("\n[0/1] Repair: rewriting short stems")
+        fixed = ai.repair_ledger()
+        print(f"      {fixed} entr(ies) repaired")
+        return 0
 
     if args.bootstrap > 0:
         print(f"\n[0/1] Bootstrap: drafting {args.bootstrap} question(s)")

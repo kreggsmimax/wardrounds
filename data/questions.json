@@ -245,7 +245,7 @@
       "key_finding": "Prolonged isolated aPTT with normal platelets",
       "vignette": "A 6-year-old boy is brought for frequent bruising and prolonged bleeding from minor cuts. His mother reports that after dental work 2 weeks ago, he had persistent gum bleeding for 2 days. He has no epistaxis or petechiae. Vitals are normal. Exam shows large ecchymoses on the legs. CBC shows platelets 240,000/mm3. PT is 11.2 seconds (normal). aPTT is 68 seconds (markedly prolonged). Mixing study fails to correct. No joint deformities are noted yet. The child is otherwise healthy.",
       "short_vignette": "6-year-old boy with large bruises and prolonged post-dental bleeding; platelets normal; PT normal; isolated prolonged aPTT not corrected by mixing.",
-      "stem": "Which diagnosis best explains the coagulation abnormality?",
+      "stem": "Which inherited disorder best explains markedly prolonged aPTT with normal PT and platelets?",
       "options": [
         {
           "letter": "A",
@@ -481,7 +481,7 @@
       "key_finding": "Ketonemia with metabolic acidosis",
       "vignette": "A 19-year-old man presents with 1 week of increasing thirst, frequent urination, and unintentional weight loss. He has nausea and abdominal discomfort. Vitals show BP 118/72 mmHg, HR 112/min, RR 24/min, and T 37.0°C. Labs: glucose 465 mg/dL, serum bicarbonate 13 mEq/L, anion gap 22 mEq/L, and beta-hydroxybutyrate elevated. Serum potassium is 5.1 mEq/L. Urinalysis shows glucose and ketones. What is the most likely pathophysiologic defect driving his condition?",
       "short_vignette": "19-year-old with glucose 465, anion gap metabolic acidosis, and elevated beta-hydroxybutyrate.",
-      "stem": "Which defect best explains his current presentation?",
+      "stem": "Which defect best explains his ketonemia, high anion gap metabolic acidosis, and new diabetes?",
       "options": [
         {
           "letter": "A",
@@ -540,7 +540,7 @@
       "key_finding": "↑ IGF-1 with pituitary macroadenoma",
       "vignette": "A 48-year-old man reports enlargement of his hands and feet over 3 years. He also developed thickened facial features and increased shoe size. He complains of new headaches and blurred peripheral vision. On exam, he has prognathism and coarse facial features. Blood pressure is 148/92 mmHg, pulse 82/min, and temperature 36.8°C. MRI shows a sellar mass compressing the optic chiasm. Laboratory testing reveals elevated IGF-1 at 840 ng/mL (reference 90–250). Serum TSH is normal and free T4 is normal. Which underlying process best explains his condition?",
       "short_vignette": "48M with enlarged hands, headaches, visual field symptoms, sellar mass, and high IGF-1 with normal thyroid tests—what causes it?",
-      "stem": "Which underlying process best explains his condition?",
+      "stem": "Which underlying process best explains his acromegaly with MRI sellar mass and elevated IGF-1?",
       "options": [
         {
           "letter": "A",
@@ -1012,7 +1012,7 @@
       "key_finding": "Eosinophils and elevated IgE",
       "vignette": "A 19-year-old man with seasonal allergies reports 2 weeks of intermittent nighttime wheezing and chest tightness. Symptoms worsen with cold air and during a soccer match, then improve after using an inhaler. Vitals show T 36.8°C, HR 92/min, RR 22/min, BP 118/70 mmHg, and SpO2 96% on room air. Spirometry demonstrates reversible airflow obstruction. Serum studies show elevated IgE. Peripheral blood smear reveals eosinophilia. He has no fever, no productive cough, and no smoking history.",
       "short_vignette": "19M with seasonal allergies has reversible wheeze after exercise; elevated IgE and eosinophilia point to allergic asthma.",
-      "stem": "Which mechanism best explains his episodic wheezing?",
+      "stem": "Which mechanism best explains his episodic wheezing relieved by inhaler use?",
       "options": [
         {
           "letter": "A",
@@ -1130,7 +1130,7 @@
       "key_finding": "Low MCV with normal/high RBC",
       "vignette": "A 27-year-old man presents for evaluation of long-standing fatigue. He denies melena and has no pica. Vitals are normal: T 36.8 C, HR 78/min, BP 118/72 mmHg, SpO2 99% on room air. CBC shows: Hb 10.8 g/dL, Hct 33%, MCV 62 fL, RDW 13%, RBC count 6.1 million/µL, platelets 260,000/µL. Iron studies are normal with ferritin 95 ng/mL and transferrin saturation 32%. Which diagnosis best explains the microcytosis?",
       "short_vignette": "Fatigue with Hb 10.8, MCV 62, RDW 13%, high RBC count, normal ferritin and saturation—most consistent with thalassemia.",
-      "stem": "Which diagnosis best explains this patient’s microcytosis?",
+      "stem": "Which diagnosis best explains his microcytosis given normal iron studies and low MCV?",
       "options": [
         {
           "letter": "A",
@@ -1307,7 +1307,7 @@
       "key_finding": "Elevated troponin with nondiagnostic ECG",
       "vignette": "A 58-year-old man with hypertension presents to the ED with 40 minutes of substernal chest pressure at rest. He is diaphoretic and nauseated. Vitals: BP 146/88 mmHg, HR 104/min, RR 20/min, SpO2 98% on room air, T 36.8°C. ECG shows 1 mm ST depression in leads V4-V6 without ST-segment elevation. Serum high-sensitivity troponin I returns at 0.9 ng/mL (reference <0.04 ng/mL). What diagnosis best fits this presentation?",
       "short_vignette": "58M with rest chest pressure, ST depression (no ST elevation), high-sensitivity troponin I elevated to 0.9 ng/mL.",
-      "stem": "Which diagnosis best explains his presentation?",
+      "stem": "Which diagnosis best explains his ischemic symptoms, troponin elevation, and non–ST-elevation ECG changes?",
       "options": [
         {
           "letter": "A",

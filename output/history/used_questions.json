@@ -1,59 +1,7 @@
-{
+﻿{
   "used": [
-    {
-      "id": "cardio-as-exertional-syncope-001",
-      "date": "2026-11-24",
-      "topic": "Aortic stenosis"
-    },
-    {
-      "id": "biostats-ppv-base-rate-001",
-      "date": "2026-11-24",
-      "topic": "Positive predictive value"
-    },
-    {
-      "id": "biostats-ppv-base-rate-001",
-      "date": "2026-11-25",
-      "topic": "Positive predictive value"
-    },
-    {
-      "id": "cardio-as-exertional-syncope-001",
-      "date": "2026-11-25",
-      "topic": "Aortic stenosis"
-    },
-    {
-      "id": "heme-ttp-no-platelets-001",
-      "date": "2026-11-25",
-      "topic": "Thrombotic thrombocytopenic purpura"
-    },
-    {
-      "id": "heme-ttp-no-platelets-001",
-      "date": "2026-11-26",
-      "topic": "Thrombotic thrombocytopenic purpura"
-    },
-    {
-      "id": "biostats-ppv-base-rate-001",
-      "date": "2026-11-26",
-      "topic": "Positive predictive value"
-    },
-    {
-      "id": "cardio-as-exertional-syncope-001",
-      "date": "2026-11-26",
-      "topic": "Aortic stenosis"
-    },
-    {
-      "id": "renal-prerenal-azotemia-versus-atn-he-says-my-kidneys",
-      "date": "2026-11-26",
-      "topic": "Prerenal Azotemia Versus ATN"
-    },
-    {
-      "id": "endocrine-primary-adrenal-insufficiency-she-has-hyperkalem",
-      "date": "2026-11-26",
-      "topic": "Primary Adrenal Insufficiency"
-    },
-    {
-      "id": "id-infective-endocarditis-blood-culture-tim-it-says-to-wait-fo",
-      "date": "2026-11-26",
-      "topic": "Infective Endocarditis: Blood Culture Timing"
-    }
+    { "id": "heme-ttp-no-platelets-001", "date": "2026-11-26", "topic": "Thrombotic thrombocytopenic purpura" },
+    { "id": "biostats-ppv-base-rate-001", "date": "2026-11-26", "topic": "Positive predictive value" },
+    { "id": "cardio-as-exertional-syncope-001", "date": "2026-11-26", "topic": "Aortic stenosis" }
   ]
 }

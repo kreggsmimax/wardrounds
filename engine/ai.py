@@ -232,6 +232,49 @@ def review(entry: dict) -> tuple[bool, list[str]]:
     return False, ["reviewer unavailable"]
 
 
+# ------------------------------------------------------------------ repair
+def repair_stem(entry: dict) -> str:
+    """Ask the model to rewrite only the stem when it is too terse."""
+    prompt = (
+        "Rewrite ONLY the question stem of this USMLE Step 1 question.\n"
+        "It must be 10-20 words, ask for the single best answer, and end with a question mark.\n"
+        "Do not change the vignette, the options, or which answer is correct.\n\n"
+        f"{json.dumps({k: entry[k] for k in ('vignette', 'stem', 'options')}, ensure_ascii=False, indent=2)}\n\n"
+        'Return ONLY JSON: {"stem": "..."}'
+    )
+    for model in _models():
+        for attempt in range(2):
+            try:
+                raw = _chat(DRAFT_SYSTEM, prompt, model, 31 + attempt * 17, temperature=0.4)
+                return str(_json_object(raw)["stem"]).strip()
+            except Exception:  # noqa: BLE001
+                time.sleep(1.0 * (attempt + 1))
+    raise RuntimeError("stem repair failed")
+
+
+def repair_ledger(verbose: bool = True) -> int:
+    """Fix entries whose only defect is a short or unpunctuated stem."""
+    data = _load_ledger()
+    fixed = 0
+    for entry in data.get("questions", []):
+        stem = str(entry.get("stem", "")).strip()
+        if stem.endswith("?") and len(stem.split()) >= 8:
+            continue
+        try:
+            new_stem = repair_stem(entry)
+            entry["stem"] = new_stem
+            facts.validate(entry)
+            fixed += 1
+            if verbose:
+                print(f"      repaired: {entry['topic'][:40]} -> {new_stem[:60]}")
+        except Exception as exc:  # noqa: BLE001
+            if verbose:
+                print(f"      could not repair {entry.get('id','?')[:36]}: {str(exc)[:60]}")
+    if fixed:
+        _save_ledger(data)
+    return fixed
+
+
 # ------------------------------------------------------------------ ledger
 def _load_ledger() -> dict:
     if not LEDGER.exists():

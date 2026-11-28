@@ -1,0 +1,951 @@
+1
+00:00:00,100 --> 00:00:01,434
+This is Ward Rounds.
+
+2
+00:00:01,668 --> 00:00:03,713
+Step 1, question by question.
+
+3
+00:00:03,945 --> 00:00:05,845
+Today's set has 3 questions.
+
+4
+00:00:06,076 --> 00:00:08,201
+Pause whenever you need to, and commit to
+
+5
+00:00:08,221 --> 00:00:10,161
+an answer before the explanation.
+
+6
+00:00:11,200 --> 00:00:13,469
+He asks why a drug helps tremor without
+
+7
+00:00:13,489 --> 00:00:15,929
+fixing the underlying dopamine cell loss.
+
+8
+00:00:16,163 --> 00:00:17,563
+This one is neurology.
+
+9
+00:00:17,795 --> 00:00:19,024
+Question 1 of 3.
+
+10
+00:00:19,723 --> 00:00:23,085
+A 67-year-old man reports a 2-year history of
+
+11
+00:00:23,105 --> 00:00:25,624
+resting tremor in his right hand and progressive
+
+12
+00:00:25,644 --> 00:00:27,373
+stiffness when turning in bed.
+
+13
+00:00:27,607 --> 00:00:30,021
+He has bradykinesia and cogwheel rigidity
+
+14
+00:00:30,041 --> 00:00:32,112
+bilaterally, worse on the right.
+
+15
+00:00:32,344 --> 00:00:37,495
+Vitals are T 36.8 C, HR 78/min, BP
+
+16
+00:00:37,515 --> 00:00:40,612
+128/74 mm Hg.
+
+17
+00:00:41,656 --> 00:00:44,018
+He reports no history of stroke, and his
+
+18
+00:00:44,038 --> 00:00:47,231
+cognition is intact. A clinician starts an oral
+
+19
+00:00:47,251 --> 00:00:49,560
+medication to reduce tremor and improve
+
+20
+00:00:49,580 --> 00:00:52,165
+movement. Which mechanism best explains the
+
+21
+00:00:52,185 --> 00:00:54,243
+medication’s symptomatic benefit?
+
+22
+00:00:55,323 --> 00:00:57,091
+Here is the finding that decides it.
+
+23
+00:00:57,326 --> 00:00:59,436
+Resting tremor with cogwheel rigidity
+
+24
+00:01:00,154 --> 00:01:02,595
+Which mechanism best explains the symptomatic
+
+25
+00:01:02,615 --> 00:01:04,686
+benefit of therapy for his disorder?
+
+26
+00:01:05,380 --> 00:01:07,836
+Pause here. Commit to an answer before the
+
+27
+00:01:07,856 --> 00:01:08,783
+explanation.
+
+28
+00:01:13,347 --> 00:01:14,602
+The answer is A.
+
+29
+00:01:14,913 --> 00:01:17,498
+Increases synaptic dopamine by inhibiting its
+
+30
+00:01:17,518 --> 00:01:18,286
+breakdown.
+
+31
+00:01:18,991 --> 00:01:22,037
+Option A. Increases synaptic dopamine by
+
+32
+00:01:22,057 --> 00:01:24,921
+inhibiting its breakdown. Parkinson disease is
+
+33
+00:01:24,941 --> 00:01:27,946
+characterized by loss of dopaminergic neurons.
+
+34
+00:01:28,178 --> 00:01:30,592
+Inhibiting dopamine breakdown increases
+
+35
+00:01:30,612 --> 00:01:33,263
+available dopamine in the striatum, improving
+
+36
+00:01:33,283 --> 00:01:35,762
+symptoms without reversing neuron loss.
+
+37
+00:01:36,791 --> 00:01:40,060
+Option B. Blocks postsynaptic dopamine D2
+
+38
+00:01:40,080 --> 00:01:41,652
+receptors in the striatum.
+
+39
+00:01:41,886 --> 00:01:45,458
+D2 receptor antagonism would worsen parkinsonian
+
+40
+00:01:45,478 --> 00:01:48,246
+symptoms by reducing dopaminergic signaling,
+
+41
+00:01:48,504 --> 00:01:50,774
+which contradicts symptomatic improvement in the
+
+42
+00:01:50,794 --> 00:01:53,195
+vignette. For B to be the answer, you
+
+43
+00:01:53,215 --> 00:01:55,708
+would need this: Change the vignette to describe
+
+44
+00:01:55,728 --> 00:01:57,945
+symptom worsening after starting a dopamine
+
+45
+00:01:57,965 --> 00:02:01,023
+antagonist (e.g., new antipsychotic).
+
+46
+00:02:02,091 --> 00:02:05,334
+Option C. Depletes dopamine via irreversible
+
+47
+00:02:05,354 --> 00:02:08,188
+vesicular monoamine transporter inhibition.
+
+48
+00:02:08,423 --> 00:02:11,139
+Depleting dopamine decreases motor control and
+
+49
+00:02:11,159 --> 00:02:13,837
+would exacerbate tremor and rigidity rather than
+
+50
+00:02:13,857 --> 00:02:16,336
+improving them. For C to be the answer,
+
+51
+00:02:16,462 --> 00:02:18,982
+you would need this: Specify the medication
+
+52
+00:02:19,002 --> 00:02:21,942
+irreversibly depletes vesicular dopamine, and
+
+53
+00:02:21,962 --> 00:02:24,218
+adjust the vignette to worsening symptoms after
+
+54
+00:02:24,238 --> 00:02:25,112
+initiation.
+
+55
+00:02:26,324 --> 00:02:29,160
+Option D. Promotes dopamine synthesis by
+
+56
+00:02:29,180 --> 00:02:32,066
+increasing tyrosine hydroxylase activity.
+
+57
+00:02:32,301 --> 00:02:34,504
+This mechanism is a different approach to
+
+58
+00:02:34,524 --> 00:02:36,978
+raising dopamine, and the vignette does not
+
+59
+00:02:36,998 --> 00:02:39,531
+provide clues that the therapy is a dopamine
+
+60
+00:02:39,551 --> 00:02:42,635
+precursor strategy. For D to be the answer,
+
+61
+00:02:42,814 --> 00:02:45,333
+you would need this: Replace the medication with
+
+62
+00:02:45,353 --> 00:02:48,478
+a dopamine precursor (e.g., explicitly name
+
+63
+00:02:48,498 --> 00:02:51,491
+levodopa) and state the patient has severe motor
+
+64
+00:02:51,511 --> 00:02:53,122
+symptoms responsive to it.
+
+65
+00:02:54,158 --> 00:02:57,559
+Option E. Increases acetylcholine signaling by
+
+66
+00:02:57,579 --> 00:03:00,588
+inhibiting acetylcholinesterase. Enhancing
+
+67
+00:03:00,608 --> 00:03:02,153
+acetylcholine would worsen the
+
+68
+00:03:02,173 --> 00:03:05,127
+dopamine–acetylcholine imbalance typical of
+
+69
+00:03:05,147 --> 00:03:07,798
+Parkinson disease rather than treating tremor
+
+70
+00:03:07,818 --> 00:03:10,284
+and rigidity. For E to be the answer,
+
+71
+00:03:10,476 --> 00:03:12,917
+you would need this: State the medication is
+
+72
+00:03:12,937 --> 00:03:15,482
+an acetylcholinesterase inhibitor and that he
+
+73
+00:03:15,502 --> 00:03:17,244
+develops worsening rigidity.
+
+74
+00:03:18,291 --> 00:03:20,416
+Parkinson disease symptoms improve when
+
+75
+00:03:20,436 --> 00:03:22,732
+dopaminergic signaling in the striatum is
+
+76
+00:03:22,752 --> 00:03:25,324
+increased, often by preventing dopamine
+
+77
+00:03:25,344 --> 00:03:26,138
+breakdown.
+
+78
+00:03:26,837 --> 00:03:29,541
+A patient’s troponins rise—what mechanism
+
+79
+00:03:29,561 --> 00:03:31,276
+explains MI risk right now?
+
+80
+00:03:31,511 --> 00:03:33,134
+This one is cardiology.
+
+81
+00:03:33,366 --> 00:03:34,661
+Question 2 of 3.
+
+82
+00:03:35,360 --> 00:03:38,840
+A 62-year-old man presents with 45 minutes of
+
+83
+00:03:38,860 --> 00:03:41,458
+substernal chest pressure radiating to his left
+
+84
+00:03:41,478 --> 00:03:44,474
+arm. He has diabetes and a prior history
+
+85
+00:03:44,494 --> 00:03:51,434
+of smoking. Vitals: BP 148/92 mmHg, HR 104/min,
+
+86
+00:03:51,692 --> 00:03:56,144
+RR 18/min, SpO2 97% on room air.
+
+87
+00:03:57,260 --> 00:04:00,529
+ECG shows new horizontal ST-segment depression
+
+88
+00:04:00,549 --> 00:04:04,637
+in leads V4–V6. High-sensitivity troponin I is
+
+89
+00:04:04,657 --> 00:04:10,268
+0.8 ng/mL (reference <0.04).
+
+90
+00:04:10,499 --> 00:04:12,557
+He reports the pain began at rest.
+
+91
+00:04:12,789 --> 00:04:15,032
+Which immediate coronary event most likely
+
+92
+00:04:15,052 --> 00:04:16,663
+triggered plaque instability?
+
+93
+00:04:17,660 --> 00:04:19,428
+Here is the finding that decides it.
+
+94
+00:04:19,663 --> 00:04:21,431
+New ST-segment depression
+
+95
+00:04:22,120 --> 00:04:24,337
+Which immediate event most likely triggered
+
+96
+00:04:24,357 --> 00:04:26,561
+plaque instability in this acute coronary
+
+97
+00:04:26,581 --> 00:04:27,231
+syndrome?
+
+98
+00:04:27,926 --> 00:04:30,382
+Pause here. Commit to an answer before the
+
+99
+00:04:30,402 --> 00:04:31,329
+explanation.
+
+100
+00:04:35,893 --> 00:04:37,148
+The answer is A.
+
+101
+00:04:37,419 --> 00:04:40,084
+Rupture of a vulnerable atherosclerotic plaque
+
+102
+00:04:40,104 --> 00:04:42,688
+with superimposed platelet-rich thrombus.
+
+103
+00:04:43,371 --> 00:04:45,680
+Option A. Rupture of a vulnerable
+
+104
+00:04:45,700 --> 00:04:48,062
+atherosclerotic plaque with superimposed
+
+105
+00:04:48,082 --> 00:04:51,946
+platelet-rich thrombus. In ACS, myocardial
+
+106
+00:04:51,966 --> 00:04:54,551
+ischemia is commonly initiated by plaque
+
+107
+00:04:54,571 --> 00:04:57,563
+disruption, exposing thrombogenic material.
+
+108
+00:04:57,795 --> 00:04:59,787
+This leads to platelet activation/aggregation
+
+109
+00:05:01,150 --> 00:05:03,288
+and an occlusive thrombus that decreases
+
+110
+00:05:03,308 --> 00:05:04,668
+coronary blood flow.
+
+111
+00:05:05,738 --> 00:05:08,691
+Option B. Progressive calcific valve leaflet
+
+112
+00:05:08,711 --> 00:05:11,177
+thickening leading to fixed outflow obstruction.
+
+113
+00:05:11,411 --> 00:05:14,286
+This describes aortic stenosis, which causes
+
+114
+00:05:14,306 --> 00:05:17,299
+chronic left ventricular outflow limitation and
+
+115
+00:05:17,319 --> 00:05:21,181
+exertional syncope/angina rather than acute ECG
+
+116
+00:05:21,201 --> 00:05:22,943
+changes with troponin rise.
+
+117
+00:05:23,175 --> 00:05:24,905
+For B to be the answer, you would
+
+118
+00:05:24,925 --> 00:05:28,181
+need this: Replace ECG with systolic murmur
+
+119
+00:05:28,201 --> 00:05:30,759
+findings and remove troponin elevation.
+
+120
+00:05:31,871 --> 00:05:34,838
+Option C. Chronic pressure overload causing
+
+121
+00:05:34,858 --> 00:05:37,956
+ventricular hypertrophy without acute coronary
+
+122
+00:05:37,976 --> 00:05:41,617
+thrombosis. Chronic hypertrophic cardiomyopathy
+
+123
+00:05:41,637 --> 00:05:44,735
+can cause ischemia, but ACS in this vignette
+
+124
+00:05:44,755 --> 00:05:48,143
+is characterized by acute ECG ischemic changes
+
+125
+00:05:48,163 --> 00:05:50,143
+and troponin elevation from coronary
+
+126
+00:05:50,163 --> 00:05:52,840
+flow-limiting thrombosis. For C to be the
+
+127
+00:05:52,860 --> 00:05:55,393
+answer, you would need this: Change vignette to
+
+128
+00:05:55,413 --> 00:05:58,380
+longstanding exertional symptoms with no new ST
+
+129
+00:05:58,400 --> 00:06:00,247
+changes and normal troponin.
+
+130
+00:06:01,304 --> 00:06:04,363
+Option D. Embolization of septic material to
+
+131
+00:06:04,383 --> 00:06:07,520
+coronary arteries from left-sided endocarditis.
+
+132
+00:06:07,754 --> 00:06:10,300
+Infective endocarditis can cause coronary
+
+133
+00:06:10,320 --> 00:06:13,484
+emboli, but ACS here is presented with classic
+
+134
+00:06:13,504 --> 00:06:16,840
+ischemic ECG changes and no systemic infectious
+
+135
+00:06:16,860 --> 00:06:19,404
+symptoms or endocarditis context.
+
+136
+00:06:19,636 --> 00:06:21,458
+For D to be the answer, you would
+
+137
+00:06:21,478 --> 00:06:24,852
+need this: Add fever, positive blood cultures,
+
+138
+00:06:24,925 --> 00:06:27,194
+and a new murmur with splinter hemorrhages.
+
+139
+00:06:28,504 --> 00:06:31,498
+Option E. Primary failure of the myocardium to
+
+140
+00:06:31,518 --> 00:06:34,615
+relax, causing pulmonary venous congestion.
+
+141
+00:06:34,849 --> 00:06:37,499
+Impaired relaxation is a heart failure/diastolic
+
+142
+00:06:38,599 --> 00:06:41,250
+dysfunction concept and does not specifically
+
+143
+00:06:41,270 --> 00:06:43,790
+explain plaque instability with thrombus that
+
+144
+00:06:43,810 --> 00:06:46,525
+produces ACS with troponin elevation.
+
+145
+00:06:46,757 --> 00:06:48,487
+For E to be the answer, you would
+
+146
+00:06:48,507 --> 00:06:51,592
+need this: Add orthopnea with rales and change
+
+147
+00:06:51,612 --> 00:06:54,776
+ECG/troponin to show heart failure without
+
+148
+00:06:54,796 --> 00:06:55,854
+ischemic pattern.
+
+149
+00:06:56,904 --> 00:06:59,516
+Acute coronary syndromes usually result from
+
+150
+00:06:59,536 --> 00:07:02,240
+disrupted atherosclerotic plaque with thrombus
+
+151
+00:07:02,260 --> 00:07:04,687
+formation causing abrupt coronary flow
+
+152
+00:07:04,707 --> 00:07:05,396
+reduction.
+
+153
+00:07:06,101 --> 00:07:08,542
+He thinks his “fluid overload” is the only
+
+154
+00:07:08,562 --> 00:07:11,857
+cause—what actually drives HFrEF symptoms?
+
+155
+00:07:12,091 --> 00:07:13,714
+This one is cardiology.
+
+156
+00:07:13,946 --> 00:07:15,307
+Question 3 of 3.
+
+157
+00:07:16,017 --> 00:07:18,603
+A 62-year-old man with known dilated
+
+158
+00:07:18,623 --> 00:07:21,208
+cardiomyopathy presents with 3 weeks of
+
+159
+00:07:21,228 --> 00:07:23,944
+worsening exertional dyspnea and orthopnea.
+
+160
+00:07:24,178 --> 00:07:26,302
+He reports decreased urine output.
+
+161
+00:07:26,533 --> 00:07:35,079
+Vitals are T 37.0°C, HR 104/min, BP 92/60
+
+162
+00:07:35,099 --> 00:07:35,399
+mmHg, RR 22/min, and SpO2 94% on room
+
+163
+00:07:35,099 --> 00:07:35,649
+air.
+
+164
+00:07:40,951 --> 00:07:45,074
+Exam shows elevated JVP and bibasilar crackles.
+
+165
+00:07:45,309 --> 00:07:51,946
+Labs show Na 131 mEq/L, creatinine 1.6 mg/dL,
+
+166
+00:07:51,966 --> 00:07:52,266
+and BNP 980 pg/mL.
+
+167
+00:07:51,966 --> 00:07:52,266
+Transthoracic echocardiography reveals LVEF 25%.
+
+168
+00:07:51,966 --> 00:07:52,516
+ECG shows sinus tachycardia.
+
+169
+00:08:04,917 --> 00:08:06,516
+Here is the finding that decides it.
+
+170
+00:08:06,536 --> 00:08:07,086
+↑ SVR from RAAS activation
+
+171
+00:08:09,609 --> 00:08:11,905
+Which mechanism best explains his progressive
+
+172
+00:08:11,925 --> 00:08:13,549
+symptoms in HFrEF?
+
+173
+00:08:14,278 --> 00:08:16,735
+Pause here. Commit to an answer before the
+
+174
+00:08:16,755 --> 00:08:17,681
+explanation.
+
+175
+00:08:22,245 --> 00:08:23,593
+The answer is A.
+
+176
+00:08:23,759 --> 00:08:26,410
+Baroreceptor-mediated renin release causing
+
+177
+00:08:26,430 --> 00:08:28,553
+vasoconstriction via RAAS.
+
+178
+00:08:29,259 --> 00:08:32,292
+Option A. Baroreceptor-mediated renin release
+
+179
+00:08:32,312 --> 00:08:34,870
+causing vasoconstriction via RAAS.
+
+180
+00:08:35,104 --> 00:08:38,281
+Low effective arterial blood volume in HFrEF
+
+181
+00:08:38,301 --> 00:08:41,267
+activates baroreceptors, increasing renin,
+
+182
+00:08:41,538 --> 00:08:44,044
+angiotensin II, and aldosterone.
+
+183
+00:08:44,275 --> 00:08:47,150
+Angiotensin II increases systemic vascular
+
+184
+00:08:47,170 --> 00:08:50,188
+resistance, worsening afterload and symptoms.
+
+185
+00:08:51,293 --> 00:08:54,457
+Option B. Systemic vasodilation from excess
+
+186
+00:08:54,477 --> 00:08:57,549
+nitric oxide leading to compensatory tachycardia
+
+187
+00:08:57,569 --> 00:09:00,933
+only. In HFrEF, the dominant compensatory
+
+188
+00:09:00,953 --> 00:09:04,432
+response is vasoconstriction (increased SVR)
+
+189
+00:09:04,690 --> 00:09:07,038
+from RAAS activation, not primary
+
+190
+00:09:07,058 --> 00:09:11,091
+nitric-oxide–mediated vasodilation. Tachycardia
+
+191
+00:09:11,111 --> 00:09:13,578
+occurs, but the main driver is increased
+
+192
+00:09:13,598 --> 00:09:15,590
+afterload and volume retention.
+
+193
+00:09:15,822 --> 00:09:17,512
+For B to be the answer, you would
+
+194
+00:09:17,532 --> 00:09:20,315
+need this: Change BP to markedly low with
+
+195
+00:09:20,335 --> 00:09:22,894
+warm extremities and explicitly state chronic
+
+196
+00:09:22,914 --> 00:09:25,538
+severe sepsis physiology; that would shift
+
+197
+00:09:25,558 --> 00:09:28,827
+mechanisms away from typical HFrEF compensation.
+
+198
+00:09:30,026 --> 00:09:32,940
+Option C. Primary intrinsic kidney failure
+
+199
+00:09:32,960 --> 00:09:35,006
+causing fluid retention independent of
+
+200
+00:09:35,026 --> 00:09:38,048
+neurohormonal activation. He has mild renal
+
+201
+00:09:38,068 --> 00:09:40,482
+dysfunction, but the key trigger is reduced
+
+202
+00:09:40,502 --> 00:09:43,311
+perfusion (“effective arterial blood volume”)
+
+203
+00:09:43,331 --> 00:09:46,297
+activating RAAS and sympathetic pathways.
+
+204
+00:09:46,529 --> 00:09:48,719
+Primary intrinsic renal failure would be
+
+205
+00:09:48,739 --> 00:09:51,167
+expected to present differently and not fit the
+
+206
+00:09:51,187 --> 00:09:54,219
+described HFrEF mechanism. For C to be the
+
+207
+00:09:54,239 --> 00:09:57,061
+answer, you would need this: Add urinalysis
+
+208
+00:09:57,081 --> 00:09:59,890
+findings consistent with intrinsic renal disease
+
+209
+00:09:59,910 --> 00:10:03,219
+(eg, muddy brown casts) and remove evidence of
+
+210
+00:10:03,239 --> 00:10:05,468
+neurohormonal activation patterns.
+
+211
+00:10:06,526 --> 00:10:09,374
+Option D. Pulmonary arterial smooth muscle
+
+212
+00:10:09,394 --> 00:10:12,373
+hypertrophy causing fixed outflow obstruction.
+
+213
+00:10:12,608 --> 00:10:15,482
+Pulmonary arterial smooth muscle hypertrophy
+
+214
+00:10:15,502 --> 00:10:18,272
+leads to pulmonary hypertension and right-sided
+
+215
+00:10:18,292 --> 00:10:21,114
+strain patterns. The vignette centers on LV
+
+216
+00:10:21,134 --> 00:10:24,509
+systolic failure with reduced LVEF and classic
+
+217
+00:10:24,529 --> 00:10:27,902
+HFrEF compensation. For D to be the answer,
+
+218
+00:10:28,029 --> 00:10:30,167
+you would need this: Include right-heart
+
+219
+00:10:30,187 --> 00:10:32,667
+catheterization showing chronically elevated
+
+220
+00:10:32,687 --> 00:10:35,272
+pulmonary vascular resistance with preserved
+
+221
+00:10:35,292 --> 00:10:36,350
+LVEF.
+
+222
+00:10:37,559 --> 00:10:40,726
+Option E. A primary valvular lesion causing
+
+223
+00:10:40,746 --> 00:10:43,146
+sudden left atrial pressure spikes.
+
+224
+00:10:43,378 --> 00:10:46,529
+HFrEF due to reduced LVEF is primarily a
+
+225
+00:10:46,549 --> 00:10:49,121
+myocardial pump problem with neurohormonal
+
+226
+00:10:49,141 --> 00:10:52,516
+activation. Aortic or mitral valvular disorders
+
+227
+00:10:52,536 --> 00:10:55,344
+would create different hemodynamics and exam/lab
+
+228
+00:10:56,009 --> 00:10:58,581
+patterns. For E to be the answer, you
+
+229
+00:10:58,601 --> 00:11:01,634
+would need this: Add echocardiographic evidence
+
+230
+00:11:01,654 --> 00:11:04,924
+of severe valvular disease (eg, severe mitral
+
+231
+00:11:04,944 --> 00:11:08,358
+regurgitation with preserved LVEF) and remove
+
+232
+00:11:08,378 --> 00:11:10,883
+dilated cardiomyopathy context.
+
+233
+00:11:11,893 --> 00:11:14,728
+In HFrEF, reduced forward flow triggers
+
+234
+00:11:14,748 --> 00:11:18,070
+baroreceptor-driven RAAS activation, increasing
+
+235
+00:11:18,090 --> 00:11:20,122
+afterload and worsening symptoms.
+
+236
+00:11:20,811 --> 00:11:25,149
+Next: Aortic stenosis. Same format, same honesty
+
+237
+00:11:25,169 --> 00:11:26,503
+about the wrong answers.
+
+238
+00:11:26,734 --> 00:11:28,542
+Subscribe so you don't miss it.

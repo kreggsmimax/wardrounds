@@ -2242,6 +2242,183 @@
         "date": "2026-11-28",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Acute Coronary Syndrome Pathophysiology",
+      "difficulty": 3,
+      "hook": "A patient’s troponins rise—what mechanism explains MI risk right now?",
+      "key_finding": "New ST-segment depression",
+      "vignette": "A 62-year-old man presents with 45 minutes of substernal chest pressure radiating to his left arm. He has diabetes and a prior history of smoking. Vitals: BP 148/92 mmHg, HR 104/min, RR 18/min, SpO2 97% on room air. ECG shows new horizontal ST-segment depression in leads V4–V6. High-sensitivity troponin I is 0.8 ng/mL (reference <0.04). He reports the pain began at rest. Which immediate coronary event most likely triggered plaque instability?",
+      "short_vignette": "62M chest pressure at rest; ECG shows ST depression; troponin I elevated. Which immediate event caused acute coronary syndrome?",
+      "stem": "Which immediate event most likely triggered plaque instability in this acute coronary syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rupture of a vulnerable atherosclerotic plaque with superimposed platelet-rich thrombus",
+          "correct": true,
+          "why": "In ACS, myocardial ischemia is commonly initiated by plaque disruption, exposing thrombogenic material. This leads to platelet activation/aggregation and an occlusive thrombus that decreases coronary blood flow.",
+          "would_make_right": "Add an angiographic note of an occlusive thrombus at the culprit lesion."
+        },
+        {
+          "letter": "B",
+          "text": "Progressive calcific valve leaflet thickening leading to fixed outflow obstruction",
+          "correct": false,
+          "why": "This describes aortic stenosis, which causes chronic left ventricular outflow limitation and exertional syncope/angina rather than acute ECG changes with troponin rise.",
+          "would_make_right": "Replace ECG with systolic murmur findings and remove troponin elevation."
+        },
+        {
+          "letter": "C",
+          "text": "Chronic pressure overload causing ventricular hypertrophy without acute coronary thrombosis",
+          "correct": false,
+          "why": "Chronic hypertrophic cardiomyopathy can cause ischemia, but ACS in this vignette is characterized by acute ECG ischemic changes and troponin elevation from coronary flow-limiting thrombosis.",
+          "would_make_right": "Change vignette to longstanding exertional symptoms with no new ST changes and normal troponin."
+        },
+        {
+          "letter": "D",
+          "text": "Embolization of septic material to coronary arteries from left-sided endocarditis",
+          "correct": false,
+          "why": "Infective endocarditis can cause coronary emboli, but ACS here is presented with classic ischemic ECG changes and no systemic infectious symptoms or endocarditis context.",
+          "would_make_right": "Add fever, positive blood cultures, and a new murmur with splinter hemorrhages."
+        },
+        {
+          "letter": "E",
+          "text": "Primary failure of the myocardium to relax, causing pulmonary venous congestion",
+          "correct": false,
+          "why": "Impaired relaxation is a heart failure/diastolic dysfunction concept and does not specifically explain plaque instability with thrombus that produces ACS with troponin elevation.",
+          "would_make_right": "Add orthopnea with rales and change ECG/troponin to show heart failure without ischemic pattern."
+        }
+      ],
+      "rule": "Acute coronary syndromes usually result from disrupted atherosclerotic plaque with thrombus formation causing abrupt coronary flow reduction.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Acute Coronary Syndromes",
+        "ACC/AHA Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes"
+      ],
+      "id": "cardiology-acute-coronary-syndrome-pathophysiology-a-patient-s-tropon",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Ventricular Septal Defect",
+      "difficulty": 2,
+      "hook": "“This child has a new murmur—does that mean the problem is aortic valve disease?”",
+      "key_finding": "Holosystolic murmur at left sternal border",
+      "vignette": "A 3-week-old male is brought for poor feeding and sweating during feeds. Vitals: HR 170/min, RR 44/min, BP 78/40 mmHg, SpO2 94% on room air. Exam shows a single loud, harsh murmur that is heard throughout systole along the left lower sternal border. Chest X-ray shows mild cardiomegaly and pulmonary vascular congestion. An echocardiogram demonstrates a defect in the interventricular septum with left-to-right shunting. Which lesion best explains the murmur timing and location?",
+      "short_vignette": "3-week infant with tachypnea, sweating feeds, CXR congestion; holosystolic murmur left lower sternal border; echo shows septal defect with L→R shunt.",
+      "stem": "Which congenital lesion most directly causes a holosystolic murmur at the left lower sternal border?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ventricular septal defect from abnormal closure of the interventricular septum",
+          "correct": true,
+          "why": "A VSD creates a pressure gradient throughout systole, producing a holosystolic murmur. The typical auscultation site is the left lower sternal border.",
+          "would_make_right": "Keep the septal defect with left-to-right shunting on echo and add that the murmur is loudest at the left lower sternal border."
+        },
+        {
+          "letter": "B",
+          "text": "Aortic stenosis causing an ejection murmur that peaks in late systole",
+          "correct": false,
+          "why": "Aortic stenosis produces an ejection (crescendo-decrescendo) murmur focused at the right upper sternal border and classically peaks in late systole. The vignette describes holosystolic timing and left lower sternal border location.",
+          "would_make_right": "Change the murmur to crescendo-decrescendo only during systole and move the maximal intensity to the right upper sternal border with echo showing aortic valve narrowing."
+        },
+        {
+          "letter": "C",
+          "text": "Mitral regurgitation with a holosystolic murmur at the cardiac apex radiating to the axilla",
+          "correct": false,
+          "why": "Mitral regurgitation is holosystolic but is best heard at the apex and may radiate to the axilla. The echo in the vignette shows a septal defect rather than valve dysfunction.",
+          "would_make_right": "Replace the echo finding with mitral valve prolapse/regurgitation and change exam to a murmur loudest at the apex radiating to the axilla."
+        },
+        {
+          "letter": "D",
+          "text": "Atrial septal defect causing an ejection-type murmur from pulmonary flow increase",
+          "correct": false,
+          "why": "ASD murmurs are typically associated with increased pulmonary blood flow and commonly include a systolic murmur at the left upper sternal border, often described as ejection-type rather than holosystolic. The vignette’s key finding is septal dysfunction in the interventricular septum.",
+          "would_make_right": "Change echo to an interatrial shunt (e.g., secundum ASD) and move the murmur intensity to the left upper sternal border."
+        },
+        {
+          "letter": "E",
+          "text": "Patent ductus arteriosus producing a continuous “machinery” murmur",
+          "correct": false,
+          "why": "PDA causes a continuous murmur because flow occurs throughout systole and diastole. The vignette specifically describes a murmur throughout systole only.",
+          "would_make_right": "Alter the murmur description to continuous and add echo evidence of a ductal shunt between the aorta and pulmonary artery."
+        }
+      ],
+      "rule": "A holosystolic murmur suggests flow across a ventricular-level defect like VSD, typically loudest at the left lower sternal border.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System (Congenital Heart Disease)",
+        "American Heart Association congenital heart disease auscultation principles"
+      ],
+      "id": "cardiology-ventricular-septal-defect-this-child-has-a-n",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Patent Ductus Arteriosus",
+      "difficulty": 2,
+      "hook": "A clinician thinks low O2 saturation in a newborn always means pneumonia—what PDA sign confirms shunt physiology?",
+      "key_finding": "Continuous machinery murmur at left",
+      "vignette": "A 2-day-old term male newborn develops poor feeding and mild tachypnea. He has an audible continuous “machinery” murmur best at the left infraclavicular area. Vitals: HR 168/min, RR 54/min, BP 68/35 mmHg. Pulse oximetry shows SpO2 90% on room air. Chest radiograph reveals cardiomegaly and increased pulmonary vascular markings. An echocardiogram demonstrates a left-to-right shunt through a persistent ductus arteriosus.",
+      "short_vignette": "Term newborn, continuous machinery murmur, mild tachypnea, SpO2 90%, echo shows left-to-right ductal shunt.",
+      "stem": "Which auscultatory finding most specifically supports patent ductus arteriosus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Continuous machinery murmur best at left infraclavicular area",
+          "correct": true,
+          "why": "PDA produces turbulent blood flow between the aorta and pulmonary artery throughout the cardiac cycle, classically described as a continuous “machinery” murmur. The left infraclavicular location matches typical auscultation.",
+          "would_make_right": "Keep the vignette murmur described as continuous and ensure echo shows left-to-right ductal shunt; this makes the stated auscultation the definitive correlate."
+        },
+        {
+          "letter": "B",
+          "text": "Systolic crescendo-decrescendo murmur radiating to the carotids",
+          "correct": false,
+          "why": "This pattern is classic for aortic stenosis due to narrowed outflow during systole. A PDA causes flow throughout both systole and diastole.",
+          "would_make_right": "Change the echo to show valvular aortic stenosis with no ductal patency; then carotid radiation would become the best answer."
+        },
+        {
+          "letter": "C",
+          "text": "Holosystolic murmur that increases with Valsalva",
+          "correct": false,
+          "why": "Holosystolic murmurs that change with Valsalva suggest dynamic obstruction or mitral regurgitation physiology. PDA does not produce a Valsalva-dependent holosystolic murmur.",
+          "would_make_right": "Alter the vignette to include echo evidence of hypertrophic cardiomyopathy or mitral regurgitation; then Valsalva-dependent holosystolic murmur could be correct."
+        },
+        {
+          "letter": "D",
+          "text": "Diastolic decrescendo murmur at the left sternal border",
+          "correct": false,
+          "why": "A diastolic decrescendo murmur is typical of aortic regurgitation from backflow during diastole only. PDA generates a continuous murmur spanning systole and diastole.",
+          "would_make_right": "Replace the echocardiogram finding with aortic regurgitation and remove ductal shunt; then a diastolic decrescendo murmur would fit."
+        },
+        {
+          "letter": "E",
+          "text": "Ejection click followed by a late systolic murmur at the apex",
+          "correct": false,
+          "why": "An ejection click with a murmur at the apex suggests mitral valve pathology. PDA is characterized by continuous machinery-like flow, not an ejection click at the apex.",
+          "would_make_right": "Modify the vignette echo to show mitral valve prolapse; then the ejection click and late systolic murmur would become correct."
+        }
+      ],
+      "rule": "A patent ductus arteriosus causes a continuous machinery murmur because flow persists through both systole and diastole.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Congenital Heart Disease",
+        "ACOG/AHA general pediatric cardiology auscultation principles"
+      ],
+      "id": "cardiology-patent-ductus-arteriosus-a-clinician-thinks",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }

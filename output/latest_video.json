@@ -1,13 +1,13 @@
 {
   "brand": "WARD ROUNDS",
   "handle": "@wardrounds",
-  "timestamp": "20261127_125653",
-  "video_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.mp4",
-  "short_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653_short.mp4",
-  "thumbnail_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.jpg",
-  "srt_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261127_125653.srt",
-  "title": "USMLE Step 1: A 95% sensitive test. An 8.8% chance you actually have… — 3 Questions",
-  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Positive predictive value\n04:00  Q2 · Naloxone Reversal of Opioids\n08:00  Q3 · Hemophilia Pathophysiology\n\nSOURCES\n· First Aid for the USMLE Step 1, Biostatistics - Sensitivity, specificity, predictive values\n· First Aid for the USMLE Step 1 - Pharmacology: Opioids & Antagonists\n· FDA/Drug label: Naloxone mechanism of action\n· First Aid for the USMLE Step 1 - Coagulation Disorders\n· UpToDate review of hemophilia and mixing studies\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nWARD ROUNDS · @wardrounds\nRead the stem. Beat the test.",
+  "timestamp": "20261128_120625",
+  "video_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261128_120625.mp4",
+  "short_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261128_120625_short.mp4",
+  "thumbnail_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261128_120625.jpg",
+  "srt_path": "/home/runner/work/wardrounds/wardrounds/output/videos/wardrounds_20261128_120625.srt",
+  "title": "USMLE Step 1: He asks why a drug helps tremor without fixing the… — 3 Questions",
+  "description": "3 Step 1 questions, full elimination. Every distractor explained, plus the exact vignette change that would have made it correct.\n\nEducational content only. Not medical advice. Always follow your institution's protocols and current guidelines.\n\nCHAPTERS\n00:00  Q1 · Parkinson Disease Treatment Mechanism\n04:00  Q2 · Acute Coronary Syndrome Pathophysiology\n08:00  Q3 · HFrEF Pathophysiology\n\nSOURCES\n· First Aid for the USMLE Step 1 - Neurology/Movement Disorders\n· First Aid for the USMLE Step 1 - Pharmacology (Parkinson disease drugs: MAO-B inhibitors, levodopa, dopamine agonists)\n· First Aid for the USMLE Step 1 - Cardiology: Acute Coronary Syndromes\n· ACC/AHA Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes\n· First Aid for the USMLE Step 1 - Cardiovascular System (Heart Failure)\n· ACC/AHA Heart Failure guideline (general mechanism: neurohormonal activation in HFrEF)\n\nAlso relevant for: FMGE, NEET-PG, INI-CET, PLAB.\n\nWARD ROUNDS · @wardrounds\nRead the stem. Beat the test.",
   "tags": [
     "usmle",
     "usmle step 1",
@@ -17,17 +17,16 @@
     "question bank",
     "medical student",
     "vignette",
-    "positive predictive value",
-    "biostatistics",
-    "naloxone reversal of opioids",
-    "pharmacology",
-    "hemophilia pathophysiology",
-    "hematology"
+    "parkinson disease treatment mechanism",
+    "neurology",
+    "acute coronary syndrome pathophysiology",
+    "cardiology",
+    "hfref pathophysiology"
   ],
-  "hashtags": "#usmle #step1 #medschool #medicaleducation #biostats",
-  "duration_seconds": 643.9,
-  "minutes": 10.73,
-  "render_minutes": 9.09,
+  "hashtags": "#usmle #step1 #medschool #medicaleducation #neuro",
+  "duration_seconds": 689.16,
+  "minutes": 11.49,
+  "render_minutes": 13.33,
   "scenes": [
     {
       "index": 0,
@@ -38,274 +37,280 @@
     {
       "index": 1,
       "kind": "titlecard",
-      "seconds": 10.77,
+      "seconds": 8.52,
       "beat": "QUESTION 1 OF 3"
     },
     {
       "index": 2,
       "kind": "prose",
-      "seconds": 12.13,
-      "beat": "THE VIGNETTE"
+      "seconds": 21.93,
+      "beat": "THE VIGNETTE 1/2"
     },
     {
       "index": 3,
+      "kind": "prose",
+      "seconds": 13.67,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 4,
+      "kind": "keyfind",
+      "seconds": 4.83,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 5,
+      "kind": "prose",
+      "seconds": 5.23,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 6,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 7,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 8,
+      "kind": "reveal",
+      "seconds": 5.64,
+      "beat": "THE ANSWER"
+    },
+    {
+      "index": 9,
+      "kind": "elim",
+      "seconds": 17.8,
+      "beat": "WHY A IS RIGHT"
+    },
+    {
+      "index": 10,
+      "kind": "elim",
+      "seconds": 25.3,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 11,
+      "kind": "elim",
+      "seconds": 24.23,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 12,
+      "kind": "elim",
+      "seconds": 27.83,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 13,
+      "kind": "elim",
+      "seconds": 24.13,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 14,
+      "kind": "prose",
+      "seconds": 8.55,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 15,
+      "kind": "titlecard",
+      "seconds": 8.52,
+      "beat": "QUESTION 2 OF 3"
+    },
+    {
+      "index": 16,
+      "kind": "prose",
+      "seconds": 21.9,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 17,
+      "kind": "prose",
+      "seconds": 20.4,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 18,
       "kind": "keyfind",
       "seconds": 4.46,
       "beat": "THE FINDING THAT DECIDES IT"
     },
     {
-      "index": 4,
-      "kind": "prose",
-      "seconds": 6.67,
-      "beat": "THE QUESTION"
-    },
-    {
-      "index": 5,
-      "kind": "options",
-      "seconds": 4.11,
-      "beat": "PICK YOUR ANSWER"
-    },
-    {
-      "index": 6,
-      "kind": "pause",
-      "seconds": 3.86,
-      "beat": ""
-    },
-    {
-      "index": 7,
-      "kind": "reveal",
-      "seconds": 3.67,
-      "beat": "THE ANSWER"
-    },
-    {
-      "index": 8,
-      "kind": "elim",
-      "seconds": 23.3,
-      "beat": "WHY A IS RIGHT"
-    },
-    {
-      "index": 9,
-      "kind": "elim",
-      "seconds": 20.77,
-      "beat": "WHY B IS WRONG"
-    },
-    {
-      "index": 10,
-      "kind": "elim",
-      "seconds": 17.73,
-      "beat": "WHY C IS WRONG"
-    },
-    {
-      "index": 11,
-      "kind": "elim",
-      "seconds": 23.5,
-      "beat": "WHY D IS WRONG"
-    },
-    {
-      "index": 12,
-      "kind": "elim",
-      "seconds": 21.9,
-      "beat": "WHY E IS WRONG"
-    },
-    {
-      "index": 13,
-      "kind": "prose",
-      "seconds": 13.27,
-      "beat": "THE RULE"
-    },
-    {
-      "index": 14,
-      "kind": "titlecard",
-      "seconds": 8.36,
-      "beat": "QUESTION 2 OF 3"
-    },
-    {
-      "index": 15,
-      "kind": "prose",
-      "seconds": 19.23,
-      "beat": "THE VIGNETTE 1/2"
-    },
-    {
-      "index": 16,
-      "kind": "prose",
-      "seconds": 18.77,
-      "beat": "THE VIGNETTE 2/2"
-    },
-    {
-      "index": 17,
-      "kind": "keyfind",
-      "seconds": 5.18,
-      "beat": "THE FINDING THAT DECIDES IT"
-    },
-    {
-      "index": 18,
-      "kind": "prose",
-      "seconds": 5.53,
-      "beat": "THE QUESTION"
-    },
-    {
       "index": 19,
-      "kind": "options",
-      "seconds": 4.11,
-      "beat": "PICK YOUR ANSWER"
+      "kind": "prose",
+      "seconds": 5.81,
+      "beat": "THE QUESTION"
     },
     {
       "index": 20,
-      "kind": "pause",
-      "seconds": 3.86,
-      "beat": ""
-    },
-    {
-      "index": 21,
-      "kind": "reveal",
-      "seconds": 4.85,
-      "beat": "THE ANSWER"
-    },
-    {
-      "index": 22,
-      "kind": "elim",
-      "seconds": 17.7,
-      "beat": "WHY A IS RIGHT"
-    },
-    {
-      "index": 23,
-      "kind": "elim",
-      "seconds": 26.7,
-      "beat": "WHY B IS WRONG"
-    },
-    {
-      "index": 24,
-      "kind": "elim",
-      "seconds": 26.97,
-      "beat": "WHY C IS WRONG"
-    },
-    {
-      "index": 25,
-      "kind": "elim",
-      "seconds": 25.03,
-      "beat": "WHY D IS WRONG"
-    },
-    {
-      "index": 26,
-      "kind": "elim",
-      "seconds": 29.23,
-      "beat": "WHY E IS WRONG"
-    },
-    {
-      "index": 27,
-      "kind": "prose",
-      "seconds": 11.07,
-      "beat": "THE RULE"
-    },
-    {
-      "index": 28,
-      "kind": "titlecard",
-      "seconds": 11.53,
-      "beat": "QUESTION 3 OF 3"
-    },
-    {
-      "index": 29,
-      "kind": "prose",
-      "seconds": 16.27,
-      "beat": "THE VIGNETTE 1/2"
-    },
-    {
-      "index": 30,
-      "kind": "prose",
-      "seconds": 23.0,
-      "beat": "THE VIGNETTE 2/2"
-    },
-    {
-      "index": 31,
-      "kind": "keyfind",
-      "seconds": 6.18,
-      "beat": "THE FINDING THAT DECIDES IT"
-    },
-    {
-      "index": 32,
-      "kind": "prose",
-      "seconds": 7.08,
-      "beat": "THE QUESTION"
-    },
-    {
-      "index": 33,
       "kind": "options",
       "seconds": 4.11,
       "beat": "PICK YOUR ANSWER"
     },
     {
-      "index": 34,
+      "index": 21,
       "kind": "pause",
       "seconds": 3.86,
       "beat": ""
     },
     {
-      "index": 35,
+      "index": 22,
       "kind": "reveal",
-      "seconds": 4.97,
+      "seconds": 7.48,
       "beat": "THE ANSWER"
     },
     {
-      "index": 36,
+      "index": 23,
       "kind": "elim",
       "seconds": 22.37,
       "beat": "WHY A IS RIGHT"
     },
     {
+      "index": 24,
+      "kind": "elim",
+      "seconds": 26.13,
+      "beat": "WHY B IS WRONG"
+    },
+    {
+      "index": 25,
+      "kind": "elim",
+      "seconds": 29.43,
+      "beat": "WHY C IS WRONG"
+    },
+    {
+      "index": 26,
+      "kind": "elim",
+      "seconds": 27.2,
+      "beat": "WHY D IS WRONG"
+    },
+    {
+      "index": 27,
+      "kind": "elim",
+      "seconds": 28.4,
+      "beat": "WHY E IS WRONG"
+    },
+    {
+      "index": 28,
+      "kind": "prose",
+      "seconds": 9.2,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 29,
+      "kind": "titlecard",
+      "seconds": 9.92,
+      "beat": "QUESTION 3 OF 3"
+    },
+    {
+      "index": 30,
+      "kind": "prose",
+      "seconds": 24.93,
+      "beat": "THE VIGNETTE 1/2"
+    },
+    {
+      "index": 31,
+      "kind": "prose",
+      "seconds": 23.97,
+      "beat": "THE VIGNETTE 2/2"
+    },
+    {
+      "index": 32,
+      "kind": "keyfind",
+      "seconds": 4.69,
+      "beat": "THE FINDING THAT DECIDES IT"
+    },
+    {
+      "index": 33,
+      "kind": "prose",
+      "seconds": 4.67,
+      "beat": "THE QUESTION"
+    },
+    {
+      "index": 34,
+      "kind": "options",
+      "seconds": 4.11,
+      "beat": "PICK YOUR ANSWER"
+    },
+    {
+      "index": 35,
+      "kind": "pause",
+      "seconds": 3.86,
+      "beat": ""
+    },
+    {
+      "index": 36,
+      "kind": "reveal",
+      "seconds": 7.01,
+      "beat": "THE ANSWER"
+    },
+    {
       "index": 37,
       "kind": "elim",
-      "seconds": 37.2,
-      "beat": "WHY B IS WRONG"
+      "seconds": 22.03,
+      "beat": "WHY A IS RIGHT"
     },
     {
       "index": 38,
       "kind": "elim",
-      "seconds": 32.27,
-      "beat": "WHY C IS WRONG"
+      "seconds": 38.73,
+      "beat": "WHY B IS WRONG"
     },
     {
       "index": 39,
       "kind": "elim",
-      "seconds": 34.5,
-      "beat": "WHY D IS WRONG"
+      "seconds": 36.5,
+      "beat": "WHY C IS WRONG"
     },
     {
       "index": 40,
       "kind": "elim",
-      "seconds": 35.47,
-      "beat": "WHY E IS WRONG"
+      "seconds": 31.03,
+      "beat": "WHY D IS WRONG"
     },
     {
       "index": 41,
-      "kind": "prose",
-      "seconds": 12.83,
-      "beat": "THE RULE"
+      "kind": "elim",
+      "seconds": 34.33,
+      "beat": "WHY E IS WRONG"
     },
     {
       "index": 42,
+      "kind": "prose",
+      "seconds": 8.92,
+      "beat": "THE RULE"
+    },
+    {
+      "index": 43,
       "kind": "outro",
       "seconds": 8.43,
       "beat": "NEXT"
     }
   ],
-  "caption_cues": 218,
+  "caption_cues": 238,
   "questions": [
     {
-      "id": "biostats-ppv-base-rate-001",
-      "system": "biostats",
-      "topic": "Positive predictive value",
+      "id": "neuro-parkinson-disease-treatment-mechanism-he-asks-why-a-drug",
+      "system": "neuro",
+      "topic": "Parkinson Disease Treatment Mechanism",
       "correct": "A"
     },
     {
-      "id": "pharm-naloxone-reversal-of-opioids-he-got-better-afte",
-      "system": "pharm",
-      "topic": "Naloxone Reversal of Opioids",
+      "id": "cardiology-acute-coronary-syndrome-pathophysiology-a-patient-s-tropon",
+      "system": "cardiology",
+      "topic": "Acute Coronary Syndrome Pathophysiology",
       "correct": "A"
     },
     {
-      "id": "heme-hemophilia-pathophysiology-he-says-my-son-s-b",
-      "system": "heme",
-      "topic": "Hemophilia Pathophysiology",
+      "id": "cardiology-hfref-pathophysiology-he-thinks-his-flui",
+      "system": "cardiology",
+      "topic": "HFrEF Pathophysiology",
       "correct": "A"
     }
   ],

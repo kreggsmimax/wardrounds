@@ -1947,6 +1947,301 @@
         "date": "2026-11-27",
         "note": "drafted and passed the second-model review; spot-check recommended"
       }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Atrial Fibrillation Rate Control",
+      "difficulty": 3,
+      "hook": "“His pulse is fast—so should we immediately cardiovert him?”",
+      "key_finding": "Irregularly irregular rhythm",
+      "vignette": "A 68-year-old man arrives with palpitations and mild shortness of breath that started 2 hours ago. He has no chest pain and no history of heart failure. Vitals: BP 128/78 mm Hg, HR 138/min, RR 18/min, SpO2 98% on room air, afebrile. ECG shows an irregularly irregular rhythm without visible P waves. Labs show normal electrolytes. Transthoracic echo shows no new regional wall motion abnormalities. He is alert and has no signs of shock or acute heart failure. He asks whether to “shock” him now.",
+      "short_vignette": "2-hour palpitations, stable vitals, ECG: irregularly irregular without P waves. No shock or acute heart failure—what next?",
+      "stem": "Which immediate management best addresses his atrial fibrillation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Immediate synchronized cardioversion",
+          "correct": false,
+          "why": "Cardioversion is urgent for unstable patients (eg, hypotension, shock, pulmonary edema). This patient is hemodynamically stable with no acute heart failure signs.",
+          "would_make_right": "Change the vignette to include BP 86/54 mm Hg and rales with hypoxemia consistent with acute pulmonary edema."
+        },
+        {
+          "letter": "B",
+          "text": "Immediate rate control with an AV nodal blocker",
+          "correct": true,
+          "why": "In stable atrial fibrillation, the immediate goal is ventricular rate control using AV nodal blockade (eg, beta-blocker or nondihydropyridine calcium channel blocker).",
+          "would_make_right": "Keep the patient stable as written but specify worsening tachycardia symptoms without hypotension; rate control remains best."
+        },
+        {
+          "letter": "C",
+          "text": "Start anticoagulation only after 48 hours of atrial fibrillation",
+          "correct": false,
+          "why": "Anticoagulation decisions depend on duration and stroke risk; it is not delayed in a stable patient solely until 48 hours in the way described. Early anticoagulation may be indicated depending on risk and timing.",
+          "would_make_right": "Specify a planned rhythm-control strategy for known duration <48 hours and include a stated stroke-risk indication that necessitates immediate anticoagulation rather than deferral."
+        },
+        {
+          "letter": "D",
+          "text": "Administer adenosine to terminate the rhythm",
+          "correct": false,
+          "why": "Adenosine treats AV nodal–dependent SVT and can transiently slow AV conduction, but it does not reliably terminate atrial fibrillation.",
+          "would_make_right": "Change the ECG description to narrow-complex regular tachycardia with retrograde P waves (paroxysmal SVT pattern)."
+        },
+        {
+          "letter": "E",
+          "text": "Give thrombolytic therapy for presumed myocardial infarction",
+          "correct": false,
+          "why": "Atrial fibrillation can coexist with ischemia, but there is no chest pain, no ischemic ECG described, and vitals and labs do not support MI requiring thrombolysis.",
+          "would_make_right": "Add ECG evidence of ST-elevation myocardial infarction and chest pain with rising troponins."
+        }
+      ],
+      "rule": "In hemodynamically stable atrial fibrillation, first control ventricular rate with AV nodal blockade rather than immediate cardioversion.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular Pharmacology",
+        "ACC/AHA/ESC Atrial Fibrillation guideline (management of stable vs unstable patients)"
+      ],
+      "id": "cardiology-atrial-fibrillation-rate-control-his-pulse-is-fast-",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Wolff-Parkinson-White Syndrome",
+      "difficulty": 3,
+      "hook": "They think it’s just SVT—ignore the pattern on ECG.",
+      "key_finding": "Short PR with delta wave",
+      "vignette": "A 19-year-old man presents with sudden palpitations and lightheadedness lasting 20 minutes. Vitals: HR 168/min, BP 112/70 mmHg, RR 16/min, O2 sat 99% on room air, afebrile. Physical exam shows no murmurs. An ECG during symptoms shows a short PR interval and an initial slurred upstroke of the QRS complex. He later reports a history of similar brief episodes. A subsequent ECG done between episodes shows the same short PR interval.",
+      "short_vignette": "19M with episodic palpitations; ECG shows short PR and slurred QRS upstroke (delta wave). What diagnosis explains this?",
+      "stem": "Which ECG finding best supports Wolff-Parkinson-White syndrome as the cause of his arrhythmia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Short PR interval with delta wave",
+          "correct": true,
+          "why": "WPW is caused by an accessory pathway that allows early ventricular activation, producing a short PR interval and a slurred initial QRS complex (delta wave).",
+          "would_make_right": "Include an ECG description of an initial slurred QRS upstroke (delta wave) with a short PR interval, prompting the diagnosis of WPW."
+        },
+        {
+          "letter": "B",
+          "text": "Prolonged PR interval with dropped beats",
+          "correct": false,
+          "why": "This describes AV nodal conduction delay with intermittent block, consistent with AV block rather than pre-excitation from an accessory pathway.",
+          "would_make_right": "Change the ECG to show progressively prolonged PR followed by nonconducted P waves (dropped QRS), making AV block the correct answer."
+        },
+        {
+          "letter": "C",
+          "text": "Fusiform ventricular ectopy with irregularly irregular rhythm",
+          "correct": false,
+          "why": "An irregularly irregular rhythm with no consistent P waves points to atrial fibrillation, not WPW.",
+          "would_make_right": "Modify the ECG to show no discrete P waves and an irregularly irregular ventricular response, making atrial fibrillation correct."
+        },
+        {
+          "letter": "D",
+          "text": "ST-segment elevations in contiguous leads with reciprocal depression",
+          "correct": false,
+          "why": "ST elevations with reciprocal depression indicate acute MI, which can cause palpitations but is not the ECG pattern of WPW pre-excitation.",
+          "would_make_right": "Replace the ECG findings with ST-segment elevation in a coronary distribution plus reciprocal changes, making acute MI correct."
+        },
+        {
+          "letter": "E",
+          "text": "Widened QRS complexes with complete absence of P waves",
+          "correct": false,
+          "why": "This describes ventricular tachycardia/escape rhythm depending on context, not the characteristic pre-excitation pattern of WPW.",
+          "would_make_right": "Change the ECG to show wide-complex tachycardia without visible P waves and a mechanism consistent with ventricular tachycardia."
+        }
+      ],
+      "rule": "In WPW, look for pre-excitation: short PR plus a delta wave (slurred, widened QRS onset).",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology: Cardiac Arrhythmias",
+        "American Heart Association ACLS (arrhythmia ECG patterns)"
+      ],
+      "id": "cardiology-wolff-parkinson-white-syndrome-they-think-it-s-ju",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Acute Pericarditis",
+      "difficulty": 2,
+      "hook": "Thinking this is myocardial ischemia, you miss the pleuritic positional chest pain pattern.",
+      "key_finding": "Sharp pain, worse supine, better leaning forward",
+      "vignette": "A 28-year-old man presents with sudden chest pain for 2 days after a viral illness. He describes it as sharp and worse when lying flat and with deep breaths; he feels better sitting forward. Vitals: T 38.3 C, HR 104/min, BP 118/74 mmHg, RR 18/min, SpO2 99% on room air. ECG shows diffuse ST-segment elevations with PR depression. Troponin is 0.6 ng/mL (upper limit 0.04). White blood cell count is 12,800/mm3. An echocardiogram shows no pericardial effusion.",
+      "short_vignette": "Young man post-viral: sharp chest pain worse lying down and deep breath; ECG diffuse ST elevation, PR depression, no effusion.",
+      "stem": "Which physical finding best supports acute pericarditis rather than myocardial ischemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chest pain worsens when lying flat and improves leaning forward",
+          "correct": true,
+          "why": "Positional, pleuritic pain occurs because pericardial inflammation changes contact between inflamed layers with posture and respiration. Myocardial ischemia classically is exertional pressure not specifically positional.",
+          "would_make_right": "State in the vignette that pain decreases when he sits up and leans forward, and worsens supine."
+        },
+        {
+          "letter": "B",
+          "text": "Chest pain is reliably triggered by exertion and relieved by rest within minutes",
+          "correct": false,
+          "why": "Exertional relief suggests stable angina/myocardial ischemia physiology. Acute pericarditis pain is instead affected by body position and breathing.",
+          "would_make_right": "Change the vignette to state pain occurs with exertion and quickly resolves with rest, with no positional dependence."
+        },
+        {
+          "letter": "C",
+          "text": "Pain begins after sudden leg swelling and migratory shortness of breath",
+          "correct": false,
+          "why": "This suggests pulmonary embolism, where symptoms may be pleuritic and acute, but the hallmark pericardial positional improvement is not expected. The ECG pattern described also points away from PE.",
+          "would_make_right": "Add preceding unilateral leg swelling and describe symptoms primarily with exertion and tachycardia, removing positional pain detail."
+        },
+        {
+          "letter": "D",
+          "text": "Pain improves with nitrates and is associated with focal ST depressions",
+          "correct": false,
+          "why": "Nitrate responsiveness and focal ST changes support myocardial ischemia rather than pericarditis. Pericarditis has diffuse ST elevation and PR depression, not isolated focal depression.",
+          "would_make_right": "Modify ECG description to focal ST depressions and make the pain consistently nitrate-responsive regardless of posture."
+        },
+        {
+          "letter": "E",
+          "text": "Pain is painless unless palpated over a single rib region",
+          "correct": false,
+          "why": "Localized reproducible tenderness suggests musculoskeletal chest wall pain. Pericarditis pain is typically pleuritic and positional rather than limited to a single palpation site.",
+          "would_make_right": "Replace the positional description with strictly focal tenderness to palpation over one intercostal space."
+        }
+      ],
+      "rule": "In acute pericarditis, inflammatory chest pain is pleuritic and positional—worse supine, better leaning forward.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiology/Pericarditis",
+        "2015 ESC Guidelines for the diagnosis and management of pericardial diseases"
+      ],
+      "id": "cardiology-acute-pericarditis-thinking-this-is-m",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Tetralogy Of Fallot",
+      "difficulty": 3,
+      "hook": "A cyanotic infant—don't mistake it for a left-sided obstructive lesion.",
+      "key_finding": "Boot-shaped heart; systolic ejection murmur",
+      "vignette": "A 2-month-old infant is brought for progressive cyanosis during feeding. The mother reports episodes of sudden worsening after crying. Vitals: T 37.0°C, HR 160/min, RR 42/min, BP 72/40 mmHg, SpO2 78% on room air. Physical exam shows a systolic ejection murmur best heard at the left upper sternal border and delayed femoral pulses are absent. Chest radiograph shows an enlarged right ventricle with a boot-shaped cardiac silhouette. Echocardiography demonstrates right ventricular hypertrophy and an overriding aorta with a ventricular septal defect.",
+      "short_vignette": "Infant cyanosis with crying; boot-shaped heart and overriding aorta on echo—confirm Tetralogy of Fallot.",
+      "stem": "Which embryologic defect best explains this infant’s tetralogy of Fallot?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Failure of neural crest cell migration to the outflow tract",
+          "correct": true,
+          "why": "Tetralogy of Fallot results from abnormal development of the outflow tract due to disrupted neural crest contributions, leading to malalignment and the classic defects.",
+          "would_make_right": "Change echo description to explicitly note malalignment of the outflow tract with anterior deviation of the infundibular septum."
+        },
+        {
+          "letter": "B",
+          "text": "Incomplete fusion of the septum primum causing an atrial septal defect",
+          "correct": false,
+          "why": "An atrial septal defect causes increased right-to-left or left-to-right shunting at the atrial level, not right ventricular outflow obstruction with overriding aorta.",
+          "would_make_right": "Replace the echo findings with a secundum atrial septal defect and normal outflow tract anatomy."
+        },
+        {
+          "letter": "C",
+          "text": "Failure of ductus arteriosus closure leading to persistent pulmonary hypertension",
+          "correct": false,
+          "why": "A patent ductus arteriosus can contribute to pulmonary overcirculation and heart failure, but it does not produce the boot-shaped heart or overriding aorta with ventricular septal defect.",
+          "would_make_right": "Include echocardiography showing a persistent ductus arteriosus connecting the pulmonary artery to the aorta without a ventricular septal defect."
+        },
+        {
+          "letter": "D",
+          "text": "Abnormal development of endocardial cushions causing atrioventricular septal defects",
+          "correct": false,
+          "why": "Endocardial cushion defects primarily affect atrioventricular septation (often with mitral/tricuspid valve abnormalities), not the combination of VSD, pulmonary stenosis, and overriding aorta.",
+          "would_make_right": "Change exam to show complete atrioventricular canal features (common AV valve) and remove pulmonary outflow obstruction findings."
+        },
+        {
+          "letter": "E",
+          "text": "Failure of left ventricular hypertrophy regression causing coarctation physiology",
+          "correct": false,
+          "why": "Coarctation of the aorta involves abnormal aortic development leading to diminished lower-extremity perfusion, not right-sided outflow obstruction and overriding aorta.",
+          "would_make_right": "Add physical findings of differential upper versus lower extremity blood pressures and imaging showing aortic narrowing."
+        }
+      ],
+      "rule": "Tetralogy of Fallot is a malformation of outflow tract alignment—classically tied to neural crest dysfunction.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular Pathology (Congenital Heart Disease)",
+        "Goljan/robust congenital heart disease embryology summaries (neural crest and outflow tract development)"
+      ],
+      "id": "cardiology-tetralogy-of-fallot-a-cyanotic-infant-",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
+    },
+    {
+      "system": "cardiology",
+      "topic": "Transposition of the Great Arteries",
+      "difficulty": 3,
+      "hook": "A cyanotic newborn can be misdiagnosed as pulmonary disease; ask what lesion causes parallel rather than series flow.",
+      "key_finding": "Two parallel circuits: mixed only via shunt",
+      "vignette": "A 2-day-old male newborn has persistent cyanosis since birth and poor feeding. Vitals: T 36.8°C, HR 160/min, RR 52/min, BP 62/38 mmHg. Pulse oximetry shows SpO2 78% on room air. Exam reveals a loud single S2; there is no wheezing. Chest radiograph shows increased pulmonary vascular markings and a narrow mediastinum. Echocardiography demonstrates the aorta arising from the right ventricle and the pulmonary artery arising from the left ventricle. What underlying physiology best explains why cyanosis is present immediately after birth?",
+      "short_vignette": "Day-2 cyanotic neonate, SpO2 78% RA, echo: aorta from RV, pulmonary artery from LV. What physiology explains early cyanosis?",
+      "stem": "In this newborn with transposition of the great arteries, what physiologic problem causes immediate cyanosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Systemic and pulmonary blood circulate in parallel, requiring a shunt for mixing",
+          "correct": true,
+          "why": "In transposition, the great arteries are switched, so the right ventricle sends deoxygenated blood to systemic circulation and the left ventricle sends oxygenated blood back to the lungs. Effective oxygen delivery depends on mixing via ASD/VSD/PDA.",
+          "would_make_right": "Change the vignette echocardiography statement to explicitly “great arteries switched, creating parallel systemic and pulmonary circuits,” while maintaining the same cyanosis and oxygen saturation."
+        },
+        {
+          "letter": "B",
+          "text": "Left ventricular outflow obstruction prevents forward flow to the lungs",
+          "correct": false,
+          "why": "That mechanism would reduce pulmonary blood flow, leading to poor lung perfusion rather than increased/normal pulmonary vascular markings. It would not explain aorta arising from the right ventricle.",
+          "would_make_right": "Replace the echo findings with “subvalvular or valvular left-sided outflow obstruction” and remove the great-artery switching."
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary artery supplies systemic circulation due to ductal constriction",
+          "correct": false,
+          "why": "Ductal constriction can worsen cyanosis in some congenital lesions by reducing mixing through PDA, but it does not explain the anatomic swapping of the great arteries. The vignette’s echocardiogram directly identifies the cause.",
+          "would_make_right": "Add anechoic statement that great arteries are normally connected, and specify “PDA closure leads to sudden cyanotic deterioration” without switching."
+        },
+        {
+          "letter": "D",
+          "text": "Complete separation of circulations eliminates any need for atrial mixing",
+          "correct": false,
+          "why": "Complete separation would cause profound hypoxemia if oxygenated blood cannot reach systemic circulation. Cyanosis immediately after birth indicates that mixing is inadequate.",
+          "would_make_right": "Modify the vignette to show a large VSD/ASD with near-normal oxygen saturation from birth, contradicting isolated parallel-circulation without mixing."
+        },
+        {
+          "letter": "E",
+          "text": "Right ventricular failure reduces pulmonary blood flow after birth",
+          "correct": false,
+          "why": "Early pulmonary hypoperfusion would typically present with decreased pulmonary vascularity. In transposition, increased oxygenated blood recirculates to the lungs while deoxygenated blood goes systemically.",
+          "would_make_right": "Change the chest radiograph description to “decreased pulmonary vascular markings” and provide echo evidence of primary right-sided cardiomyopathy instead of arterial switching."
+        }
+      ],
+      "rule": "In transposition of the great arteries, switched great vessels create parallel circulations, so survival depends on mixing through shunts.",
+      "sources": [
+        "First Aid for the USMLE Step 1 - Cardiovascular System (Congenital Heart Disease)",
+        "AHA/ACC congenital heart disease physiology overview"
+      ],
+      "id": "cardiology-transposition-of-the-great-arteries-a-cyanotic-newborn",
+      "review": {
+        "status": "approved",
+        "by": "auto-reviewer",
+        "date": "2026-11-28",
+        "note": "drafted and passed the second-model review; spot-check recommended"
+      }
     }
   ]
 }
